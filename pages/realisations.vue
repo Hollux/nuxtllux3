@@ -1,0 +1,28 @@
+<template>
+  <div class="realisations">
+    <div class="container">
+      <h1>RÉALISATIONS WEB PAR HOLLUX</h1>
+      <p>
+        Vous trouverez ici mes réalisations de
+        <b>sites et applications web</b>, pour des clients ou personnelles. Pour voir le code,
+        direction mon github !
+      </p>
+    </div>
+    <div class="trait"></div>
+    <sitesWeb />
+    <div class="trait"></div>
+    <applisWeb />
+  </div>
+</template>
+
+<script>
+import SitesWeb from "~/pages/realisations/sitesWeb.vue";
+import ApplisWeb from "~/pages/realisations/applisWeb.vue";
+
+export default {
+  components: {
+    SitesWeb,
+    ApplisWeb
+  }
+};
+</script>
