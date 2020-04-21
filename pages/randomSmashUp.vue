@@ -1,10 +1,11 @@
 <template>
   <div>
-    <p>{{ arraySmashUp }}</p>
+    <!-- <p>{{ arraySmashUps }}</p>
+    <p>{{ objectSmashUp }}</p>-->
+    <p>{{allSmashUps}}</p>
 
     <b-form-group>
       <template v-slot:label>
-        <b>Choose your flavours:</b>
         <br />
         <b-form-checkbox
           v-model="allSelected"
@@ -14,16 +15,19 @@
           @change="toggleAll"
         >{{ allSelected ? 'Un-select All' : 'Select All' }}</b-form-checkbox>
       </template>
-
-      <b-form-checkbox-group
-        id="flavors"
-        v-model="selected"
-        :options="flavours"
-        name="flavors"
-        class="ml-4"
-        aria-label="Individual flavours"
-        stacked
-      ></b-form-checkbox-group>
+      <b-row>
+        <b-col cols="3" v-for="arraySmashUp in arraySmashUps" :key="arraySmashUp.id">
+          <b-form-checkbox-group
+            :id="arraySmashUp.id"
+            v-model="selected"
+            :options="arraySmashUp.contenu"
+            name="arraySmashUp.id"
+            class="ml-4"
+            aria-label="Individual flavours"
+            stacked
+          ></b-form-checkbox-group>
+        </b-col>
+      </b-row>
     </b-form-group>
 
     <div>
@@ -39,23 +43,37 @@
 
 <script>
 import { arraySmashUp } from "~/assets/js/randomSmashUp/arraySmashUp.js";
+import { objectSmashUp } from "~/assets/js/randomSmashUp/arraySmashUp.js";
 export default {
   layout: "randomSmashUp",
   components: {
-    arraySmashUp
+    arraySmashUp,
+    objectSmashUp
   },
   asyncData() {
     return {
-      arraySmashUp: arraySmashUp(),
+      arraySmashUps: arraySmashUp(),
+      objectSmashUp: objectSmashUp(),
+      allSmashUps: [],
       flavours: ["Orange", "Grape", "Apple", "Lime", "Very Berry"],
       selected: [],
       allSelected: false,
       indeterminate: false
     };
   },
+  fetch() {
+    this.allSmashUps = this.arraySmashUps;
+    // this.arraySmashUps.forEach(arraySmashUp => {
+    //   this.allSmashUps.push(arraySmashUp.contenu);
+    // });
+  },
   methods: {
     toggleAll(checked) {
-      this.selected = checked ? this.flavours.slice() : [];
+      this.arraySmashUps.forEach(arraySmashUp => {
+        console.log(arraySmashUp.contenu.slice());
+        // this.selected = checked ? this.arraySmashUp.contenu.slice() : [];
+      });
+      //this.selected = checked ? this.arraySmashUps.slice() : [];
     }
   },
   watch: {
@@ -77,4 +95,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.col-4 {
+  margin-bottom: 10px;
+}
 </style>
