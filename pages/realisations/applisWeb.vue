@@ -3,7 +3,9 @@
     <p>Applis web</p>
     <b-row class="center">
       <b-col md>
-        <b-img src="~/assets/img/realisations/chroniquesfr.jpg" fluid-grow alt="chroniquesfr"></b-img>
+        <nuxt-link to="miniquizz">
+          <b-img src="~/assets/img/realisations/chroniquesfr.jpg" fluid-grow alt="chroniquesfr"></b-img>
+        </nuxt-link>
         <p>QUIZZ CINÉMA</p>
         <p>
           Mini-jeu pour tester vos
