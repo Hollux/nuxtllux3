@@ -33,7 +33,7 @@ export default {
               "Outil de choix de factions aléatoire pour le jeu SmashUP. Création personnelle, pour rajouter du fun lors des parties entre amis. Réalisé en Symfony 3.",
             img: require("~/assets/img/realisations/smashUp.png"),
             imgAlt: "smashup",
-            lien: "smashup"
+            lien: "randomsmashup"
           },
           {
             titre: "CONCEPTION LIST BUILDER",
