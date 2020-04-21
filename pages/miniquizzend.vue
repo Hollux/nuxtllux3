@@ -2,12 +2,7 @@
   <div>
     <p>Félicitation, votre score est de {{ score[0] }} / {{ score[1] }}</p>
     <b-row>
-      <b-col
-        cols="2"
-        v-for="userResponse in userResponses"
-        v-bind:key="userResponse.id"
-        align="center"
-      >
+      <b-col cols="2" v-for="userResponse in userResponses" :key="userResponse.id" align="center">
         <b-img
           center
           :src="require(`../assets/img/minima/${userResponse[1]}.jpg`)"
