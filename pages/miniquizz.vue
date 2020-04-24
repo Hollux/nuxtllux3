@@ -129,11 +129,16 @@ export default {
       this.response = "";
     },
     trier() {
-      console.log("trie");
+      this.arrayActive.sort(function(a, b) {
+        return a[0] - b[0];
+      });
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
+img {
+  width: 350px;
+}
 </style>
