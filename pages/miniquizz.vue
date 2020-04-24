@@ -5,6 +5,9 @@
         <h3>Bienvenue sur le mini quizz cinéma</h3>
       </b-col>
       <b-col cols="auto">
+        <b-button v-on:click="trier" variant="outline-primary">trier</b-button>
+      </b-col>
+      <b-col cols="auto">
         <b-form-group>
           <b-form-radio-group
             id="btn-radios-1"
@@ -74,7 +77,8 @@ export default {
       nbrQuestions: 40,
       nbrQuestionsOptions: [
         { text: "Court", value: 5 },
-        { text: "Long", value: 40 }
+        { text: "Normal", value: 40 },
+        { text: "Full", value: 68 }
       ]
     };
   },
@@ -123,6 +127,9 @@ export default {
         });
       }
       this.response = "";
+    },
+    trier() {
+      console.log("trie");
     }
   }
 };
