@@ -6,6 +6,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+use App\Entity\User;
+use App\Form\Type\RegisterType;
 
 class UserController extends AbstractController
 {
@@ -14,10 +16,6 @@ class UserController extends AbstractController
      */
     public function login(AuthenticationUtils $authenticationUtils): Response
     {
-        // get the login error if there is one
-        $error = $authenticationUtils->getLastAuthenticationError();
-        // last username entered by the user
-        $lastUsername = $authenticationUtils->getLastUsername();
 
         return $this->render('security/login.html.twig', [
             'last_username' => $lastUsername,
@@ -31,16 +29,31 @@ class UserController extends AbstractController
     public function register(Request $request, AuthenticationUtils $authenticationUtils): Response
     {
         
-        if ($request->isMethod('post')) {
 
-            echo($request->get('login'));
+         // creates a task object and initializes some data for this example
+        $user = new User();
+        $form = $this->createForm(RegisterType::class, $user);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            // $form->getData() holds the submitted values
+            // but, the original `$task` variable has also been updated
+            $user = $form->getData();
+
+            // ... perform some action, such as saving the task to the database
+            // for example, if Task is a Doctrine entity, save it!
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($user);
+            $entityManager->flush();
+
+            return $this->redirectToRoute('index');
         }
 
         // get the login error if there is one
         $error = $authenticationUtils->getLastAuthenticationError();
 
          return $this->render('security/register.html.twig', [
-            'error' => $error
+            'form' => $form->createView(),
         ]);
     }
     
