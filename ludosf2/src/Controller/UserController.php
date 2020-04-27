@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
@@ -27,12 +28,20 @@ class UserController extends AbstractController
     /**
      * @Route("/register", name="register")
      */
-    public function register()
+    public function register(Request $request, AuthenticationUtils $authenticationUtils): Response
     {
-        $content = 'page index changement post apache';
-        return new Response(
-            '<html><body>content: '.$content.'</body></html>'
-        );
+        
+        if ($request->isMethod('post')) {
+
+            echo($request->get('login'));
+        }
+
+        // get the login error if there is one
+        $error = $authenticationUtils->getLastAuthenticationError();
+
+         return $this->render('security/register.html.twig', [
+            'error' => $error
+        ]);
     }
     
 }
