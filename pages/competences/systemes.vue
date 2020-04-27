@@ -1,6 +1,6 @@
 <template>
-  <div class="systemes">
-    <p>systèmes d’exploitation</p>
+  <div class="container systemes">
+    <h2>systèmes d’exploitation</h2>
     <b-row align="center" align-v="center">
       <b-col>
         <b-img src="~/assets/img/competences/windows.png" fluid alt="windows"></b-img>

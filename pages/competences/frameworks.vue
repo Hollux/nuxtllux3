@@ -1,6 +1,6 @@
 <template>
-  <div class="frameworks">
-    <p>Frameworks</p>
+  <div class="container frameworks">
+    <h2>Frameworks</h2>
     <b-row align="center" align-v="center">
       <b-col>
         <b-img src="~/assets/img/competences/vuejs.png" fluid alt="vuejs"></b-img>

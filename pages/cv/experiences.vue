@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h4>Expériences professionnelles & Formations</h4>
+    <h2>Expériences professionnelles & Formations</h2>
     <div v-for="experience in experiences" :key="experience.index" class="experiencefor">
       <b-row>
-        <b-col offset-sm="1" sm="6">{{ experience.periodes }}</b-col>
-        <b-col sm="5">
-          <b>{{ experience.titre }}</b>
+        <b-col offset-sm="1" sm="4"><p>{{ experience.periodes }}</p></b-col>
+        <b-col sm="7">
+          <p><b>{{ experience.titre }}</b> <i>{{ experience.personne }}</i></p>
         </b-col>
       </b-row>
       <b-row>
-        <b-col offset-xs="6" offset-sm="7">{{experience.text}}</b-col>
+        <b-col offset-xs="6" offset-sm="5"><p v-html=experience.text></p></b-col>
       </b-row>
+      <br/>
     </div>
   </div>
 </template>
@@ -21,35 +22,41 @@ export default {
     return {
       experiences: [
         {
-          periodes: "Juin 2019 à novembre 2019",
-          titre: "Chef de projet développeur",
+          periodes: "Juin à novembre 2019",
+          titre: "Chef de projet / Développeur fullstack",
+          personne: "// 2LE",
           text:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam impedit delectus, cupiditate molestiae ab sequi,"
+            "Migration d’un site de Symfony 2 vers Symfony 4."
         },
         {
-          periodes: "Mars 2016 à Janvier 2019",
-          titre: "Développeur full stack",
-          text: "rrrrrrr"
+          periodes: "Mars 2016 à janvier 2019",
+          titre: "Développeur fullstack",
+          personne: "// Alcyon",
+          text: "Travail sur la refonte du site d’Alcyon en <b>Symfony 3</b> pendant 2 ans (site marchand, accès privé, catalogue en ligne, applications web à destination des vétérinaires).<br/>Maintenance de l’ancien site sous <b>Zend Framework 1</b>.<br/>Développement d’une application Android en <b>Java</b>.<br/>Recherches pour la création d'une <b>progressive web app</b>."
         },
         {
           periodes: "Septembre 2018",
-          titre: "Formations VueJS",
-          text: "rrrrrrr"
+          titre: "Formation à Vue.JS",
+          personne: "// Zenika",
+          text: ""
         },
         {
           periodes: "Janvier 2017",
           titre: "Formations Symfony : SFC3 / SFC4",
-          text: "rrrrrrr"
+          personne: "// Sensiolabs",
+          text: ""
         },
         {
           periodes: "Octobre à décembre 2015",
-          titre: "Formation Développeur / intégrateur",
-          text: "rrrrrrr"
+          titre: "Formation de Développeur / intégrateur",
+          personne: "// 3WAcademy",
+          text: ""
         },
         {
-          periodes: "Janvier 2011 à Décembre 2014",
-          titre: "Formation et travail en tant que Technicien en éléctricité",
-          text: "rrrrrrr"
+          periodes: "Janvier 2011 à décembre 2014",
+          titre: "Formation et travail en tant que Technicien en électricité",
+          personne: "",
+          text: ""
         }
       ]
     };

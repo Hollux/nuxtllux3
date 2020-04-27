@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p>Applis web</p>
+    <h2>Applis web</h2>
     <b-row v-for="(applis, index) in rowApplis" class="center" :key="index">
       <b-col md v-for="(appli, index) in applis" :key="index">
         <nuxt-link :to="appli.lien">

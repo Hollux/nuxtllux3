@@ -1,12 +1,10 @@
 <template>
   <div>
-    <h4>Informations complémentaires</h4>
-    <p>
-      <b>Langues</b> : Français : langue maternelle, Anglais : niveau bon, Allemand : notions
-    </p>
-    <p>
-      <b>Loisirs</b> : développer, jeux (vidéo/société), modélisme, guitare, tennis, ping-pong, ski, jonglage
-    </p>
+    <h2>Informations complémentaires</h2>
+   	<ul>
+   		<li>Langues : Français : langue maternelle / Anglais : niveau bon / Allemand : notions.</li>
+   		<li>Loisirs : développer, jeux (vidéo, de société), modélisme, guitare, jonglage, séries & cinéma.</li>
+	</ul>
   </div>
 </template>
 
@@ -15,4 +13,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+	ul {
+		list-style-type: disc;
+	}
 </style>

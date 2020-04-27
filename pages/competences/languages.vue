@@ -1,6 +1,6 @@
 <template>
-  <div class="languages">
-    <p>Languages</p>
+  <div class="container languages">
+    <h2>Langages</h2>
     <b-row align="center" align-v="center">
       <b-col>
         <b-img src="~/assets/img/competences/html5.png" fluid alt="html5"></b-img>

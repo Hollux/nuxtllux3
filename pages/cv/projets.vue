@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-row>
+    <!--<b-row>
       <b-col md>
-        <h4>Projets Pro</h4>
+        <h2>Projets Pro</h2>
         <ul>
           <li>Symfony 3/4 (3 ans)</li>
           <li>VueJS</li>
@@ -12,22 +12,24 @@
         </ul>
       </b-col>
       <b-col md>
-        <h4>Projets Perso</h4>
+      </b-col>
+    </b-row>-->
+        <h2>Projets Personnels</h2>
         <ul>
-          <li>VueJS / Nuxt</li>
-          <li>Symfony 3 et 4</li>
-          <li>Mise en place de serveurs</li>
+          <li>Apprentissage de Vue.JS / Nuxt avant d’en proposer l’utilisation chez Alcyon.</li>
+          <li>Apprentissage de Symfony 3 et 4.</li>
+          <li>Mise en place de serveurs :</li>
           <ul>
             <li>Raspberry / NUC</li>
             <li>Raspbian / Linux</li>
             <li>Apache + PHP 7 + node.js + SSL</li>
             <li>MySQL + phpMyAdmin</li>
           </ul>
-          <li>Création d'un thème Wordpress</li>
-          <li>Petit framework maison MVC</li>
+          <li>Création de thèmes Wordpress (le premier from scratch, le second est un thème enfant).</li>
+          <li>Création d'un serveur Web Multi-site en Linux.</li>
+          <li>Petit framework maison MVC.</li>
         </ul>
-      </b-col>
-    </b-row>
+      
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="frameworks">
-    <p>Frameworks</p>
+  <div class="container cms">
+    <h2>CMS</h2>
     <b-row align="center" align-v="center">
       <b-col>
         <b-img src="~/assets/img/competences/wp.png" fluid alt="wordpress"></b-img>

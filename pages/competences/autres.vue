@@ -1,6 +1,6 @@
 <template>
-  <div class="autres">
-    <p>Autres outils</p>
+  <div class="container autres">
+    <h2>Autres outils de développement</h2>
     <b-row align="center" align-v="center">
       <b-col>
         <b-img src="~/assets/img/competences/xampp.png" fluid alt="xampp"></b-img>

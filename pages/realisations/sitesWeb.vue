@@ -1,37 +1,37 @@
 <template>
   <div class="container">
-    <p>Sites Web</p>
+    <h2>Sites Web</h2>
     <b-row class="center">
       <b-col md>
         <b-img src="~/assets/img/realisations/chroniquesfr.jpg" fluid-grow alt="chroniquesfr"></b-img>
-        <p>Chroniques de waral</p>
+        <h3>Chroniques de waral</h3>
         <p>
-          Sites vitrine administrable pour le jeu Chroniques de Waral. Première version réalisée en
-          Symfony3, puis adaptation et
+          <b>Site vitrine administrable</b> pour le jeu <a href="https://www.chroniquesdewaral.fr/" target="_blank" title="Chroniques de Waral - site par Hollux">Chroniques de Waral</a>.<br/>
+          Première version réalisée en
+          <b>Symfony3</b>, puis adaptation et
           migration du site sur
-          Wordpress.
+          <b>Wordpress</b>.
         </p>
       </b-col>
       <b-col md>
         <b-img src="~/assets/img/realisations/solveigdcfr.jpg" fluid-grow alt="solveigdcfr"></b-img>
-        <p>SOLVEIG DE CUYPER</p>
+        <h3>SOLVEIG DE CUYPER</h3>
         <p>
-          Site vitrine pour Solveig De
-          Cuyper, graphiste webdesigner.
-          Réalisé en Symfony3 avec mise
+          <b>Site vitrine</b> pour <a href="https://www.solveigdc.fr/" target="_blank" title="Solveig De Cuyper - site par Hollux">Solveig De
+          Cuyper</a>, graphiste webdesigner.<br/>
+          Réalisé en <b>Symfony3</b> avec mise
           en place d’outils spécifiques
           (portfolio, filtres).
         </p>
       </b-col>
       <b-col md>
         <b-img src="~/assets/img/realisations/haricotfr.jpg" fluid-grow alt="haricotfr"></b-img>
-        <p>HARICOT DE CASTELNAUDARY</p>
+        <h3>HARICOT DE CASTELNAUDARY</h3>
         <p>
-          Site vitrine pour Le haricot
-          de Castelnaudary, un label
+          <b>Site vitrine</b> pour <a href="http://haricotdecastelnaudary.fr/" target="_blank" title="Le Haricot de Castelnaudary - site par Hollux">Le haricot de Castelnaudary</a>, un label
           visant à promouvoir le
-          haricot lingot du Languedoc.
-          Réalisation sur-mesure en MVC.
+          haricot lingot du Languedoc.<br/>
+          Réalisation sur-mesure en <b>MVC</b>.
         </p>
       </b-col>
     </b-row>
