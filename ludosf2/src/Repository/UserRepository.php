@@ -5,6 +5,8 @@ namespace App\Repository;
 use App\Entity\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
+use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Bridge\Doctrine\Security\User\UserLoaderInterface;
 
 /**
  * @method User|null find($id, $lockMode = null, $lockVersion = null)
@@ -12,11 +14,31 @@ use Doctrine\Persistence\ManagerRegistry;
  * @method User[]    findAll()
  * @method User[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class UserRepository extends ServiceEntityRepository
+class UserRepository extends ServiceEntityRepository implements UserLoaderInterface
 {
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, User::class);
+    }
+
+    public function register(UserPasswordEncoderInterface $encoder)
+    {
+        // whatever *your* User object is
+        $user = new App\Entity\User();
+        $plainPassword = 'ryanpass';
+        $encoded = $encoder->encodePassword($user, $plainPassword);
+
+        $user->setPassword($encoded);
+    }
+
+     public function loadUserByUsername($login)
+    {
+        return $this->createQueryBuilder('u')
+            ->where('u.login = :login OR u.email = :email')
+            ->setParameter('login', $login)
+            ->setParameter('email', $login)
+            ->getQuery()
+            ->getOneOrNullResult();
     }
 
     // /**
