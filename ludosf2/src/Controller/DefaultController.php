@@ -25,7 +25,12 @@ class DefaultController extends AbstractController
     {
         $content = 'page index deux';
         return new Response(
-            '<html><body>content: '.$content.'</body></html>'
+            '<html>
+                <body>
+                content: '.$content.'
+                <input type="file" accept=".csv" />
+                </body>
+            </html>'
         );
     }
 
