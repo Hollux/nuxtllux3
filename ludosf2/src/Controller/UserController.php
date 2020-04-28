@@ -8,21 +8,17 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 use App\Entity\User;
 use App\Form\Type\RegisterType;
+use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 class UserController extends AbstractController
 {
-     /**
-     * @Route("/login", name="app_login")
-     */
-    public function login(AuthenticationUtils $authenticationUtils): Response
+    private $passwordEncoder;
+
+    public function __construct(UserPasswordEncoderInterface $passwordEncoder)
     {
-
-        return $this->render('security/login.html.twig', [
-            'last_username' => $lastUsername,
-            'error' => $error
-        ]);
+        $this->passwordEncoder = $passwordEncoder;
     }
-
+    
     /**
      * @Route("/register", name="register")
      */
@@ -40,13 +36,17 @@ class UserController extends AbstractController
             // but, the original `$task` variable has also been updated
             $user = $form->getData();
 
+            $user->setPassword($this->passwordEncoder->encodePassword($user, $user->getPassword()));
+            $user->setRoles(['ROLE_USER']);
+            $user->setCreatedOn(new \DateTime());
+
             // ... perform some action, such as saving the task to the database
             // for example, if Task is a Doctrine entity, save it!
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($user);
             $entityManager->flush();
 
-            return $this->redirectToRoute('index');
+            return $this->redirectToRoute('app_login');
         }
 
         // get the login error if there is one
