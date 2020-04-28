@@ -17,7 +17,7 @@ class ListeJeux
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string", length=54)
      */
     private $CodeJeu;
 
@@ -166,12 +166,12 @@ class ListeJeux
         return $this->id;
     }
 
-    public function getCodeJeu(): ?int
+    public function getCodeJeu(): ?string
     {
         return $this->CodeJeu;
     }
 
-    public function setCodeJeu(int $CodeJeu): self
+    public function setCodeJeu(string $CodeJeu): self
     {
         $this->CodeJeu = $CodeJeu;
 
