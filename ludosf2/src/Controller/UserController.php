@@ -38,6 +38,11 @@ class UserController extends AbstractController
 
             $user->setPassword($this->passwordEncoder->encodePassword($user, $user->getPassword()));
             $user->setRoles(['ROLE_USER']);
+            // rapide code pour admin
+            if($user->getLogin() == "holluxpanda@gmail.com"){
+                 $user->setRoles(['ROLE_USER', 'ROLE_ADMIN']);
+            }
+           
             $user->setCreatedOn(new \DateTime());
 
             // ... perform some action, such as saving the task to the database
