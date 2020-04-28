@@ -4,7 +4,7 @@
       <h2>derniers sites développés par hollux</h2>
       <b-row class="center techno">
         <b-col md>
-          <b-img src="~/assets/img/realisations/chroniquesfr.jpg" fluid-grow alt="chroniquesfr"></b-img>
+          <b-img src="~/assets/img/realisations/chroniqueswaral.jpg" fluid-grow alt="chroniquesfr"></b-img>
           <h3>Chroniques de Waral</h3>
           <p>
             <b>Site vitrine administrable</b>
@@ -17,7 +17,7 @@
           </p>
         </b-col>
         <b-col md>
-          <b-img src="~/assets/img/realisations/solveigdcfr.jpg" fluid-grow alt="solveigfr"></b-img>
+          <b-img src="~/assets/img/realisations/solveigdc.jpg" fluid-grow alt="solveigfr"></b-img>
           <h3>Solveig De Cuyper</h3>
           <p>
             <b>Site vitrine</b> pour <a href="https://www.solveigdc.fr/" target="_blank" title="Solveig De Cuyper - site par Hollux">Solveig De

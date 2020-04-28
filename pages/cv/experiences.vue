@@ -26,7 +26,7 @@ export default {
           titre: "Chef de projet / Développeur fullstack",
           personne: "// 2LE",
           text:
-            "Migration d’un site de Symfony 2 vers Symfony 4."
+            "Migration d’un site de Symfony 2 vers <b>Symfony 4</b> + <b>Vue.JS</b> avec gestion hors-ligne.<br/>Gestion de projet.<br/>Utilisation de EasyAdmin+ et Maker.js."
         },
         {
           periodes: "Mars 2016 à janvier 2019",
