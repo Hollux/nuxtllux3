@@ -1,46 +1,56 @@
 <template>
-  <div>
-    <b-row>
-      <b-col cols="auto" class="mr-auto">
-        <h3>Bienvenue sur le mini quizz cinéma</h3>
-      </b-col>
-      <b-col cols="auto">
-        <b-button v-on:click="trier" variant="outline-primary">trier</b-button>
-      </b-col>
-      <b-col cols="auto">
-        <b-form-group>
-          <b-form-radio-group
-            id="btn-radios-1"
-            v-model="nbrQuestions"
-            :options="nbrQuestionsOptions"
-            buttons
-            name="radios-btn-default"
-          ></b-form-radio-group>
-        </b-form-group>
-      </b-col>
-      <b-col cols="auto">
-        <notice />
-      </b-col>
-    </b-row>
-    <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
-    <b-row>
-      <b-col>
-        <b-img
-          center
-          :src="require('../assets/img/minima/' + arrayActive[0][0] + '.jpg')"
-          alt="Center image"
-        ></b-img>
-      </b-col>
-      <b-col>
-        <input
-          v-model="response"
-          id="response"
-          v-on:keyup.enter="clientResp"
-          placeholder="Votre réponse"
-        />
-        <div v-on:click="clientResp" class="btn btn-success">Valider</div>
-      </b-col>
-    </b-row>
+  <div class="quizzcinema">
+    <div class="container">
+      <b-row>
+          <h1>Quizz Cinéma</h1>
+        
+      </b-row>
+      
+      <b-row>
+        <b-col>
+          <b-img
+            center
+            :src="require('../assets/img/minima/' + arrayActive[0][0] + '.jpg')"
+            alt="Center image"
+          ></b-img>
+        </b-col>
+        <b-col>
+          <b-row>
+             <b-col cols="auto">
+          <notice />
+        </b-col>
+          </b-row>
+          <b-row>
+            <b-col cols="auto">
+          <b-button v-on:click="trier" variant="outline-primary">trier</b-button>
+        </b-col>
+        <b-col cols="auto">
+          <b-form-group>
+            <b-form-radio-group
+              id="btn-radios-1"
+              v-model="nbrQuestions"
+              :options="nbrQuestionsOptions"
+              buttons
+              name="radios-btn-default"
+            ></b-form-radio-group>
+          </b-form-group>
+        </b-col>
+          </b-row>
+          <input
+            v-model="response"
+            id="response"
+            v-on:keyup.enter="clientResp"
+            placeholder="Votre réponse"
+          />
+          <div v-on:click="clientResp" class="btn btn-success">valider</div>
+          <div class="score">
+            <hr/>
+            <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
+            <hr />
+          </div>
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 
@@ -138,7 +148,52 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@300;400&display=swap');
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color:#373760;
+  text-transform: none;
+  font-size: 2rem;
+  margin-left: 110px;
+}
+p {
+  font-family: 'Playfair Display', serif;
+  color:#373760;
+  /*text-transform: lowercase;*/
+  /*font-size: 0.7rem;*/
+}
+input {
+  font-family: 'Raleway', sans-serif;
+  color:#373760;
+  border: 2px solid #ffd400;
+  border-radius: 0;
+  font-weight: 300;
+  text-transform: lowercase;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+button, .btn, .btn-secondary {
+  font-family: 'Raleway', sans-serif;
+  color:#373760;
+  border: 2px solid #ffd400;
+  border-radius: 0;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+button:active, .btn:active, button:hover, .btn:hover, .btn-success {
+  color:#ffffff;
+  background-color: #ffd400;
+}
+.score p {
+  font-size : 1.5rem;
+  text-align:center;
+}
 img {
   width: 350px;
+}
+.quizzcinema {
+
 }
 </style>
