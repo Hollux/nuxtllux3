@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+    DocumentRoot /var/www/project/public
+
+    <Directory /var/www/project/public>
+        AllowOverride None
+
+       <IfModule mod_headers.c>
+            SetEnvIf Origin "http(s)?://(www\.)?(domain1|domaine2)$" AccessControlAllowOrigin=$0
+            Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+            Header merge Vary Origin
+        </IfModule>
+    </Directory>
+</VirtualHost>

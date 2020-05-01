@@ -19,6 +19,16 @@ class ListeJeuxRepository extends ServiceEntityRepository
         parent::__construct($registry, ListeJeux::class);
     }
 
+    public function findAllWithoutDouble()
+    {
+        return $this->createQueryBuilder('l')
+            ->orderBy('l.NomJeu', 'ASC')
+            //->select('l.NomJeu')->distinct()
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
     // /**
     //  * @return ListeJeux[] Returns an array of ListeJeux objects
     //  */

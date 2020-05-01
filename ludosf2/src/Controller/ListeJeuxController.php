@@ -21,7 +21,7 @@ class ListeJeuxController extends AbstractController
     {
         $listJeux = $this->getDoctrine()
         ->getRepository(ListeJeux::class)
-        ->findAll();
+        ->findAllWithoutDouble();
 
         $encoders = [new XmlEncoder(), new JsonEncoder()];
         $normalizers = [new ObjectNormalizer()];
