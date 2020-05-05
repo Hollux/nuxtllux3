@@ -1,5 +1,6 @@
 <template>
   <div class="quizzcinema">
+    <hr/>
     <div class="container">
       <b-row>
           <h1>Quizz Cinéma</h1>
@@ -7,19 +8,15 @@
       </b-row>
       
       <b-row>
-        <b-col>
+        <b-col class="img-cine">
           <b-img
             center
             :src="require('../assets/img/minima/' + arrayActive[0][0] + '.jpg')"
             alt="Center image"
           ></b-img>
         </b-col>
-        <b-col>
-          <b-row>
-             <b-col cols="auto">
-          <notice />
-        </b-col>
-          </b-row>
+        <b-col class="infos-cine">
+          
           <b-row>
             <b-col cols="auto">
           <b-button v-on:click="trier" variant="outline-primary">trier</b-button>
@@ -36,18 +33,31 @@
           </b-form-group>
         </b-col>
           </b-row>
-          <input
-            v-model="response"
-            id="response"
-            v-on:keyup.enter="clientResp"
-            placeholder="Votre réponse"
-          />
-          <div v-on:click="clientResp" class="btn btn-success">valider</div>
-          <div class="score">
+          <b-row>
+            <b-col md="9">
+              <input
+                v-model="response"
+                id="response"
+                v-on:keyup.enter="clientResp"
+                placeholder="Votre réponse"
+              />
+            </b-col>
+            <b-col class="right" md="3">
+              <div v-on:click="clientResp" class="btn btn-success">valider</div>
+            </b-col>
+        </b-row>
+        <b-row>
+          <b-col class="score">
             <hr/>
             <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
             <hr />
-          </div>
+          </b-col>
+        </b-row>
+          <b-row>
+            <b-col cols="auto">
+              <notice />
+            </b-col>
+          </b-row>
         </b-col>
       </b-row>
     </div>
@@ -156,12 +166,16 @@ h1 {
   text-transform: none;
   font-size: 2rem;
   margin-left: 110px;
+  margin-top:50px;
 }
 p {
   font-family: 'Playfair Display', serif;
   color:#373760;
   /*text-transform: lowercase;*/
   /*font-size: 0.7rem;*/
+}
+hr {
+  border-top: 1px solid #373760;
 }
 input {
   font-family: 'Raleway', sans-serif;
@@ -173,6 +187,7 @@ input {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
+  width:100%;
 }
 button, .btn, .btn-secondary {
   font-family: 'Raleway', sans-serif;
@@ -182,9 +197,23 @@ button, .btn, .btn-secondary {
   font-weight: 300;
   text-transform: lowercase;
 }
+.btn-success {
+  width:100%;
+}
+.right.col {
+  text-align:right;
+}
+.img-cine, .infos-cine {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
 button:active, .btn:active, button:hover, .btn:hover, .btn-success {
   color:#ffffff;
   background-color: #ffd400;
+}
+.score {
+  width:100%;
 }
 .score p {
   font-size : 1.5rem;
@@ -192,8 +221,5 @@ button:active, .btn:active, button:hover, .btn:hover, .btn-success {
 }
 img {
   width: 350px;
-}
-.quizzcinema {
-
 }
 </style>
