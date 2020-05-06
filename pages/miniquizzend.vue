@@ -1,5 +1,5 @@
 <template>
-  <div class="miniquizz miniquizzend">
+  <div class="miniquizzend">
     <hr />
     <div class="quizzcinema">
       <div class="container">
@@ -82,7 +82,6 @@ h1 {
 p {
   font-family: 'Raleway', sans-serif;
   color:#373760;
-/*  text-transform: lowercase;*/
 }
 .mauvaiseReponse {
   color: red;
