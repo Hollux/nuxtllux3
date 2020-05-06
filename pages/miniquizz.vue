@@ -4,9 +4,8 @@
     <div class="quizzcinema">
       <div class="container">
         <b-row>
-          <h1>Quizz Cinéma</h1>
+            <h1>Quizz Cinéma</h1> 
         </b-row>
-
         <b-row>
           <b-col sm="5" lg="4" class="img-cine">
             <b-img
@@ -17,10 +16,10 @@
           </b-col>
           <b-col sm="7" lg="8" class="infos-cine">
             <b-row>
-              <b-col cols="auto" sm="4" md="3" lg="2">
+              <b-col cols="4" md="3" lg="2">
                 <b-button v-on:click="trier" variant="outline-warning">trier</b-button>
               </b-col>
-              <b-col cols="auto" sm="8" offset-md="1" offset-lg="3" lg="7">
+              <b-col cols="8" offset-md="1" offset-lg="3" lg="7">
                 <b-form-group>
                   <b-form-radio-group
                     id="btn-radios-1"
@@ -34,7 +33,7 @@
               </b-col>
             </b-row>
             <b-row class="reponse">
-              <b-col md="9">
+              <b-col md="8" lg="9">
                 <input
                   v-model="response"
                   id="response"
@@ -42,19 +41,19 @@
                   placeholder="Votre réponse"
                 />
               </b-col>
-              <b-col class="right" md="3" offset-sm="3" sm="6">
+              <b-col class="right" offset="2" cols="8" offset-sm="3" sm="6" offset-md="0" md="4" lg="3">
                 <div v-on:click="clientResp" class="btn btn-success">valider</div>
               </b-col>
             </b-row>
             <b-row>
               <b-col class="score">
-                <hr />
+                <hr/>
                 <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
                 <hr />
               </b-col>
             </b-row>
             <b-row>
-              <b-col cols="auto" offset-sm="2" sm="8" offset-md="3" md="6">
+              <b-col offset="2" cols="8" offset-md="3" md="6">
                 <notice />
               </b-col>
             </b-row>
@@ -167,7 +166,7 @@ export default {
 }
 .container {
   background-color: #ffffff;
-  padding: 0 35px;
+  padding: 2px 35px;
 }
 
 .NuxtLogo {
@@ -182,10 +181,9 @@ h1 {
   margin-left: 15px;
 }
 p {
-  font-family: "Playfair Display", serif;
-  color: #373760;
-  /*text-transform: lowercase;*/
-  /*font-size: 0.7rem;*/
+  font-family: 'Playfair Display', serif;
+  color:#373760;
+  text-transform: lowercase;
 }
 hr {
   border-top: 1px solid #373760;
@@ -235,9 +233,11 @@ button,
   justify-content: center;
   align-self: center;
 }
-button:hover,
-.btn:hover {
-  color: #ffffff;
+.btn-outline-warning {
+  width:100%;
+}
+button:hover, .btn:hover {
+  color:#ffffff;
   background-color: #ffd400;
   border-color: #ffd400;
 }
@@ -264,11 +264,11 @@ button.focus,
   box-shadow: 0 0 0 0.05rem rgba(222, 170, 12, 0.5);
 }
 .score {
-  width: 100%;
-  margin-top: 65px;
+  width:100%;
+  margin-top:45px;
 }
 .reponse {
-  margin-top: 75px;
+  margin-top:50px;
 }
 .score p {
   font-size: 1.5rem;
@@ -302,8 +302,17 @@ img {
   .reponse {
     margin-top: 0px;
   }
+  hr {
+    margin:0.8rem auto;
+  }
   .score p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .infos-cine {
+    margin-top:30px;
   }
 }
 </style>
