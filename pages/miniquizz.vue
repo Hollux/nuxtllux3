@@ -169,7 +169,7 @@ export default {
 }
 .container {
   background-color: #ffffff;
-  padding: 10px 35px;
+  padding: 2px 35px;
 }
 
 .NuxtLogo {
