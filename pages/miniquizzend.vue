@@ -1,5 +1,5 @@
 <template>
-  <div class="miniquizz">
+  <div class="miniquizz miniquizzend">
     <hr />
     <div class="quizzcinema">
       <div class="container">
