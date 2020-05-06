@@ -1,39 +1,39 @@
 <template>
-  <div class="quizzcinema">
+  <div class="miniquizz">
     <hr/>
+    <div class="quizzcinema">
     <div class="container">
       <b-row>
-          <h1>Quizz Cinéma</h1>
-        
+          <h1>Quizz Cinéma</h1> 
       </b-row>
       
       <b-row>
-        <b-col class="img-cine">
+        <b-col sm="5" lg="4" class="img-cine">
           <b-img
             center
             :src="require('../assets/img/minima/' + arrayActive[0][0] + '.jpg')"
             alt="Center image"
           ></b-img>
         </b-col>
-        <b-col class="infos-cine">
-          
+        <b-col sm="7" lg="8" class="infos-cine">
           <b-row>
-            <b-col cols="auto">
-          <b-button v-on:click="trier" variant="outline-primary">trier</b-button>
-        </b-col>
-        <b-col cols="auto">
-          <b-form-group>
-            <b-form-radio-group
-              id="btn-radios-1"
-              v-model="nbrQuestions"
-              :options="nbrQuestionsOptions"
-              buttons
-              name="radios-btn-default"
-            ></b-form-radio-group>
-          </b-form-group>
-        </b-col>
+            <b-col cols="auto" sm="4" md="3" lg="2">
+              <b-button v-on:click="trier" variant="outline-warning">trier</b-button>
+            </b-col>
+            <b-col cols="auto" sm="8" offset-md="1" offset-lg="3" lg="7">
+              <b-form-group>
+                <b-form-radio-group
+                  id="btn-radios-1"
+                  v-model="nbrQuestions"
+                  :options="nbrQuestionsOptions"
+                  buttons
+                  name="radios-btn-default"
+                  button-variant="outline-warning"
+                ></b-form-radio-group>
+              </b-form-group>
+            </b-col>
           </b-row>
-          <b-row>
+          <b-row class="reponse">
             <b-col md="9">
               <input
                 v-model="response"
@@ -42,24 +42,25 @@
                 placeholder="Votre réponse"
               />
             </b-col>
-            <b-col class="right" md="3">
+            <b-col class="right" md="3" offset-sm="3" sm="6">
               <div v-on:click="clientResp" class="btn btn-success">valider</div>
             </b-col>
-        </b-row>
-        <b-row>
-          <b-col class="score">
-            <hr/>
-            <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
-            <hr />
-          </b-col>
-        </b-row>
+          </b-row>
           <b-row>
-            <b-col cols="auto">
+            <b-col class="score">
+              <hr/>
+              <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
+              <hr />
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col cols="auto" offset-sm="2" sm="8" offset-md="3" md="6">
               <notice />
             </b-col>
           </b-row>
         </b-col>
       </b-row>
+    </div>
     </div>
   </div>
 </template>
@@ -160,13 +161,27 @@ export default {
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@300;400&display=swap');
 
+
+
+.quizzcinema {
+  background-color: #ffd400;
+  margin: 60px auto 40px;
+}
+.container {
+  background-color: #ffffff;
+  padding: 0 35px;
+}
+
+.NuxtLogo {
+align-self: center;
+text-align: center;
+}
 h1 {
   font-family: 'Playfair Display', serif;
   color:#373760;
   text-transform: none;
   font-size: 2rem;
-  margin-left: 110px;
-  margin-top:50px;
+  margin-left: 15px;
 }
 p {
   font-family: 'Playfair Display', serif;
@@ -180,7 +195,7 @@ hr {
 input {
   font-family: 'Raleway', sans-serif;
   color:#373760;
-  border: 2px solid #ffd400;
+  border: 2px solid #e6e6e6;
   border-radius: 0;
   font-weight: 300;
   text-transform: lowercase;
@@ -189,13 +204,21 @@ input {
   line-height: 1.5;
   width:100%;
 }
-button, .btn, .btn-secondary {
+input:focus, input.focus {
+  box-shadow: 0 0 0 0.1rem rgb(239, 236, 225);
+  outline:none;
+}
+button, .btn, .btn-secondary, .btn-success {
   font-family: 'Raleway', sans-serif;
   color:#373760;
   border: 2px solid #ffd400;
   border-radius: 0;
   font-weight: 300;
   text-transform: lowercase;
+  background-color: #ffffff;
+}
+.btn-group, .btn-group-vertical {
+  width: 100%;
 }
 .btn-success {
   width:100%;
@@ -208,18 +231,59 @@ button, .btn, .btn-secondary {
   justify-content: center;
   align-self: center;
 }
-button:active, .btn:active, button:hover, .btn:hover, .btn-success {
+button:hover, .btn:hover {
   color:#ffffff;
   background-color: #ffd400;
+  border-color: #ffd400;
+}
+button:active, .btn:active, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle, .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+  color:#ffffff;
+  background-color: #ffcf00;
+  border-color: #ffcf00;
+}
+button:focus, button.focus, .btn:focus, .btn.focus, .btn-success:focus, .btn-success.focus, .btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.05rem rgba(222, 170, 12, 0.5);
 }
 .score {
   width:100%;
+  margin-top:65px;
+}
+.reponse {
+  margin-top:75px;
 }
 .score p {
   font-size : 1.5rem;
   text-align:center;
 }
 img {
-  width: 350px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .quizzcinema {
+    margin: 30px auto 5px;
+  }
+  .score {
+    margin-top:30px;
+  }
+  .reponse {
+    margin-top:40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quizzcinema {
+    margin: 30px auto 5px;
+  }
+  input {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  .score, .reponse {
+    margin-top:0px;
+  }
+  .score p {
+    font-size : 1rem;
+  }
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div>
-  	<logo />
-    <h1>Quizz cinema</h1>
+  	<b-img class="logohlx" src="~/assets/img/base/logo_hollux_sanstexte_noir.png" alt="Left image"></b-img>
     <nuxt />
     <footerhlx />
   </div>
@@ -25,6 +24,12 @@ export default {
 	*:after {
 	  box-sizing: border-box;
 	  margin: 0;
+	}
+
+	.logohlx {
+	    text-align: left;
+    	margin: 2rem auto 1rem 2rem;
+    	width: 75px;
 	}
 
 	a {

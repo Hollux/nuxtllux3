@@ -30,22 +30,5 @@ export default {};
     width: 100%;
     justify-content: center;
   }
-  .btn-primary {
-    background-color: #ffd400 !important;
-    border-color: #ffd400 !important;
-    border-radius: 0;
-  }
-  .btn-primary:hover, .btn-primary:active {
-    background-color: #ffd400 !important;
-    border-color: #fbd104 !important;
-  }
-  .btn-warning {
-    font-family: 'Raleway', sans-serif;
-    color:#ffffff;
-    border: 2px solid #ffd400;
-    background-color: #ffd400;
-    border-radius: 0;
-    font-weight: 300;
-    text-transform: lowercase;
-  }
+
 </style>
