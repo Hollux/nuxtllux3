@@ -161,10 +161,6 @@ export default {
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@300;400&display=swap");
 
-.miniquizz {
-  min-height: calc(100vh - 50px);
-}
-
 .quizzcinema {
   background-color: #ffd400;
   margin: 60px auto 40px;
