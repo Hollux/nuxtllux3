@@ -273,6 +273,7 @@ button.focus,
 .score p {
   font-size: 1.5rem;
   text-align: center;
+  text-transform: none;
 }
 img {
   width: 100%;
