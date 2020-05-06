@@ -17,10 +17,10 @@
         </b-col>
         <b-col sm="7" lg="8" class="infos-cine">
           <b-row>
-            <b-col cols="auto" sm="4" md="3" lg="2">
+            <b-col cols="4" md="3" lg="2">
               <b-button v-on:click="trier" variant="outline-warning">trier</b-button>
             </b-col>
-            <b-col cols="auto" sm="8" offset-md="1" offset-lg="3" lg="7">
+            <b-col cols="8" offset-md="1" offset-lg="3" lg="7">
               <b-form-group>
                 <b-form-radio-group
                   id="btn-radios-1"
@@ -34,7 +34,7 @@
             </b-col>
           </b-row>
           <b-row class="reponse">
-            <b-col md="9">
+            <b-col md="8" lg="9">
               <input
                 v-model="response"
                 id="response"
@@ -42,7 +42,7 @@
                 placeholder="Votre réponse"
               />
             </b-col>
-            <b-col class="right" md="3" offset-sm="3" sm="6">
+            <b-col class="right" offset="2" cols="8" offset-sm="3" sm="6" offset-md="0" md="4" lg="3">
               <div v-on:click="clientResp" class="btn btn-success">valider</div>
             </b-col>
           </b-row>
@@ -54,7 +54,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col cols="auto" offset-sm="2" sm="8" offset-md="3" md="6">
+            <b-col offset="2" cols="8" offset-md="3" md="6">
               <notice />
             </b-col>
           </b-row>
@@ -169,7 +169,7 @@ export default {
 }
 .container {
   background-color: #ffffff;
-  padding: 0 35px;
+  padding: 10px 35px;
 }
 
 .NuxtLogo {
@@ -186,8 +186,7 @@ h1 {
 p {
   font-family: 'Playfair Display', serif;
   color:#373760;
-  /*text-transform: lowercase;*/
-  /*font-size: 0.7rem;*/
+  text-transform: lowercase;
 }
 hr {
   border-top: 1px solid #373760;
@@ -231,6 +230,9 @@ button, .btn, .btn-secondary, .btn-success {
   justify-content: center;
   align-self: center;
 }
+.btn-outline-warning {
+  width:100%;
+}
 button:hover, .btn:hover {
   color:#ffffff;
   background-color: #ffd400;
@@ -246,10 +248,10 @@ button:focus, button.focus, .btn:focus, .btn.focus, .btn-success:focus, .btn-suc
 }
 .score {
   width:100%;
-  margin-top:65px;
+  margin-top:45px;
 }
 .reponse {
-  margin-top:75px;
+  margin-top:50px;
 }
 .score p {
   font-size : 1.5rem;
@@ -282,8 +284,17 @@ img {
   .score, .reponse {
     margin-top:0px;
   }
+  hr {
+    margin:0.8rem auto;
+  }
   .score p {
     font-size : 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .infos-cine {
+    margin-top:30px;
   }
 }
 </style>

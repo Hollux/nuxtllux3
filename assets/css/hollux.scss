@@ -67,14 +67,20 @@ $yellow: #ffd400;
   box-shadow: 0 0 0 0.05rem rgba(222, 170, 12, 0.5);
 }
 .miniquizz .btn-primary {
-    background-color: #ffd400 !important;
-    border-color: #ffd400 !important;
-    border-radius: 0;
+  background-color: #ffd400 !important;
+  border-color: #ffd400 !important;
+  border-radius: 0;
 }
 .miniquizz .btn-primary:hover, .miniquizz .btn-primary:active {
-    background-color: #ffd400 !important;
-    border-color: #fbd104 !important;
+  background-color: #ffd400 !important;
+  border-color: #fbd104 !important;
+}
+
+@media (max-width: 767px) {
+  .miniquizz button, .miniquizz .btn, .miniquizz .btn-secondary, .miniquizz .btn-success, .miniquizz .btn-group, .miniquizz .btn-group-vertical, .miniquizz .btn-warning, .miniquizz .btn-outline-warning {
+    font-size:0.8rem;
   }
+}
 
 /* MINIQUIZZ CINEMA END */
 
