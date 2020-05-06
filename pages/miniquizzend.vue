@@ -18,7 +18,7 @@
             <p v-bind:class="{ 'mauvaiseReponse' : !userResponse[0] }">{{ userResponse[3] }}</p>
           </b-col>
         </b-row>
-        <div class="center">
+        <div class="center newGame">
           <b-button v-on:click="newGame" variant="outline-primary">Nouvelle partie</b-button>
         </div>
       </div>
@@ -121,7 +121,9 @@ p.score {
   margin: 20px auto 30px;
   text-transform: none;
 }
-
+.newGame {
+  margin-top:30px;
+}
 @media (max-width: 1199px) {
   .quizzcinema {
     margin: 30px auto 5px;

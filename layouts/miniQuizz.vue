@@ -39,7 +39,7 @@ export default {
     	margin: 2rem auto 1rem 2rem;
     	width: 75px;
 	}
-	hr .top-logo {
+	hr.top-logo {
 		margin-top: -51px;
 	    margin-bottom: 66px;
 	    border-top: 2px solid #ffd501;
