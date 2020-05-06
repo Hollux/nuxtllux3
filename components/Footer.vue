@@ -11,11 +11,16 @@
 </template>
 
 <style>
-.footernavhlx {
-  background-color: black;
-}
-.footernavhlx a {
-  color: white;
-  margin: 0 40px;
-}
+  footer p {
+    margin-bottom:10px !important;
+  }
+  .footernavhlx {
+    padding: 10px 0 8px;
+    margin-bottom: 10px;
+  }
+  .footernavhlx a {
+    color: white;
+    margin: 0 40px;
+    font-style: normal;
+  }
 </style>

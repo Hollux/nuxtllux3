@@ -1,9 +1,11 @@
 <template>
-  <div class="container">
-    <h1>COMPÉTENCES : LANGAGES ET OUTILS UTILISÉS POUR LE DÉVELOPPEMENT WEB</h1>
+  <div class="competences">
+    <div class="container">
+      <h1>COMPÉTENCES : LANGAGES ET OUTILS UTILISÉS POUR LE DÉVELOPPEMENT WEB</h1>
+    </div>
     <languages />
     <div class="trait"></div>
-    <frameworks />
+    <frameworks /> 
     <div class="trait"></div>
     <cms />
     <div class="trait"></div>
@@ -33,6 +35,6 @@ export default {
 
 <style lang="scss" scoped>
 img {
-  width: 150px;
+  max-width: 150px;
 }
 </style>

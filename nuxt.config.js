@@ -23,7 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
-    'assets/css/hollux.scss'
+    '@/assets/css/hollux.scss'
   ],
   /*
   ** Plugins to load before mounting the App

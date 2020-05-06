@@ -5,8 +5,8 @@
     <div>
       <b-nav tabs align="center">
         <b-nav-item to="/" exact exact-active-class="active">Accueil</b-nav-item>
-        <b-nav-item  to="competences" exact exact-active-class="active">Competences</b-nav-item>
-        <b-nav-item  to="realisations" exact exact-active-class="active">Realisations</b-nav-item>
+        <b-nav-item  to="competences" exact exact-active-class="active">Compétences</b-nav-item>
+        <b-nav-item  to="realisations" exact exact-active-class="active">Réalisations</b-nav-item>
         <b-nav-item  to="cv" exact exact-active-class="active">CV</b-nav-item>
         <b-nav-item  to="enSavoirPlus" exact exact-active-class="active">En savoir plus</b-nav-item>
         <b-nav-item  to="contact" exact exact-active-class="active">Contact</b-nav-item>
@@ -20,8 +20,8 @@
 
 <style>
 .logohlx{ 
-  width: 70px;
-  margin: 20px 0;
+  width: 85px;
+  margin: 55px 0 45px 0;
 }
 @media (max-width: 890px) {
   .navbarhlx img {
@@ -29,6 +29,10 @@
   }
 }
 .navbarhlx {
-  margin-bottom: 20px
+  margin-bottom: 50px
+}
+
+.navbarhlx a {
+  font-style: normal;
 }
 </style>
