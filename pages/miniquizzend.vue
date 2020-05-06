@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="miniquizzend">
     <p>Félicitation, votre score est de {{ score[0] }} / {{ score[1] }}</p>
     <b-row>
       <b-col cols="2" v-for="userResponse in userResponses" :key="userResponse.id" align="center">
@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.miniquizzend {
+  min-height: calc(100vh - 225px);
+}
+
 .mauvaiseReponse {
   color: red;
 }
