@@ -84,6 +84,7 @@ export default {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 .cv p {
   margin-bottom: 0;
