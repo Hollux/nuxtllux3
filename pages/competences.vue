@@ -5,7 +5,7 @@
     </div>
     <languages />
     <div class="trait"></div>
-    <frameworks /> 
+    <frameworks />
     <div class="trait"></div>
     <cms />
     <div class="trait"></div>
@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import Languages from "~/pages/competences/languages.vue";
-import Frameworks from "~/pages/competences/frameworks.vue";
-import Cms from "~/pages/competences/cms.vue";
-import Autres from "~/pages/competences/autres.vue";
-import Systemes from "~/pages/competences/systemes.vue";
+import Languages from "~/components/pages/competences/languages.vue";
+import Frameworks from "~/components/pages/competences/frameworks.vue";
+import Cms from "~/components/pages/competences/cms.vue";
+import Autres from "~/components/pages/competences/autres.vue";
+import Systemes from "~/components/pages/competences/systemes.vue";
 
 export default {
   components: {
