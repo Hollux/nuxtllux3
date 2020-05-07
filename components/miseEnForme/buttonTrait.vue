@@ -42,6 +42,7 @@ export default {
     text-transform: uppercase;
     font-size: 0.85rem;
     font-style: normal;
+    font-weight: 700;
   }
 }
 </style>
