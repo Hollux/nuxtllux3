@@ -4,7 +4,7 @@
     <div class="quizzcinema">
       <div class="container">
         <b-row>
-            <h1>Quizz Cinéma</h1> 
+          <h1>Quizz Cinéma</h1>
         </b-row>
         <b-row>
           <b-col sm="5" lg="4" class="img-cine">
@@ -41,13 +41,22 @@
                   placeholder="Votre réponse"
                 />
               </b-col>
-              <b-col class="right" offset="2" cols="8" offset-sm="3" sm="6" offset-md="0" md="4" lg="3">
+              <b-col
+                class="right"
+                offset="2"
+                cols="8"
+                offset-sm="3"
+                sm="6"
+                offset-md="0"
+                md="4"
+                lg="3"
+              >
                 <div v-on:click="clientResp" class="btn btn-success">valider</div>
               </b-col>
             </b-row>
             <b-row>
               <b-col class="score">
-                <hr/>
+                <hr />
                 <p>Votre score : {{ score[0] }} / {{ score[1] }}</p>
                 <hr />
               </b-col>
@@ -158,8 +167,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@300;400&display=swap");
-
 .quizzcinema {
   background-color: #ffd400;
   margin: 60px auto 40px;
@@ -181,8 +188,8 @@ h1 {
   margin-left: 15px;
 }
 p {
-  font-family: 'Playfair Display', serif;
-  color:#373760;
+  font-family: "Playfair Display", serif;
+  color: #373760;
   text-transform: lowercase;
 }
 hr {
@@ -234,10 +241,11 @@ button,
   align-self: center;
 }
 .btn-outline-warning {
-  width:100%;
+  width: 100%;
 }
-button:hover, .btn:hover {
-  color:#ffffff;
+button:hover,
+.btn:hover {
+  color: #ffffff;
   background-color: #ffd400;
   border-color: #ffd400;
 }
@@ -264,11 +272,11 @@ button.focus,
   box-shadow: 0 0 0 0.05rem rgba(222, 170, 12, 0.5);
 }
 .score {
-  width:100%;
-  margin-top:45px;
+  width: 100%;
+  margin-top: 45px;
 }
 .reponse {
-  margin-top:50px;
+  margin-top: 50px;
 }
 .score p {
   font-size: 1.5rem;
@@ -304,7 +312,7 @@ img {
     margin-top: 0px;
   }
   hr {
-    margin:0.8rem auto;
+    margin: 0.8rem auto;
   }
   .score p {
     font-size: 1rem;
@@ -313,7 +321,7 @@ img {
 
 @media (max-width: 575px) {
   .infos-cine {
-    margin-top:30px;
+    margin-top: 30px;
   }
 }
 </style>
