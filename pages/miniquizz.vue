@@ -81,7 +81,6 @@ import { levenshtein } from "~/assets/js/miniQuizz/levenshtein.js";
 import { arrayResponse } from "~/assets/js/miniQuizz/arrayResponse.js";
 import { mapMutations } from "vuex";
 import { mapState } from "vuex";
-
 export default {
   layout: "miniQuizz",
   computed: {
@@ -175,7 +174,6 @@ export default {
   background-color: #ffffff;
   padding: 2px 35px;
 }
-
 .NuxtLogo {
   align-self: center;
   text-align: center;
@@ -286,7 +284,6 @@ button.focus,
 img {
   width: 100%;
 }
-
 @media (max-width: 1199px) {
   .quizzcinema {
     margin: 30px auto 5px;
@@ -298,7 +295,6 @@ img {
     margin-top: 40px;
   }
 }
-
 @media (max-width: 767px) {
   .quizzcinema {
     margin: 30px auto 5px;
@@ -318,7 +314,6 @@ img {
     font-size: 1rem;
   }
 }
-
 @media (max-width: 575px) {
   .infos-cine {
     margin-top: 30px;
