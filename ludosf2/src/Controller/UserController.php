@@ -1,6 +1,11 @@
 <?php
 namespace App\Controller;
 
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\Serializer\Serializer;
+use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Encoder\XmlEncoder;
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -24,8 +29,6 @@ class UserController extends AbstractController
      */
     public function register(Request $request, AuthenticationUtils $authenticationUtils): Response
     {
-        
-
          // creates a task object and initializes some data for this example
         $user = new User();
         $form = $this->createForm(RegisterType::class, $user);
@@ -61,5 +64,6 @@ class UserController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
+    
     
 }

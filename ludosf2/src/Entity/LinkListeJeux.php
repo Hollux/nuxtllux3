@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ListeJeuxRepository")
  */
-class ListeJeux
+class LinkListeJeux
 {
     /**
      * @ORM\Id()
@@ -16,18 +16,14 @@ class ListeJeux
      */
     private $id;
 
-    /**
-     * @ORM\Column(type="string", length=54)
+     /**
+     * @ORM\OneToOne(targetEntity="App\Entity\ListeJeux", inversedBy="testlink")
+     * @ORM\JoinColumn(name="listeJeu_codejeu", referencedColumnName="id")
      */
-    private $CodeJeu;
+    private $linklistejeux;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\LinkListeJeux", mappedBy="linklistejeux")
-     */
-    private $linkListeJeux;
-
-    /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $NomJeu;
 
@@ -164,23 +160,16 @@ class ListeJeux
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
+    private $externalUrl;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
     private $hlx;
 
     public function getId(): ?int
     {
         return $this->id;
-    }
-
-    public function getCodeJeu(): ?string
-    {
-        return $this->CodeJeu;
-    }
-
-    public function setCodeJeu(string $CodeJeu): self
-    {
-        $this->CodeJeu = $CodeJeu;
-
-        return $this;
     }
 
     public function getNomJeu(): ?string
@@ -519,20 +508,26 @@ class ListeJeux
         return $this;
     }
 
-    public function getLinkListeJeux(): ?LinkListeJeux
+    public function getExternalUrl(): ?string
     {
-        return $this->linkListeJeux;
+        return $this->externalUrl;
     }
 
-    public function setLinkListeJeux(?LinkListeJeux $linkListeJeux): self
+    public function setExternalUrl(?string $externalUrl): self
     {
-        $this->linkListeJeux = $linkListeJeux;
+        $this->externalUrl = $externalUrl;
 
-        // set (or unset) the owning side of the relation if necessary
-        $newLinklistejeux = null === $linkListeJeux ? null : $this;
-        if ($linkListeJeux->getLinklistejeux() !== $newLinklistejeux) {
-            $linkListeJeux->setLinklistejeux($newLinklistejeux);
-        }
+        return $this;
+    }
+
+    public function getLinklistejeux(): ?ListeJeux
+    {
+        return $this->linklistejeux;
+    }
+
+    public function setLinklistejeux(?ListeJeux $linklistejeux): self
+    {
+        $this->linklistejeux = $linklistejeux;
 
         return $this;
     }

@@ -1,87 +1,137 @@
 <template>
-  <div>
-    <p>Index.vue</p>
-    <div>
-      <p>récupération json :</p>
-      <b-row>
-        <b-col>
-          <b-button v-on:click="trier('NomJeu')" variant="outline-primary">NomJeu</b-button>
-        </b-col>
-        <b-col>
-          <b-button v-on:click="trier('Marque')" variant="outline-primary">Marque</b-button>
-        </b-col>
-        <b-col>
-          <b-button v-on:click="trier('NbJoueurs')" variant="outline-primary">NbJoueurs</b-button>
-        </b-col>
-        <b-col>
-          <b-button v-on:click="trier('AgeJoueurs')" variant="outline-primary">AgeJoueurs</b-button>
-        </b-col>
-        <!-- <b-col>
-          <b-button v-on:click="trier('TypeJeu')" variant="outline-primary">TypeJeu</b-button>
-        </b-col>-->
-      </b-row>
-      <b-row v-for="(jeu, index) in json" :key="index">
-        <b-col>{{jeu.NomJeu}}</b-col>
-        <b-col>{{jeu.Marque}}</b-col>
-        <b-col>{{jeu.NbJoueurs}}</b-col>
-        <b-col>{{jeu.AgeJoueurs}}</b-col>
-        <!-- <b-col>{{jeu.TypeJeu}}</b-col> -->
-      </b-row>
-    </div>
-  </div>
+  <b-container fluid>
+    <p>
+      Page test commande
+      <b-button v-on:click="test()">test</b-button>
+    </p>
+    <b-input-group size="sm">
+      <b-form-input v-model="filter" type="search" id="filterInput" placeholder="Type to Search"></b-form-input>
+      <b-input-group-append>
+        <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+      </b-input-group-append>
+    </b-input-group>
+
+    <b-table
+      striped
+      hover
+      selectable
+      responsive="sm"
+      :sort-by.sync="sortBy"
+      :filter="filter"
+      :filterIncludedFields="filterOn"
+      @filtered="onFiltered"
+      @row-selected="onRowSelected"
+      :per-page="perPage"
+      :current-page="currentPage"
+      :items="listeJeux"
+      :fields="fields"
+      :small="small"
+    >
+      <template v-slot:cell(NomJeu)="data">
+        <b-link
+          target="_blank"
+          :href="'https://www.trictrac.net/jeu-de-societe/'+reformate(data.value)"
+        >{{ data.value.toLowerCase() }}</b-link>
+      </template>
+    </b-table>
+    <b-pagination
+      v-model="currentPage"
+      :total-rows="rows"
+      :per-page="perPage"
+      aria-controls="my-table"
+    ></b-pagination>
+
+    <p>Panier :</p>
+    <b-table
+      striped
+      hover
+      selectable
+      @row-selected="onPanierSelected"
+      responsive="sm"
+      :per-page="perPage"
+      :current-page="currentPage"
+      :items="selected"
+      :fields="fields"
+      :small="small"
+    ></b-table>
+  </b-container>
 </template>
 
 <script>
 import axios from "~/plugins/axios";
 
 export default {
-  // asyncData({ params, error }) {
-  //   return axios
-  //     .get(`https://ludosf.hollux.pw/jsonlistejeu/${params.id}`)
-  //     .then(res => {
-  //       return { json: res };
-  //     })
-  //     .catch(e => {
-  //       error({ statusCode: 404, message: "Billet non trouvé" });
-  //     });
-  // }
-
   async asyncData({ params }) {
-    const { data } = await axios.get(`https://ludosf.hollux.pw/jsonlistejeux`);
-    return { json: data, trie: "sanstrie" };
+    const { data } = await axios.get(`https://ludo.hollux.pw/api/liste_jeux`);
+    return {
+      listeJeux: data,
+      perPage: 20,
+      currentPage: 1,
+      filter: null,
+      filterOn: ["NomJeu", "Marque", "NbJoueurs", "AgeJoueurs"],
+      fields: [
+        {
+          key: "NomJeu",
+          sortable: true
+        },
+        {
+          key: "Marque",
+          sortable: true
+        },
+        {
+          key: "NbJoueurs",
+          sortable: true
+        },
+        {
+          key: "AgeJoueurs",
+          sortable: true
+        }
+      ],
+      small: true,
+      sortBy: "NomJeu",
+      selected: []
+    };
+  },
+  computed: {
+    rows() {
+      return this.listeJeux.length;
+    }
   },
   methods: {
-    trier(type) {
-      if (this.trie !== type) {
-        this.sortA(type);
-      } else {
-        this.sortB(type);
-      }
+    onRowSelected(items) {
+      this.selected = items;
     },
-    sortA(type) {
-      this.json.sort(function(a, b) {
-        if (a[type] > b[type]) {
-          return -1;
-        }
-        if (b[type] > a[type]) {
-          return 1;
-        }
-        return 0;
-      });
+    onPanierSelected(items) {},
+    onFiltered(filteredItems) {
+      // Trigger pagination to update the number of buttons/pages due to filtering
+      this.totalRows = filteredItems.length;
+      this.currentPage = 1;
+    },
+    reformate(data) {
+      data = data.replace(/ /g, "_");
+      data = data.replace(/,/g, "-");
+      data = data.replace(/'/g, "-");
 
-      this.trie = type;
+      return data.toLowerCase();
     },
-    sortB(type) {
-      this.json.sort(function(a, b) {
-        if (a[type] < b[type]) {
-          return -1;
-        }
-        if (b[type] > a[type]) {
-          return 1;
-        }
-        return 0;
+    test() {
+      var serverPath = "https://ludo.hollux.pw/api/liste_jeux"; //"https://ludo.hollux.pw/trictrac/6_qui_prend_junior";
+
+      var loadHtml = function(path, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", path, true);
+        xhr.onreadystatechange = function() {
+          if (this.readyState !== 4) return;
+          if (this.status !== 200) return;
+          callback(this.responseText);
+        };
+        xhr.send();
+      };
+
+      loadHtml(serverPath + "index.html", function(html) {
+        document.querySelector(".page_content_wrapper").innerHTML = html;
       });
-      this.trie = "";
+      console.log(false);
     }
   }
 };

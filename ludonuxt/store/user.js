@@ -1,5 +1,5 @@
 export const state = () => ({
-    user: []
+    user: ''
 })
 
 export const mutations = {
@@ -7,6 +7,6 @@ export const mutations = {
         state.user = []
     },
     login(state, info) {
-        state.user = [info]
+        state.user = info
     }
 }

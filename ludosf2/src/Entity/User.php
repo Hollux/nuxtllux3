@@ -57,6 +57,11 @@ class User implements UserInterface, \Serializable
      */
     private $memberId;
 
+    /**
+     * @ORM\Column(type="string", length=55, nullable=true, unique=true)
+     */
+    private $tokenapi;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -106,6 +111,18 @@ class User implements UserInterface, \Serializable
     public function setNom(string $nom): self
     {
         $this->nom = $nom;
+
+        return $this;
+    }
+
+    public function getTokenapi(): ?string
+    {
+        return $this->tokenapi;
+    }
+
+    public function setTokenapi(string $tokenapi): self
+    {
+        $this->tokenapi = $tokenapi;
 
         return $this;
     }

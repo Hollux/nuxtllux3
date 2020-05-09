@@ -23,6 +23,7 @@ class ListeJeuxRepository extends ServiceEntityRepository
     {
         return $this->createQueryBuilder('l')
             ->orderBy('l.NomJeu', 'ASC')
+            ->groupBy('l.NomJeu')
             //->select('l.NomJeu')->distinct()
             ->getQuery()
             ->getResult()
