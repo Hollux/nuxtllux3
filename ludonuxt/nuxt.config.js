@@ -92,7 +92,7 @@ export default {
     strategies: {
       local: {
         endpoints: {
-          login: { url: '/login', method: 'post', propertyName: 'token' },
+          login: { url: 'https://ludo.hollux.pw/api/loginapi', method: 'post', propertyName: 'token' },
           logout: false,
           user: { url: '/user/user', method: 'get', propertyName: 'data' },
         },

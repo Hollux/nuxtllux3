@@ -42,7 +42,7 @@ export default {
   },
   computed: {
     user() {
-      return this.$store.state.user.user[0];
+      return this.$store.state.user.user;
     }
   }
 };

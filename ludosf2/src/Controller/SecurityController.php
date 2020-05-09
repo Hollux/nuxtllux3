@@ -35,17 +35,25 @@ class SecurityController extends AbstractController
         $user = $this->getUser();
         $token = sha1(mt_rand(1, 90000) . 'ludoToken');
 
-        $user->setTokenapi($token);
+        if($user) {
+            $user->setTokenapi($token);
 
-        $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($user);
-            $entityManager->flush();
+            $entityManager = $this->getDoctrine()->getManager();
+                $entityManager->persist($user);
+                $entityManager->flush();
 
-        return $this->json([
-            'username' => $user->getUsername(),
-            'roles' => $user->getRoles(),
-            'token' => $token
-        ]);
+            return $this->json([
+                'username' => $user->getUsername(),
+                'roles' => $user->getRoles(),
+                'token' => $token
+            ]);
+        } else {
+            return $this->json([
+               'error' => "connexion impossible"
+            ]);
+        
+        }
+        
     }
 
     /**

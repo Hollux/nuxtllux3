@@ -119,7 +119,6 @@
 import axios from "~/plugins/axios";
 
 export default {
-  middleware: "auth",
   async asyncData({ params }) {
     const { data } = await axios.get(`https://ludo.hollux.pw/api/liste_jeux`);
     return {

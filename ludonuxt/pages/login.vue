@@ -29,8 +29,6 @@
   </section>
 </template>
 <script>
-import axios from "~/plugins/axios";
-
 export default {
   data() {
     return {
@@ -53,14 +51,30 @@ export default {
       });
     },
     async login() {
-      const { data } = await axios.post(`https://ludo.hollux.pw/api/loginapi`, {
-        username: this.email,
-        password: this.password
-      });
+      // try {
+      //   const response = await this.$auth.loginWith("local", {
+      //     username: this.email,
+      //     password: this.password
+      //   });
+      // } catch (e) {
+      //   this.$toast.show("Error", { icon: "fingerprint" });
+      // }
+      // console.log(response);
+      try {
+        const response = await this.$axios.post(
+          `https://ludo.hollux.pw/api/loginapi`,
+          {
+            username: this.email,
+            password: this.password
+          }
+        );
+      } catch (e) {
+        this.$toast.show("Error", { icon: "fingerprint" });
+      }
 
-      this.$store.commit("user/login", [data]);
+      this.$store.commit("user/login", response);
 
-      this.$router.push("/");
+      // this.$router.push("/");
     },
     check() {
       console.log(this.$auth.loggedIn);
