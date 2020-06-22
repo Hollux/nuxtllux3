@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import Notice from "~/pages/miniQuizz/notice.vue";
+import Notice from "~/components/pages/miniQuizz/notice.vue";
 import { characterCleaner } from "~/assets/js/characterCleaner.js";
 import { randomizeArray } from "~/assets/js/randomizeArray.js";
 import { levenshtein } from "~/assets/js/miniQuizz/levenshtein.js";

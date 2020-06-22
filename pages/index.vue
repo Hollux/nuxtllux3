@@ -8,9 +8,9 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import Presentation from "~/pages/index/presentation.vue";
-import Projets from "~/pages/index/projets.vue";
-import Technos from "~/pages/index/technos.vue";
+import Presentation from "~/components/pages/index/presentation.vue";
+import Projets from "~/components/pages/index/projets.vue";
+import Technos from "~/components/pages/index/technos.vue";
 
 export default {
   components: {

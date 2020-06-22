@@ -1,7 +1,7 @@
 <template>
   <div class="projets">
     <div class="container">
-      <h2>derniers sites développés par hollux</h2>
+      <h2>Derniers sites développés par hollux</h2>
       <b-row class="center techno">
         <b-col md>
           <b-img

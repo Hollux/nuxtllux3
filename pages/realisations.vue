@@ -5,7 +5,12 @@
       <p>
         Vous trouverez ici mes réalisations de
         <b>sites et applications web</b>, pour des clients ou personnelles. Pour voir le code,
-        direction <a href="https://github.com/Hollux" target="_blank" title="Github Hollux / Adrien Marchand">mon github</a> !
+        direction
+        <a
+          href="https://github.com/Hollux"
+          target="_blank"
+          title="Github Hollux / Adrien Marchand"
+        >mon github</a> !
       </p>
     </div>
     <div class="trait"></div>
@@ -16,8 +21,8 @@
 </template>
 
 <script>
-import SitesWeb from "~/pages/realisations/sitesWeb.vue";
-import ApplisWeb from "~/pages/realisations/applisWeb.vue";
+import SitesWeb from "~/components/pages/realisations/sitesWeb.vue";
+import ApplisWeb from "~/components/pages/realisations/applisWeb.vue";
 
 export default {
   components: {

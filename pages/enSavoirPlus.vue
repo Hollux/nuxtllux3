@@ -41,9 +41,9 @@
 				Quelques informations complémentaires sur ce que je faisais à Alcyon :
 			</p>
 			<ul>
-				<li>J'ai passé un an et demi à travailler sur Symfony avec le lead developper David De Sousa, qui m'a formé et m'a beaucoup aidé à progresser en tant que développeur ainsi que sur le framework <b>Symfony</b>. </li>
+				<li>J'ai passé un an et demi à travailler sur <b>Symfony</b> avec le lead developper David De Sousa, qui m'a formé et m'a beaucoup aidé à progresser en tant que développeur ainsi que sur le framework Symfony. </li>
 				<li>À son départ, j'ai mis le nez dans quelques autres projets de l'entreprise en plus de Symfony : du Zend Framework 1 pour debug, DPI, maintenance. Je suis également intervenu sur de la maintenance sur une application Android en Java, et enfin j'ai fait un essai de Progressive Web App en Vue.JS</li>
-				<li>Tout ceci a été parsemé de divers outils : netbean, PhpStorm, GitHub, svn, SoapUI, etc..</li>
+				<li>Tout ceci a été parsemé de divers outils : netbean, PhpStorm, GitHub, svn, SoapUI, etc.</li>
 				<li>J'ai fini par près de 6 mois sur <b>Vue.JS</b>.</li>
 			</ul>
 			<p>
@@ -63,12 +63,14 @@
 				<li>V2 : post-formation, on débute du vrai code avec un petit framework MVC maison.</li>
 				<li>V3 : Là on passe enfin à <b>Symfony 3</b> ! Presque 2 ans à m'amuser et à faire des petits modules, des jeux, des tests, bref, tout ce qui me passe par la tête.</li>
 				<li>V4 : Dernière version en <b>Symfony 4</b>, où tout doucement je remets certains modules et certaines choses.</li>
-				<li>V5 : La version actuelle, en <b>NuxtJS</b>, différents tests et front sont présents, je vais rapidement rajouter des liens vers la V4 qui va servir d'API</li>
+				<li>V5 : La version actuelle en <b>NuxtJS</b>, j'aime la réactivité de Vue.JS. Je vais rapidement rajouter des liens vers la V4 qui va servir d'API et combler ce que je n'ai pas re-développé.</li>
 			</ul>
 			<p>En plus de ça, j'ai créé un template <b>Wordpress</b> pour une ludothèque où je suis bénévole. J'ai choisi Wordpress car j'étais ainsi sûr d'une administration standard et facile pour eux. J'ai également décliné un thème Wordpress existant pour un client (thème enfant).</p>
 			<p>J'ai aussi fait un petit site vitrine avec mon framework maison.</p>
 			<p>J'ai également réalisé deux sites en Symfony 3 pour des commandes.</p>
-			<p>J'ai aussi voulu en savoir plus sur les serveurs et comment fonctionnaient mes sites. J'ai donc commencé avec un petit serveur sur un Raspberry, puiq j'ai fait l'acquisition d'un NUC afin d'avoir un peu plus de puissance pour me faire un environnement plus propre, avec git et <b>CircleCI</b>.<br/>
+			<p>Et le dernier arrivé, un drive pour une ludothèque réalisé en NuxtJS + Symfony, lié à leur outil de gestion (Ludoprêt).</p>
+
+			<p>J'ai aussi voulu en savoir plus sur les serveurs et comment fonctionnaient mes sites. J'ai donc commencé avec un petit serveur sur un Raspberry, puis j'ai fait l'acquisition d'un NUC afin d'avoir un peu plus de puissance pour me faire un environnement plus propre, avec à terme de l'<b>intégration continue</b>.<br/>
 			Enfin, j'ai finalisé mon environnement de développement avec l'achat d'un Mac pour travailler sur une machine bien plus adaptée au code que mon PC Windows standard.</p>
 			</p>
 	      </b-card>
@@ -78,24 +80,19 @@
 	      <b-card>
 	        <p>Comme indiqué sur ma page CV, je suis à la recherche d'un poste de <b>développeur web fullstack</b>.</p>
 			<p>
-				Je cherche un emploi sur des sujets qui me passionnent : travailler sur un <b>framework JS</b> tel que <b>Vue.JS</b> ou ReactJS qui me semblent avoir un potentiel énorme, et éventuellement continuer à utiliser un <b>framework PHP</b> récent car c'est ce que je fais de mieux.<br/>
+				Je cherche un emploi sur des sujets qui me passionnent : travailler sur un <b>framework JS</b>, principalement <b>Vue.JS</b> voire ReactJS qui me semblent avoir un potentiel énorme, et continuer à utiliser un <b>framework PHP</b> récent comme Symfony ou Laravel pour la partie serveur.<br/>
 
-				Je voudrais aussi faire des webservices, des API, du code propre, testé et stable. Et qui sait, peut-être même pouvoir me tourner vers des applications mobiles ou des progressive web app !<br/>
+				Je voudrais aussi faire des webservices, des API, du code propre, testé et stable. Et qui sait, peut-être même pouvoir me tourner vers des applications mobiles ou des progressive web app !</p>
 
-				L'idéal pour moi serait d'être dans une entreprise avec un environnement de travail moderne : possibilité de télétravail, utilisation de git, intégration continue, travail d'équipe, une bonne machine adaptée au développement avec les programmes nécessaires.
-			</p>
+				<p>L'idéal pour moi serait d'être dans une entreprise avec un environnement de travail moderne : possibilité de télétravail, utilisation de git, intégration continue, travail d'équipe, une bonne machine adaptée au développement avec les programmes nécessaires.</p>
 	      </b-card>
 	    </b-collapse>
 	    <b-button v-b-toggle.passions><h2>mes passions</h2><hr class="passions"/></b-button><br/>
 		<b-collapse id="passions">
 	      <b-card>
-	        <p>
-				Je suis un passionné de jeux en tous genres : jeux de plateau, de figurines, de cartes ou de dés, jeux vidéos...<br/>
-
-				Très clairement attiré par la stratégie, cela a fortement développé ma réflexion, et fait que j'apprends très vite avec une logique assez brute.<br/>
-
-				Je m'intéresse également au modélisme, au cinéma, aux séries. Je joue de la guitare, et fais du jonglage (parfois avec du feu).
-			</p>
+	        <p>En continuelle recherche de passe-temps stimulants, je suis devenu un passionné de jeux en tous genres : jeux de plateau, de figurines, de cartes ou de dés, jeux vidéos...</p>
+            <p>Très clairement attiré par la stratégie, cela a fortement développé ma réflexion, et fait que j'apprends très vite avec une logique assez brute.</p>
+            <p>Je m'intéresse également au modélisme, au cinéma, aux séries. Je joue de la guitare, et fais du jonglage (parfois même avec du feu).</p>
 	      </b-card>
 	    </b-collapse>
 	</div>
