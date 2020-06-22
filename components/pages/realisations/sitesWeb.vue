@@ -28,6 +28,14 @@ export default {
       rowSites: [
         [
           {
+            titre: "LUDO DRIVE",
+            content:
+              "<b>Drive de jeux de société</b> pour la ludotheque de Horbourg-wihr. <p>Réalisé afin d'éviter la propagation du COVID, front en <b>nuxt</b>, api <b>symfony</b> et gestion avec leur outil 'ludopret'.</p><p><a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'</a>Version prod</p> ",
+            img: require("~/assets/img/realisations/ludodrive.png"),
+            imgAlt: "ludodrive",
+            lienExterne: "https://ludo.hollux.pw/"
+          },
+          {
             titre: "Chroniques de waral",
             content:
               "<b>Site vitrine administrable</b> pour le jeu <a href='https://www.chroniquesdewaral.fr/' target='_blank' title='Chroniques de Waral - site par Hollux' >Chroniques de Waral</a>. <br />Première version en <b>Symfony 3</b>, puis adaptation et migration du site sur <b>Wordpress</b>.",
@@ -38,28 +46,20 @@ export default {
           {
             titre: "SOLVEIG DE CUYPER",
             content:
-              " <p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
+              " <p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
             img: require("~/assets/img/realisations/solveigdcMin.jpg"),
             imgAlt: "solveigdcfr",
             lienExterne: "https://www.solveigdc.fr/"
-          },
-          {
-            titre: "HARICOT DE CASTELNAUDARY",
-            content:
-              "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>.",
-            img: require("~/assets/img/realisations/listBuilder.png"),
-            imgAlt: "haricotfr",
-            lienExterne: "~/assets/img/realisations/haricotfrMin.jpg"
           }
         ],
         [
           {
-            titre: "MODULE PDF",
+            titre: "HARICOT DE CASTELNAUDARY",
             content:
-              "Outil de visualisation de PDF, toujours utile sur un site web.",
-            img: require("~/assets/img/realisations/modulepdf.png"),
+              "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>.",
+            img: require("~/assets/img/realisations/haricotfr.jpg"),
             imgAlt: "haricotfr",
-            lienExterne: "https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
+            lienExterne: "~/assets/img/realisations/haricotfrMin.jpg"
           }
         ]
       ]
