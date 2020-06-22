@@ -17,7 +17,7 @@
         <h2>Projets Personnels</h2>
         <ul>
           <li>Apprentissage de Vue.JS / Nuxt avant d’en proposer l’utilisation chez Alcyon.</li>
-          <li>Apprentissage de Symfony 3 et 4.</li>
+          <li>Apprentissage de Symfony 3 et 4 avant la formation Sensiolabs.</li>
           <li>Mise en place de serveurs :</li>
           <ul>
             <li>Raspberry / NUC</li>
