@@ -18,6 +18,6 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-retest
+reteste
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
