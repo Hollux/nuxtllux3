@@ -19,7 +19,10 @@
         </b-col>
       </b-row>
     </div>
-    <button-trait linkName="Télécharger le CV (PDF)" link="#" />
+    <button-trait
+      linkName="Télécharger le CV (PDF)"
+      link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
+    />
     <div class="cv container">
       <b-row>
         <b-col cols="auto" class="mr-auto">
