@@ -63,7 +63,7 @@ import Projets from "~/components/pages/cv/projets.vue";
 import Plus from "~/components/pages/cv/plus.vue";
 import TraitAuMilieu from "~/components/miseEnForme/traitAuMilieu.vue";
 import ButtonTrait from "~/components/miseEnForme/buttonTrait.vue";
-import ButtonTraitExterne from "~/components/miseEnForme/ButtonTraitExterne.vue";
+import ButtonTraitExterne from "~/components/miseEnForme/buttonTraitExterne.vue";
 
 export default {
   components: {
