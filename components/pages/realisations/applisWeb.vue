@@ -46,7 +46,7 @@ export default {
           {
             titre: "CONCEPTION LIST BUILDER",
             content:
-              "Test de création d’un outil de création de liste pour un jeu de figurine. Cet outil est un test pour une commande basé sur Warhammer.<br/>Réalisé en <b>Symfony 3</b>.",
+              "Test de création d’un outil de création de liste pour un jeu de figurine. Cet outil est un test pour une commandebasé sur Warhammer.<br/>Réalisé en <b>Symfony 3</b>.",
             img: require("~/assets/img/realisations/listBuilder.png"),
             imgAlt: "list builder",
             lienExterne: "https://sf3.hollux.fr/listbuilde/"
