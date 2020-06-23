@@ -46,7 +46,7 @@ export default {
           {
             titre: "CONCEPTION LIST BUILDER",
             content:
-              "Test de création d’un outil de création de liste pour un jeu de figurine. Cet outil est un test basé sur Warhammer.<br/>Réalisé en <b>Vue.JS</b>.",
+              "Test de création d’un outil de création de liste pour un jeu de figurine. Cet outil est un test pour une commande basé sur Warhammer.<br/>Réalisé en <b>Symfony 3</b>.",
             img: require("~/assets/img/realisations/listBuilder.png"),
             imgAlt: "list builder",
             lienExterne: "https://sf3.hollux.fr/listbuilde/"
@@ -59,7 +59,8 @@ export default {
               "Outil de visualisation de PDF, toujours utile sur un site web.",
             img: require("~/assets/img/realisations/modulepdf.png"),
             imgAlt: "module pdf",
-            lienExterne: "https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
+            lienExterne:
+              "https://sf3.hollux.fr/viewpdf/solveig-de-cuyper_cv_da-junior"
           },
           {
             titre: "TUTOS CODE FUN",

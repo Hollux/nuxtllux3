@@ -30,7 +30,10 @@ export default {
           {
             titre: "LUDO DRIVE",
             content:
-              "<b>Drive de jeux de société</b> pour la ludotheque de Horbourg-wihr. <p>Réalisé afin d'éviter la propagation du COVID, front en <b>nuxt</b>, api <b>symfony</b> et gestion avec leur outil 'ludopret'.</p><p><a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'</a>Version prod</p> ",
+              "<b>Drive de jeux de société</b> pour la lsudotheque de Horbourg-wihr. <p>Réalisé afin d'éviter " +
+              "la propagation du COVID, front en <b>nuxt</b>, api <b>symfony</b> et gestion avec leur outil " +
+              "'ludopret'.</p><p><a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'</a>" +
+              "Version prod</p> ",
             img: require("~/assets/img/realisations/ludodrive.png"),
             imgAlt: "ludodrive",
             lienExterne: "https://ludo.hollux.pw/"
@@ -46,7 +49,7 @@ export default {
           {
             titre: "SOLVEIG DE CUYPER",
             content:
-              " <p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
+              "<p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
             img: require("~/assets/img/realisations/solveigdcMin.jpg"),
             imgAlt: "solveigdcfr",
             lienExterne: "https://www.solveigdc.fr/"

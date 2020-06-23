@@ -38,7 +38,7 @@ export default {
     padding: 11px 35px;
     margin: 5px 45px;
     white-space: nowrap;
-    font-family: 'raleway', sans-serif;
+    font-family: "raleway", sans-serif;
     text-transform: uppercase;
     font-size: 0.85rem;
     font-style: normal;

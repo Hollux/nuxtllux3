@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <b-container>
     <h1>Contact</h1>
     <p>
       Page en cour de réalisation. Pour le moment vous pouvez me contacter par
@@ -8,5 +8,5 @@
         target="_blank"
       >Email</a>
     </p>
-  </div>
+  </b-container>
 </template>
