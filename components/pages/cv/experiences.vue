@@ -3,15 +3,22 @@
     <h2>Expériences professionnelles & Formations</h2>
     <div v-for="experience in experiences" :key="experience.index" class="experiencefor">
       <b-row>
-        <b-col offset-sm="1" sm="4"><p>{{ experience.periodes }}</p></b-col>
+        <b-col offset-sm="1" sm="4">
+          <p>{{ experience.periodes }}</p>
+        </b-col>
         <b-col sm="7">
-          <p><b>{{ experience.titre }}</b> <i>{{ experience.personne }}</i></p>
+          <p>
+            <b>{{ experience.titre }}</b>
+            <i>{{ experience.personne }}</i>
+          </p>
         </b-col>
       </b-row>
       <b-row>
-        <b-col offset-xs="6" offset-sm="5"><p v-html=experience.text></p></b-col>
+        <b-col offset-xs="6" offset-sm="5">
+          <p v-html="experience.text"></p>
+        </b-col>
       </b-row>
-      <br/>
+      <br />
     </div>
   </div>
 </template>
@@ -32,11 +39,12 @@ export default {
           periodes: "Mars 2016 à janvier 2019",
           titre: "Développeur fullstack",
           personne: "// Alcyon",
-          text: "Travail sur la refonte du site d’Alcyon en <b>Symfony 3</b> pendant 2 ans (site marchand, accès privé, catalogue en ligne, applications web à destination des vétérinaires).<br/>Maintenance de l’ancien site sous <b>Zend Framework 1</b>.<br/>Développement d’une application Android en <b>Java</b>.<br/>Recherches pour la création d'une <b>progressive web app</b>."
+          text:
+            "Travail sur la refonte du site d’Alcyon en <b>Symfony 3</b> pendant 2 ans (site marchand, accès privé, catalogue en ligne, applications web à destination des vétérinaires).<br/>Maintenance de l’ancien site sous <b>Zend Framework 1</b>.<br/>Développement d’une application Android en <b>Java</b>.<br/>Recherches pour la création d'une <b>progressive web app</b>."
         },
         {
           periodes: "Septembre 2018",
-          titre: "Formation à Vue.JS",
+          titre: "Formation Vue.JS",
           personne: "// Zenika",
           text: ""
         },

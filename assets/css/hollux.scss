@@ -9,13 +9,13 @@ h1 {
 }
 
 h2 {
-  font-size:1.25rem !important;
+  font-size: 1.25rem !important;
   margin: 30px auto !important;
   text-transform: lowercase;
 }
 
 h3 {
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.1rem !important;
   font-weight: 700 !important;
   margin: 15px 0 20px !important;
@@ -24,7 +24,12 @@ h3 {
 
 /* TITLES END */
 
-p, li {
+.content {
+  min-height: calc(100vh - 378px);
+}
+
+p,
+li {
   font-family: "Courier Prime", monospace;
   font-size: 0.95rem;
   line-height: 1.3;
@@ -35,60 +40,106 @@ p, li {
   border-bottom: 1px black solid;
   height: 10px;
   text-align: center;
-  margin-bottom : 30px;
+  margin-bottom: 30px;
 }
 
 a {
   font-style: italic;
 }
+
 a:hover {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 /* MINIQUIZZ CINEMA */
 
 $yellow: #ffd400;
 
-.miniquizz, .miniquizzend {
+.miniquizz,
+.miniquizzend {
   min-height: calc(100vh - 225px);
 }
 
-.miniquizz .btn-warning, .miniquizz .btn-outline-warning, .miniquizzend .btn-warning, .miniquizzend .btn-outline-warning {
+.miniquizz .btn-warning,
+.miniquizz .btn-outline-warning,
+.miniquizzend .btn-warning,
+.miniquizzend .btn-outline-warning {
   font-family: 'Raleway', sans-serif;
-  color:#373760;
+  color: #373760;
   border: 2px solid #ffd400;
   border-radius: 0;
   font-weight: 300;
   text-transform: lowercase;
   background-color: #ffffff;
-  width:100%;
+  width: 100%;
 }
-.miniquizz .btn-warning:hover, .miniquizz .btn-warning:not(:disabled):not(.disabled):active, .miniquizz .btn-warning:not(:disabled):not(.disabled).active, .miniquizz .show > .btn-warning.dropdown-toggle,
-.miniquizz .btn-outline-warning:hover, .miniquizz .btn-outline-warning:not(:disabled):not(.disabled):active, .miniquizz .btn-outline-warning:not(:disabled):not(.disabled).active, .miniquizz .show > .btn-outline-warning.dropdown-toggle,
-.miniquizzend .btn-warning:hover, .miniquizzend .btn-warning:not(:disabled):not(.disabled):active, .miniquizzend .btn-warning:not(:disabled):not(.disabled).active, .miniquizzend .show > .btn-warning.dropdown-toggle,
-.miniquizzend .btn-outline-warning:hover, .miniquizzend .btn-outline-warning:not(:disabled):not(.disabled):active, .miniquizzend .btn-outline-warning:not(:disabled):not(.disabled).active, .miniquizzend .show > .btn-outline-warning.dropdown-toggle {
-  color:#ffffff;
+
+.miniquizz .btn-warning:hover,
+.miniquizz .btn-warning:not(:disabled):not(.disabled):active,
+.miniquizz .btn-warning:not(:disabled):not(.disabled).active,
+.miniquizz .show>.btn-warning.dropdown-toggle,
+.miniquizz .btn-outline-warning:hover,
+.miniquizz .btn-outline-warning:not(:disabled):not(.disabled):active,
+.miniquizz .btn-outline-warning:not(:disabled):not(.disabled).active,
+.miniquizz .show>.btn-outline-warning.dropdown-toggle,
+.miniquizzend .btn-warning:hover,
+.miniquizzend .btn-warning:not(:disabled):not(.disabled):active,
+.miniquizzend .btn-warning:not(:disabled):not(.disabled).active,
+.miniquizzend .show>.btn-warning.dropdown-toggle,
+.miniquizzend .btn-outline-warning:hover,
+.miniquizzend .btn-outline-warning:not(:disabled):not(.disabled):active,
+.miniquizzend .btn-outline-warning:not(:disabled):not(.disabled).active,
+.miniquizzend .show>.btn-outline-warning.dropdown-toggle {
+  color: #ffffff;
   background-color: #ffd400;
   border-color: #ffd400;
 }
-.miniquizz .btn-warning:focus, .miniquizz .btn-warning.focus, .miniquizz .btn-outline-warning:focus, .miniquizz .btn-outline-warning.focus,
-.miniquizzend .btn-warning:focus, .miniquizzend .btn-warning.focus, .miniquizzend .btn-outline-warning:focus, .miniquizzend .btn-outline-warning.focus {
+
+.miniquizz .btn-warning:focus,
+.miniquizz .btn-warning.focus,
+.miniquizz .btn-outline-warning:focus,
+.miniquizz .btn-outline-warning.focus,
+.miniquizzend .btn-warning:focus,
+.miniquizzend .btn-warning.focus,
+.miniquizzend .btn-outline-warning:focus,
+.miniquizzend .btn-outline-warning.focus {
   box-shadow: 0 0 0 0.05rem rgba(222, 170, 12, 0.5);
 }
-.miniquizz .btn-primary, .miniquizzend .btn-primary {
+
+.miniquizz .btn-primary,
+.miniquizzend .btn-primary {
   background-color: #ffd400 !important;
   border-color: #ffd400 !important;
   border-radius: 0;
 }
-.miniquizz .btn-primary:hover, .miniquizz .btn-primary:active, .miniquizzend .btn-primary:hover, .miniquizzend .btn-primary:active {
+
+.miniquizz .btn-primary:hover,
+.miniquizz .btn-primary:active,
+.miniquizzend .btn-primary:hover,
+.miniquizzend .btn-primary:active {
   background-color: #ffd400 !important;
   border-color: #fbd104 !important;
 }
 
 @media (max-width: 767px) {
-  .miniquizz button, .miniquizz .btn, .miniquizz .btn-secondary, .miniquizz .btn-success, .miniquizz .btn-group, .miniquizz .btn-group-vertical, .miniquizz .btn-warning, .miniquizz .btn-outline-warning,
-  .miniquizzend button, .miniquizzend .btn, .miniquizzend .btn-secondary, .miniquizzend .btn-success, .miniquizzend .btn-group, .miniquizzend .btn-group-vertical, .miniquizzend .btn-warning, .miniquizzend .btn-outline-warning {
-    font-size:0.8rem;
+
+  .miniquizz button,
+  .miniquizz .btn,
+  .miniquizz .btn-secondary,
+  .miniquizz .btn-success,
+  .miniquizz .btn-group,
+  .miniquizz .btn-group-vertical,
+  .miniquizz .btn-warning,
+  .miniquizz .btn-outline-warning,
+  .miniquizzend button,
+  .miniquizzend .btn,
+  .miniquizzend .btn-secondary,
+  .miniquizzend .btn-success,
+  .miniquizzend .btn-group,
+  .miniquizzend .btn-group-vertical,
+  .miniquizzend .btn-warning,
+  .miniquizzend .btn-outline-warning {
+    font-size: 0.8rem;
   }
 }
 
@@ -96,29 +147,33 @@ $yellow: #ffd400;
 
 @media (min-width : 768px) {
   .md-trait-center {
-    display         : inline-block;
-    justify-content : center;
+    display: inline-block;
+    justify-content: center;
     background: white;
-    p{
+
+    p {
       display: inline-block;
     }
   }
+
   .md-trait {
     border-bottom: 1px black solid;
     height: 10px;
     text-align: center;
   }
 }
+
 .underTrait {
   background-color: black;
   color: white;
-} 
+}
 
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@300;400;700&display=swap');
 
 
-$font-family-base : 'Courier Prime', monospace;
+$font-family-base : 'Courier Prime',
+monospace;
 
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';

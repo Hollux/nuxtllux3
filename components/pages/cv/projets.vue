@@ -17,7 +17,7 @@
         <h2>Projets Personnels</h2>
         <ul>
           <li>Apprentissage de Vue.JS / Nuxt avant d’en proposer l’utilisation chez Alcyon.</li>
-          <li>Apprentissage de Symfony 3 et 4.</li>
+          <li>Apprentissage de Symfony 3 et 4 avant la formation Sensiolabs.</li>
           <li>Mise en place de serveurs :</li>
           <ul>
             <li>Raspberry / NUC</li>
@@ -25,6 +25,7 @@
             <li>Apache + PHP 7 + node.js + SSL</li>
             <li>MySQL + phpMyAdmin</li>
           </ul>
+          <li>Création pour une ludothèque d'un site drive lié à leur outil de gestion Ludoprêt.</li>
           <li>Création de thèmes Wordpress (le premier from scratch, le second est un thème enfant).</li>
           <li>Création d'un serveur Web Multi-site en Linux.</li>
           <li>Petit framework maison MVC.</li>
