@@ -30,7 +30,7 @@ export default {
           {
             titre: "LUDO DRIVE",
             content:
-              "<b>Drive de jeux de société</b> pour la <a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'>ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), lié à leur outil de gestion Ludoprêt.</p> ",
+              "<b>Drive de jeux de société</b> pour la <a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'>ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p> ",
             img: require("~/assets/img/realisations/ludodrive.png"),
             imgAlt: "ludodrive",
             lienExterne: "https://ludo.hollux.pw/"
