@@ -33,12 +33,12 @@ export default {
               "Mini-jeu pour tester vos connaissances en cinéma.<br/>Réalisé en <b>Vue.JS</b>.",
             img: require("~/assets/img/realisations/quizzcinema.jpg"),
             imgAlt: "quizz cine",
-            lien: "miniquizz"
+            lienExterne: "https://www.hollux.fr/miniquizz/"
           },
           {
             titre: "RANDOM SMASH UP",
             content:
-              "Outil de choix de factions aléatoire pour le jeu SmashUP. Création personnelle, pour rajouter du fun lors des parties entre amis.<br/> Réalisé en <b>Symfony 3</b>.",
+              "Outil de choix de factions aléatoire pour le jeu SmashUp, pour rajouter du fun lors des parties entre amis !<br/> Réalisé en <b>Symfony 3</b>.",
             img: require("~/assets/img/realisations/smashUp.png"),
             imgAlt: "smashup",
             lienExterne: "https://sf3.hollux.fr/smashUp"
@@ -46,7 +46,11 @@ export default {
           {
             titre: "CONCEPTION LIST BUILDER",
             content:
+<<<<<<< HEAD
               "Test de création d’un outil de création de liste pour un jeu de figurine. Cet outil est un test pour une commandebasé sur Warhammer.<br/>Réalisé en <b>Symfony 3</b>.",
+=======
+              "Test de création d’un outil de conception de liste pour un jeu de figurines. Cet outil est un test basé sur Warhammer.<br/>Réalisé en <b>Vue.JS</b>.",
+>>>>>>> a4848f0c12d1292da8f4717681956052dc655fce
             img: require("~/assets/img/realisations/listBuilder.png"),
             imgAlt: "list builder",
             lienExterne: "https://sf3.hollux.fr/listbuilde/"
@@ -65,7 +69,7 @@ export default {
           {
             titre: "TUTOS CODE FUN",
             content:
-              "Réalisation fun de tutos code pour me perfectionner. Très inspiré par la Désencyclopédie ainsi que 'Les tutos'.<br/>Réalisé en <b>Symfony 3</b>.",
+              "Réalisation fun de tutos code pour me perfectionner. Très inspiré par la Désencyclopédie ainsi que 'Les tutos' de Jérôme Niel.<br/>Réalisé en <b>Symfony 3</b>.",
             img: require("~/assets/img/realisations/tutoshollux.jpg"),
             imgAlt: "tutos",
             lienExterne: "https://sf3.hollux.fr/tutos/"

@@ -4,7 +4,7 @@
       <h1>RÉALISATIONS WEB PAR HOLLUX</h1>
       <p>
         Vous trouverez ici mes réalisations de
-        <b>sites et applications web</b>, pour des clients ou personnelles. Pour voir le code,
+        <b>sites et applications web</b>, pour des clients ou personnelles. Pour voir du code,
         direction
         <a
           href="https://github.com/Hollux"

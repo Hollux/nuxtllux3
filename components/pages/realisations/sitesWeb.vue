@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Sites Web publique</h2>
+    <h2>Sites Web publics</h2>
     <b-row v-for="(applis, index) in rowSites" class="center" :key="index">
       <b-col md="4" v-for="(appli, index) in applis" :key="index">
         <template v-if="appli.lienExterne">
@@ -30,10 +30,7 @@ export default {
           {
             titre: "LUDO DRIVE",
             content:
-              "<b>Drive de jeux de société</b> pour la lsudotheque de Horbourg-wihr. <p>Réalisé afin d'éviter " +
-              "la propagation du COVID, front en <b>nuxt</b>, api <b>symfony</b> et gestion avec leur outil " +
-              "'ludopret'.</p><p><a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'</a>" +
-              "Version prod</p> ",
+              "<b>Drive de jeux de société</b> pour la <a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'>ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p> ",
             img: require("~/assets/img/realisations/ludodrive.png"),
             imgAlt: "ludodrive",
             lienExterne: "https://ludo.hollux.pw/"
