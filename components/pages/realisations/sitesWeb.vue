@@ -46,7 +46,7 @@ export default {
           {
             titre: "SOLVEIG DE CUYPER",
             content:
-              " <p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
+              "<p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'> Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
             img: require("~/assets/img/realisations/solveigdcMin.jpg"),
             imgAlt: "solveigdcfr",
             lienExterne: "https://www.solveigdc.fr/"

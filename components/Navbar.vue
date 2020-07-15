@@ -13,7 +13,7 @@
         <b-nav-item to="/competences" exact exact-active-class="active">Compétences</b-nav-item>
         <b-nav-item to="/realisations" exact exact-active-class="active">Réalisations</b-nav-item>
         <b-nav-item to="/cv" exact exact-active-class="active">CV</b-nav-item>
-        <b-nav-item to="/enSavoirPlus" exact exact-active-class="active">En savoir plus</b-nav-item>
+        <b-nav-item to="/ensavoirplus" exact exact-active-class="active">En savoir plus</b-nav-item>
         <b-nav-item to="/contact" exact exact-active-class="active">Contact</b-nav-item>
       </b-nav>
     </div>

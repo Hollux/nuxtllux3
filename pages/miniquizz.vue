@@ -7,7 +7,7 @@
           <h1>Quizz Cinéma</h1>
         </b-row>
         <b-row>
-          <b-col sm="5" lg="4" class="img-cine">
+          <b-col sm="5" lg="4" class="img-cine ttttt">
             <b-img
               center
               :src="require('../assets/img/minima/' + arrayActive[0][0] + '.jpg')"

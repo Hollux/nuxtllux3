@@ -59,7 +59,8 @@ export default {
               "Outil de visualisation de PDF, toujours utile sur un site web.",
             img: require("~/assets/img/realisations/modulepdf.png"),
             imgAlt: "module pdf",
-            lienExterne: "https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
+            lienExterne:
+              "https://sf3.hollux.fr/viewpdf/solveig-de-cuyper_cv_da-junior"
           },
           {
             titre: "TUTOS CODE FUN",

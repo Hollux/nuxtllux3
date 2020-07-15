@@ -1,5 +1,4 @@
 # nuxtllux3
-
 > My good Nuxt.js project
 
 ## Build Setup

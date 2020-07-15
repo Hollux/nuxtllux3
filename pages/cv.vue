@@ -19,7 +19,7 @@
         </b-col>
       </b-row>
     </div>
-    <button-trait
+    <button-trait-externe
       linkName="Télécharger le CV (PDF)"
       link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
     />
@@ -63,6 +63,7 @@ import Projets from "~/components/pages/cv/projets.vue";
 import Plus from "~/components/pages/cv/plus.vue";
 import TraitAuMilieu from "~/components/miseEnForme/traitAuMilieu.vue";
 import ButtonTrait from "~/components/miseEnForme/buttonTrait.vue";
+import ButtonTraitExterne from "~/components/miseEnForme/buttonTraitExterne.vue";
 
 export default {
   components: {
@@ -71,7 +72,8 @@ export default {
     Projets,
     Plus,
     TraitAuMilieu,
-    ButtonTrait
+    ButtonTrait,
+    ButtonTraitExterne
   }
 };
 </script>

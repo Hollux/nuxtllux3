@@ -2,7 +2,7 @@
   <div class="buttonTrait">
     <div class="test">
       <hr color="black" />
-      <nuxt-link :to="{path: link}">{{ linkName }}</nuxt-link>
+      <a :href="link" target="_blank">{{ linkName }}</a>
       <hr color="black" />
     </div>
   </div>
