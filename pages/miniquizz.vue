@@ -57,8 +57,8 @@
                 <div v-on:click="getIndice" class="btn btn-success">h</div>
               </b-col>
             </b-row>
-            <p v-if="indice1" class="indice">{{ arrayActive[0][0] }}</p>
-            <p v-if="indice2" class="indice">{{ arrayActive[0][0] }}</p>
+            <p v-if="indice1" class="indice">{{ arrayActive[0][2] }}</p>
+            <p v-if="indice2" class="indice">{{ arrayActive[0][3] }}</p>
             <b-row>
               <b-col class="score">
                 <hr />
