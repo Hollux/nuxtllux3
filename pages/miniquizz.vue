@@ -33,7 +33,7 @@
               </b-col>
             </b-row>
             <b-row class="reponse">
-              <b-col md="8" lg="9">
+              <b-col md="7" lg="8">
                 <input
                   v-model="response"
                   id="response"
@@ -46,14 +46,19 @@
                 offset="2"
                 cols="8"
                 offset-sm="3"
-                sm="6"
+                sm="5"
                 offset-md="0"
                 md="4"
                 lg="3"
               >
                 <div v-on:click="clientResp" class="btn btn-success">valider</div>
               </b-col>
+              <b-col class="right" cols="1" sm="1" offset-md="0" md="1" lg="1">
+                <div v-on:click="getIndice" class="btn btn-success">h</div>
+              </b-col>
             </b-row>
+            <p v-if="indice1" class="indice">{{ arrayActive[0][0] }}</p>
+            <p v-if="indice2" class="indice">{{ arrayActive[0][0] }}</p>
             <b-row>
               <b-col class="score">
                 <hr />
@@ -89,25 +94,27 @@ export default {
     },
     score() {
       return this.$store.state.miniQuizz.score.score;
-    }
+    },
   },
   components: {
     Notice,
     characterCleaner,
     levenshtein,
     arrayResponse,
-    randomizeArray
+    randomizeArray,
   },
   asyncData() {
     return {
       arrayActive: randomizeArray(arrayResponse()),
       response: "",
       nbrQuestions: 40,
+      indice1: false,
+      indice2: false,
       nbrQuestionsOptions: [
         { text: "Court", value: 5 },
         { text: "Normal", value: 40 },
-        { text: "Full", value: 68 }
-      ]
+        { text: "Full", value: 68 },
+      ],
     };
   },
   methods: {
@@ -139,29 +146,39 @@ export default {
         infoUserResponse,
         this.arrayActive[0][0],
         response,
-        filmResp
+        filmResp,
       ]);
       // Score Question +1
       this.$store.commit("miniQuizz/score/questionPlusUn");
       // on set les nouvelles valeurs
       this.arrayActive.splice(0, 1);
+      // on retire les indices.
+      this.indice1 = false;
+      this.indice2 = false;
       // si score = nbrQuetions , fin du jeu
       if (this.score[1] >= this.nbrQuestions) {
         // Vue.localStorage.set("arrayActive", []);
         // params uniquement en exemple, devenu inutile par le store
         this.$router.push({
           name: "miniquizzend",
-          params: { scoreEx: this.score }
+          params: { scoreEx: this.score },
         });
       }
       this.response = "";
     },
     trier() {
-      this.arrayActive.sort(function(a, b) {
+      this.arrayActive.sort(function (a, b) {
         return a[0] - b[0];
       });
-    }
-  }
+    },
+    getIndice() {
+      if (this.indice1) {
+        this.indice2 = true;
+      } else if (!this.indice1) {
+        this.indice1 = true;
+      }
+    },
+  },
 };
 </script>
 
@@ -271,15 +288,19 @@ button.focus,
 }
 .score {
   width: 100%;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .reponse {
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 .score p {
   font-size: 1.5rem;
   text-align: center;
   text-transform: none;
+}
+.indice {
+  margin-bottom: 0;
 }
 img {
   width: 100%;
