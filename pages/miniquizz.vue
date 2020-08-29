@@ -54,7 +54,12 @@
                 <div v-on:click="clientResp" class="btn btn-success">valider</div>
               </b-col>
               <b-col class="right" cols="1" sm="1" offset-md="0" md="1" lg="1">
-                <div v-on:click="getIndice" class="btn btn-success">i</div>
+                <div
+                  v-on:click="getIndice"
+                  v-b-tooltip.hover
+                  title="Indice (2 possibles)"
+                  class="btn btn-success"
+                >i</div>
               </b-col>
             </b-row>
             <p v-if="indice1" class="indice">{{ arrayActive[0][2] }}</p>
