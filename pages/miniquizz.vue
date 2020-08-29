@@ -6,6 +6,7 @@
         <b-row>
           <h1>Quizz Cinéma</h1>
         </b-row>
+        <h1 v-if="konamiTotal">Bravo, konami code réussis !</h1>
         <b-row>
           <b-col sm="5" lg="4" class="img-cine ttttt">
             <b-img
@@ -96,6 +97,12 @@ export default {
       return this.$store.state.miniQuizz.score.score;
     },
   },
+  mounted() {
+    document.addEventListener("keydown", (e) => this.handleGlobalKeyDown(e));
+  },
+  beforeDetroy() {
+    document.removeEventListener("keydown", (e) => this.handleGlobalKeyDown(e));
+  },
   components: {
     Notice,
     characterCleaner,
@@ -115,6 +122,10 @@ export default {
         { text: "Normal", value: 40 },
         { text: "Full", value: 68 },
       ],
+      keyCode: "",
+      konami: false,
+      konamiTotal: false,
+      konamiValue: "",
     };
   },
   methods: {
@@ -150,11 +161,11 @@ export default {
       ]);
       // Score Question +1
       this.$store.commit("miniQuizz/score/questionPlusUn");
-      // on set les nouvelles valeurs
-      this.arrayActive.splice(0, 1);
       // on retire les indices.
       this.indice1 = false;
       this.indice2 = false;
+      // on set les nouvelles valeurs
+      this.arrayActive.splice(0, 1);
       // si score = nbrQuetions , fin du jeu
       if (this.score[1] >= this.nbrQuestions) {
         // Vue.localStorage.set("arrayActive", []);
@@ -178,6 +189,99 @@ export default {
         this.indice1 = true;
       }
     },
+    // partie konami
+    reset() {
+      this.konami = false;
+      this.konamiValue = "";
+      this.konamiTotal = false;
+    },
+    handleGlobalKeyDown(e) {
+      if (this.konami == true) {
+        switch (this.konamiValue) {
+          case "38":
+            if (e.keyCode == "38") {
+              this.konamiValue = this.konamiValue + "38";
+            } else {
+              this.reset();
+            }
+            break;
+          case "3838":
+            if (e.keyCode == "40") {
+              this.konamiValue = this.konamiValue + "40";
+            } else {
+              this.reset();
+            }
+            break;
+          case "383840":
+            if (e.keyCode == "40") {
+              this.konamiValue = this.konamiValue + "40";
+            } else {
+              this.reset();
+            }
+            break;
+          case "38384040":
+            if (e.keyCode == "37") {
+              this.konamiValue = this.konamiValue + "37";
+            } else {
+              this.reset();
+            }
+            break;
+          case "3838404037":
+            if (e.keyCode == "39") {
+              this.konamiValue = this.konamiValue + "39";
+            } else {
+              this.reset();
+            }
+            break;
+          case "383840403739":
+            if (e.keyCode == "37") {
+              this.konamiValue = this.konamiValue + "37";
+            } else {
+              this.reset();
+            }
+            break;
+          case "38384040373937":
+            if (e.keyCode == "39") {
+              this.konamiValue = this.konamiValue + "39";
+            } else {
+              this.reset();
+            }
+            break;
+          case "3838404037393739":
+            if (e.keyCode == "66") {
+              this.konamiValue = this.konamiValue + "66";
+            } else {
+              this.reset();
+            }
+            break;
+          case "383840403739373966":
+            if (e.keyCode == "65") {
+              this.konamiValue = this.konamiValue + "65";
+              this.konamiTotal = true;
+              this.finishTheGame();
+            } else {
+              this.reset();
+            }
+            break;
+          default:
+            this.reset();
+        }
+      }
+      if (e.keyCode == 38 && this.konami == false) {
+        this.konamiValue = "38";
+        this.konami = true;
+      }
+      this.keyCode = e.keyCode;
+    },
+    finishTheGame() {
+      console.log(this.arrayActive[0][1][0], this.score[1], this.nbrQuestions);
+      for (let i = this.score[1]; i < this.nbrQuestions; ) {
+        this.response = this.arrayActive[0][1][0];
+        this.clientResp();
+        i++;
+      }
+    },
+    // fin parti konami
   },
 };
 </script>

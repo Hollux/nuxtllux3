@@ -28,8 +28,8 @@ import Footerhlx from "~/components/Footer.vue";
 export default {
   components: {
     Logo,
-    Footerhlx
-  }
+    Footerhlx,
+  },
 };
 </script>
 
