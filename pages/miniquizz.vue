@@ -6,7 +6,6 @@
         <b-row>
           <h1>Quizz Cinéma</h1>
         </b-row>
-        <h1 v-if="konamiTotal">Bravo, konami code réussis !</h1>
         <b-row>
           <b-col sm="5" lg="4" class="img-cine ttttt">
             <b-img
@@ -55,7 +54,7 @@
                 <div v-on:click="clientResp" class="btn btn-success">valider</div>
               </b-col>
               <b-col class="right" cols="1" sm="1" offset-md="0" md="1" lg="1">
-                <div v-on:click="getIndice" class="btn btn-success">h</div>
+                <div v-on:click="getIndice" class="btn btn-success">i</div>
               </b-col>
             </b-row>
             <p v-if="indice1" class="indice">{{ arrayActive[0][2] }}</p>
@@ -274,7 +273,6 @@ export default {
       this.keyCode = e.keyCode;
     },
     finishTheGame() {
-      console.log(this.arrayActive[0][1][0], this.score[1], this.nbrQuestions);
       for (let i = this.score[1]; i < this.nbrQuestions; ) {
         this.response = this.arrayActive[0][1][0];
         this.clientResp();
