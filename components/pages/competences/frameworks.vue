@@ -19,12 +19,12 @@
         <!-- <p>JavaScript</p> -->
       </b-col>
       <b-col cols="3" sm="2">
-        <b-img src="~/assets/img/competences/jquery.png" fluid alt="jquery"></b-img>
-        <!-- <p>mysql</p> -->
+        <b-img src="~/assets/img/competences/react.svg" fluid alt="react"></b-img>
+        <!-- <p>react</p> -->
       </b-col>
       <b-col cols="3" sm="2">
-        <b-img src="~/assets/img/competences/zend.png" fluid alt="zend"></b-img>
-        <!-- <p>Sass</p> -->
+        <b-img src="~/assets/img/competences/jquery.png" fluid alt="jquery"></b-img>
+        <!-- <p>jquery</p> -->
       </b-col>
     </b-row>
     <b-row align="center" align-v="center" class="legende">
@@ -41,10 +41,10 @@
         <p>Laravel</p>
       </b-col>
       <b-col>
-        <p>jQuery</p>
+        <p>React</p>
       </b-col>
       <b-col>
-        <p>Zend</p>
+        <p>jQuery</p>
       </b-col>
     </b-row>
   </div>
@@ -55,9 +55,10 @@ img {
   max-height: 90px;
   margin: 0 auto 15px;
 }
+
 @media (max-width: 767px) {
   .legende {
-    display:none;
+    display: none;
   }
 }
 </style>

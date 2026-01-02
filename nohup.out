@@ -1,0 +1,1278 @@
+
+> nuxtllux3@1.0.0 dev
+> nuxt
+
+
+ WARN  sass-loader@8.0.2 is installed but ^10.4.1 is expected
+
+
+ WARN  mode option is deprecated. You can safely remove it from nuxt.config
+
+ℹ Listening on: http://192.168.1.182:3001/
+ℹ Preparing project for development
+ℹ Initial build may take a while
+✔ Builder initialized
+✔ Nuxt files generated
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+186 │ @import 'bootstrap/scss/bootstrap.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 186:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+187 │ @import 'bootstrap-vue/src/index.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 187:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+186 │ @import 'bootstrap/scss/bootstrap.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 186:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+187 │ @import 'bootstrap-vue/src/index.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 187:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "functions";
+  │         ^^^^^^^^^^^
+  ╵
+    node_modules/bootstrap/scss/bootstrap.scss 8:9  @import
+    stdin 186:9                                     root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "variables";
+  │         ^^^^^^^^^^^
+  ╵
+    node_modules/bootstrap/scss/bootstrap.scss 9:9  @import
+    stdin 186:9                                     root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "mixins";
+   │         ^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/bootstrap.scss 10:9  @import
+    stdin 186:9                                      root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): $black; else: $white)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+103 │   $color-base: if($level > 0, $black, $white);
+    │                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 103:16  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($return-calc == true): calc(#{$value1} + #{$value2}); else: $value1 + unquote(" + ") + $value2)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+123 │   @return if($return-calc == true, calc(#{$value1} + #{$value2}), $value1 + unquote(" + ") + $value2);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 123:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($return-calc == true): calc(#{$value1} - #{$value2}); else: $value1 + unquote(" - ") + $value2)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+147 │   @return if($return-calc == true, calc(#{$value1} - #{$value2}), $value1 + unquote(" - ") + $value2);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 147:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+151 │   $sign: if($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0, 1, -1);
+    │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 151:10  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+21 │   $grays: map-merge(
+   │ ┌─────────^
+22 │ │   (
+23 │ │     "100": $gray-100,
+24 │ │     "200": $gray-200,
+25 │ │     "300": $gray-300,
+26 │ │     "400": $gray-400,
+27 │ │     "500": $gray-500,
+28 │ │     "600": $gray-600,
+29 │ │     "700": $gray-700,
+30 │ │     "800": $gray-800,
+31 │ │     "900": $gray-900
+32 │ │   ),
+33 │ │   $grays
+34 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 21:9  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9    @import
+    stdin 186:9                                       root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+48 │   $colors: map-merge(
+   │ ┌──────────^
+49 │ │   (
+50 │ │     "blue":       $blue,
+51 │ │     "indigo":     $indigo,
+52 │ │     "purple":     $purple,
+53 │ │     "pink":       $pink,
+54 │ │     "red":        $red,
+55 │ │     "orange":     $orange,
+56 │ │     "yellow":     $yellow,
+57 │ │     "green":      $green,
+58 │ │     "teal":       $teal,
+59 │ │     "cyan":       $cyan,
+60 │ │     "white":      $white,
+61 │ │     "gray":       $gray-600,
+62 │ │     "gray-dark":  $gray-800
+63 │ │   ),
+64 │ │   $colors
+65 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 48:10  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+77 │   $theme-colors: map-merge(
+   │ ┌────────────────^
+78 │ │   (
+79 │ │     "primary":    $primary,
+80 │ │     "secondary":  $secondary,
+81 │ │     "success":    $success,
+82 │ │     "info":       $info,
+83 │ │     "warning":    $warning,
+84 │ │     "danger":     $danger,
+85 │ │     "light":      $light,
+86 │ │     "dark":       $dark
+87 │ │   ),
+88 │ │   $theme-colors
+89 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 77:16  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+138 │   $spacers: map-merge(
+    │ ┌───────────^
+139 │ │   (
+140 │ │     0: 0,
+141 │ │     1: ($spacer * .25),
+142 │ │     2: ($spacer * .5),
+143 │ │     3: $spacer,
+144 │ │     4: ($spacer * 1.5),
+145 │ │     5: ($spacer * 3)
+146 │ │   ),
+147 │ │   $spacers
+148 │ │ );
+    │ └─^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 138:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+152 │   $sizes: map-merge(
+    │ ┌─────────^
+153 │ │   (
+154 │ │     25: 25%,
+155 │ │     50: 50%,
+156 │ │     75: 75%,
+157 │ │     100: 100%,
+158 │ │     auto: auto
+159 │ │   ),
+160 │ │   $sizes
+161 │ │ );
+    │ └─^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 152:9  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -30%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+178 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 178:43  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 9.7081218274%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+374 │ $table-dark-border-color:     lighten($table-dark-bg, 7.5%) !default;
+    │                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 374:31  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 50%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+487 │ $input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+    │                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 487:41  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+552 │ $custom-control-indicator-active-bg:            lighten($component-active-bg, 35%) !default;
+    │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 552:49  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+627 │ $custom-range-thumb-active-bg:               lighten($component-active-bg, 35%) !default;
+    │                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 627:46  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+53 │   $sign: if($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0, 1, -1);
+   │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/vendor/_rfs.scss 53:10  @import
+    node_modules/bootstrap/scss/_mixins.scss 6:9        @import
+    node_modules/bootstrap/scss/bootstrap.scss 10:9     @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [abs-percent]: Passing percentage units to the global abs() function is deprecated.
+In the future, this will emit a CSS abs() function to be resolved by the browser.
+To preserve current behavior: math.abs(100%)
+To emit a CSS abs() now: abs(#{100%})
+More info: https://sass-lang.com/d/abs-percent
+
+   ╷
+54 │   $dividend: abs($dividend);
+   │              ^^^^^^^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/vendor/_rfs.scss 54:14             divide()
+    node_modules/bootstrap/scss/mixins/_grid.scss 66:15            row-cols()
+    node_modules/bootstrap/scss/mixins/_grid-framework.scss 43:13  @content
+    node_modules/bootstrap/scss/mixins/_breakpoints.scss 65:5      media-breakpoint-up()
+    node_modules/bootstrap/scss/mixins/_grid-framework.scss 32:5   make-grid-columns()
+    node_modules/bootstrap/scss/_grid.scss 72:3                    @import
+    node_modules/bootstrap/scss/bootstrap.scss 16:9                @import
+    stdin 186:9                                                    root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "functions";
+  │         ^^^^^^^^^^^
+  ╵
+    node_modules/bootstrap/scss/bootstrap.scss 8:9  @import
+    stdin 186:9                                     root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "variables";
+  │         ^^^^^^^^^^^
+  ╵
+    node_modules/bootstrap/scss/bootstrap.scss 9:9  @import
+    stdin 186:9                                     root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "mixins";
+   │         ^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/bootstrap.scss 10:9  @import
+    stdin 186:9                                      root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): $black; else: $white)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+103 │   $color-base: if($level > 0, $black, $white);
+    │                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 103:16  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($return-calc == true): calc(#{$value1} + #{$value2}); else: $value1 + unquote(" + ") + $value2)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+123 │   @return if($return-calc == true, calc(#{$value1} + #{$value2}), $value1 + unquote(" + ") + $value2);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 123:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($return-calc == true): calc(#{$value1} - #{$value2}); else: $value1 + unquote(" - ") + $value2)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+147 │   @return if($return-calc == true, calc(#{$value1} - #{$value2}), $value1 + unquote(" - ") + $value2);
+    │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 147:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+151 │   $sign: if($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0, 1, -1);
+    │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_functions.scss 151:10  @import
+    node_modules/bootstrap/scss/bootstrap.scss 8:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+21 │   $grays: map-merge(
+   │ ┌─────────^
+22 │ │   (
+23 │ │     "100": $gray-100,
+24 │ │     "200": $gray-200,
+25 │ │     "300": $gray-300,
+26 │ │     "400": $gray-400,
+27 │ │     "500": $gray-500,
+28 │ │     "600": $gray-600,
+29 │ │     "700": $gray-700,
+30 │ │     "800": $gray-800,
+31 │ │     "900": $gray-900
+32 │ │   ),
+33 │ │   $grays
+34 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 21:9  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9    @import
+    stdin 186:9                                       root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+48 │   $colors: map-merge(
+   │ ┌──────────^
+49 │ │   (
+50 │ │     "blue":       $blue,
+51 │ │     "indigo":     $indigo,
+52 │ │     "purple":     $purple,
+53 │ │     "pink":       $pink,
+54 │ │     "red":        $red,
+55 │ │     "orange":     $orange,
+56 │ │     "yellow":     $yellow,
+57 │ │     "green":      $green,
+58 │ │     "teal":       $teal,
+59 │ │     "cyan":       $cyan,
+60 │ │     "white":      $white,
+61 │ │     "gray":       $gray-600,
+62 │ │     "gray-dark":  $gray-800
+63 │ │   ),
+64 │ │   $colors
+65 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 48:10  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+77 │   $theme-colors: map-merge(
+   │ ┌────────────────^
+78 │ │   (
+79 │ │     "primary":    $primary,
+80 │ │     "secondary":  $secondary,
+81 │ │     "success":    $success,
+82 │ │     "info":       $info,
+83 │ │     "warning":    $warning,
+84 │ │     "danger":     $danger,
+85 │ │     "light":      $light,
+86 │ │     "dark":       $dark
+87 │ │   ),
+88 │ │   $theme-colors
+89 │ │ );
+   │ └─^
+   ╵
+    node_modules/bootstrap/scss/_variables.scss 77:16  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+138 │   $spacers: map-merge(
+    │ ┌───────────^
+139 │ │   (
+140 │ │     0: 0,
+141 │ │     1: ($spacer * .25),
+142 │ │     2: ($spacer * .5),
+143 │ │     3: $spacer,
+144 │ │     4: ($spacer * 1.5),
+145 │ │     5: ($spacer * 3)
+146 │ │   ),
+147 │ │   $spacers
+148 │ │ );
+    │ └─^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 138:11  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+152 │   $sizes: map-merge(
+    │ ┌─────────^
+153 │ │   (
+154 │ │     25: 25%,
+155 │ │     50: 50%,
+156 │ │     75: 75%,
+157 │ │     100: 100%,
+158 │ │     auto: auto
+159 │ │   ),
+160 │ │   $sizes
+161 │ │ );
+    │ └─^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 152:9  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9     @import
+    stdin 186:9                                        root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -30%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+178 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 178:43  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 9.7081218274%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+374 │ $table-dark-border-color:     lighten($table-dark-bg, 7.5%) !default;
+    │                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 374:31  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 50%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+487 │ $input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+    │                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 487:41  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+552 │ $custom-control-indicator-active-bg:            lighten($component-active-bg, 35%) !default;
+    │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 552:49  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+627 │ $custom-range-thumb-active-bg:               lighten($component-active-bg, 35%) !default;
+    │                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 627:46  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+53 │   $sign: if($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0, 1, -1);
+   │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/vendor/_rfs.scss 53:10  @import
+    node_modules/bootstrap/scss/_mixins.scss 6:9        @import
+    node_modules/bootstrap/scss/bootstrap.scss 10:9     @import
+    stdin 186:9                                         root stylesheet
+
+DEPRECATION WARNING [abs-percent]: Passing percentage units to the global abs() function is deprecated.
+In the future, this will emit a CSS abs() function to be resolved by the browser.
+To preserve current behavior: math.abs(100%)
+To emit a CSS abs() now: abs(#{100%})
+More info: https://sass-lang.com/d/abs-percent
+
+   ╷
+54 │   $dividend: abs($dividend);
+   │              ^^^^^^^^^^^^^^
+   ╵
+    node_modules/bootstrap/scss/vendor/_rfs.scss 54:14             divide()
+    node_modules/bootstrap/scss/mixins/_grid.scss 66:15            row-cols()
+    node_modules/bootstrap/scss/mixins/_grid-framework.scss 43:13  @content
+    node_modules/bootstrap/scss/mixins/_breakpoints.scss 65:5      media-breakpoint-up()
+    node_modules/bootstrap/scss/mixins/_grid-framework.scss 32:5   make-grid-columns()
+    node_modules/bootstrap/scss/_grid.scss 72:3                    @import
+    node_modules/bootstrap/scss/bootstrap.scss 16:9                @import
+    stdin 186:9                                                    root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+WARNING: 411 repetitive deprecation warnings omitted.
+
+WARNING: 411 repetitive deprecation warnings omitted.
+
+[webpackbar] ✔ Server: Compiled successfully in 11.12s
+[webpackbar] ✔ Client: Compiled successfully in 11.62s
+ℹ Waiting for file changes
+ℹ Memory usage: 416 MB (RSS: 628 MB)
+ℹ Listening on: http://192.168.1.182:3001/
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 492.28ms
+[webpackbar] ✔ Client: Compiled successfully in 497.39ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 461.08ms
+[webpackbar] ✔ Client: Compiled successfully in 606.49ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 364.13ms
+[webpackbar] ✔ Client: Compiled successfully in 379.43ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 403.03ms
+[webpackbar] ✔ Client: Compiled successfully in 424.68ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 477.67ms
+[webpackbar] ✔ Client: Compiled successfully in 502.81ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 353.73ms
+[webpackbar] ✔ Client: Compiled successfully in 368.57ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 255.54ms
+[webpackbar] ✔ Client: Compiled successfully in 291.50ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 279.98ms
+[webpackbar] ✔ Client: Compiled successfully in 300.47ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 222.87ms
+[webpackbar] ✔ Client: Compiled successfully in 251.36ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 269.61ms
+[webpackbar] ✔ Client: Compiled successfully in 284.56ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 218.00ms
+[webpackbar] ✔ Client: Compiled successfully in 231.84ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 299.14ms
+[webpackbar] ✔ Client: Compiled with some errors in 309.26ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+
+[friendly-errors]  ERROR  in ./components/pages/competences/frameworks.vue?vue&type=template&id=05066c80&scoped=true
+
+[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  tag <b-col> has no matching end tag.
+
+  44 |        <p>React</p>
+  45 |      </b-col>
+  46 |      <b-col>
+     |      ^^^^^^^
+  47 |        <p>jQuery</p>
+  48 |    </b-row>
+
+[friendly-errors] 
+ @ ./components/pages/competences/frameworks.vue?vue&type=template&id=05066c80&scoped=true 1:0-271 1:0-271
+ @ ./components/pages/competences/frameworks.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/competences.vue?vue&type=script&lang=js
+ @ ./pages/competences.vue?vue&type=script&lang=js
+ @ ./pages/competences.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
+[friendly-errors] 
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 365.86ms
+[webpackbar] ✔ Client: Compiled successfully in 384.18ms
+↻ Updated pages/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 310.00ms
+[webpackbar] ✔ Client: Compiled successfully in 334.16ms
+↻ Updated pages/competences.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 254.58ms
+[webpackbar] ✔ Client: Compiled successfully in 348.40ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 514.81ms
+[webpackbar] ✔ Client: Compiled successfully in 540.07ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 397.19ms
+[webpackbar] ✔ Client: Compiled successfully in 412.39ms
+↻ Updated components/pages/competences/systemes.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 313.76ms
+[webpackbar] ✔ Client: Compiled successfully in 335.74ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 274.10ms
+[webpackbar] ✔ Client: Compiled successfully in 307.24ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 330.99ms
+[webpackbar] ✔ Client: Compiled successfully in 348.95ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 319.49ms
+[webpackbar] ✔ Client: Compiled successfully in 340.17ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 400.85ms
+[webpackbar] ✔ Client: Compiled successfully in 417.63ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 242.23ms
+[webpackbar] ✔ Client: Compiled successfully in 257.45ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 248.72ms
+[webpackbar] ✔ Client: Compiled successfully in 281.32ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 318.61ms
+[webpackbar] ✔ Client: Compiled with some errors in 333.00ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+
+[friendly-errors]  ERROR  in ./components/pages/realisations/sitesWeb.vue?vue&type=template&id=8e90bd8a&scoped=true
+
+[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  <template> cannot be keyed. Place the key on real elements instead.
+
+  1  |  
+  2  |  <div class="container">
+  3  |    <template v-for="row in rowSites" :key="row.h2">
+     |                                      ^^^^^^^^^^^^^
+  4  |      <h2>{{ row.h2 }}</h2>
+  5  |      <p>{{ row.comment }}</p>
+
+[friendly-errors] 
+ @ ./components/pages/realisations/sitesWeb.vue?vue&type=template&id=8e90bd8a&scoped=true 1:0-269 1:0-269
+ @ ./components/pages/realisations/sitesWeb.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/realisations.vue?vue&type=script&lang=js
+ @ ./pages/realisations.vue?vue&type=script&lang=js
+ @ ./pages/realisations.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
+[friendly-errors] 
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 267.97ms
+[webpackbar] ✔ Client: Compiled successfully in 281.93ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 287.04ms
+[webpackbar] ✔ Client: Compiled successfully in 301.17ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 262.95ms
+[webpackbar] ✔ Client: Compiled successfully in 320.27ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 269.32ms
+[webpackbar] ✔ Client: Compiled successfully in 280.29ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 273.12ms
+[webpackbar] ✔ Client: Compiled successfully in 286.57ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 280.04ms
+[webpackbar] ✔ Client: Compiled successfully in 297.96ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 336.34ms
+[webpackbar] ✔ Client: Compiled successfully in 348.77ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 266.84ms
+[webpackbar] ✔ Client: Compiled successfully in 317.89ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 362.55ms
+[webpackbar] ✔ Client: Compiled successfully in 377.76ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 284.33ms
+[webpackbar] ✔ Client: Compiled successfully in 303.68ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 337.61ms
+[webpackbar] ✔ Client: Compiled successfully in 352.22ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 327.33ms
+[webpackbar] ✔ Client: Compiled successfully in 346.23ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Client: Compiled successfully in 324.49ms
+[webpackbar] ✔ Server: Compiled successfully in 374.95ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 313.03ms
+[webpackbar] ✔ Client: Compiled successfully in 331.02ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 329.57ms
+[webpackbar] ✔ Client: Compiled successfully in 352.20ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 245.94ms
+[webpackbar] ✔ Client: Compiled successfully in 259.42ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 321.08ms
+[webpackbar] ✔ Client: Compiled successfully in 328.03ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 310.98ms
+[webpackbar] ✔ Client: Compiled successfully in 327.29ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 255.13ms
+[webpackbar] ✔ Client: Compiled successfully in 275.74ms

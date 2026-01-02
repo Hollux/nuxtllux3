@@ -7,11 +7,11 @@
     <div class="trait"></div>
     <frameworks />
     <div class="trait"></div>
-    <cms />
+    <autres />
     <div class="trait"></div>
     <systemes />
     <div class="trait"></div>
-    <autres />
+    <cms />
   </div>
 </template>
 
