@@ -3,25 +3,28 @@
     <div class="container">
       <b-row class="center-horiz">
         <b-col cols="2">
-          <b-img src="~/assets/img/base/tete.png" fluid alt="Fluid image"></b-img>
+          <b-img
+            src="~/assets/img/base/tete.png"
+            fluid
+            alt="Fluid image"
+          ></b-img>
         </b-col>
         <b-col>
           <h1>Curriculum vitae d'Hollux / Adrien Marchand</h1>
           <p>
             Je recherche un poste de
-            <b>développeur web fullstack</b> ou
-            <b>front-end</b> en
-            <b>Alsace</b>.
-            <br />Start-up, grosse société ou agence, toute entreprise peut me convenir tant qu’on y trouve des
-            <b>projets stimulants</b> et des
-            <b>passionnés de code</b> avec qui échanger !
+            <b>développeur web fullstack</b> ou <b>front-end</b> en
+            <b>Alsace</b>. <br />Start-up, grosse société ou agence, toute
+            entreprise peut me convenir tant qu’on y trouve des
+            <b>projets stimulants</b> et des <b>passionnés de code</b> avec qui
+            échanger !
           </p>
         </b-col>
       </b-row>
     </div>
     <button-trait-externe
       linkName="Télécharger le CV (PDF)"
-      link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
+      link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv_2023"
     />
     <div class="cv container">
       <b-row>
@@ -51,7 +54,10 @@
       <trait-au-milieu />
       <plus />
     </div>
-    <button-trait linkName="Mon profil vous intéresse ? Contactez-moi !" link="contact" />
+    <button-trait
+      linkName="Mon profil vous intéresse ? Contactez-moi !"
+      link="contact"
+    />
   </div>
 </template>
 
@@ -73,8 +79,8 @@ export default {
     Plus,
     TraitAuMilieu,
     ButtonTrait,
-    ButtonTraitExterne
-  }
+    ButtonTraitExterne,
+  },
 };
 </script>
 

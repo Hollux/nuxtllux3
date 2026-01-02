@@ -185,3 +185,17 @@ monospace;
 
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
+
+
+.sites {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.site {
+  margin-bottom: 2rem;
+  max-width: 350px;
+  width: 100%;
+}
