@@ -1276,3 +1276,734 @@ More info: https://sass-lang.com/d/legacy-js-api
 [webpackbar] ℹ Compiling Client
 [webpackbar] ✔ Server: Compiled successfully in 255.13ms
 [webpackbar] ✔ Client: Compiled successfully in 275.74ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 351.95ms
+[webpackbar] ✔ Client: Compiled successfully in 368.61ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 276.78ms
+[webpackbar] ✔ Client: Compiled successfully in 295.33ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 296.55ms
+[webpackbar] ✔ Client: Compiled successfully in 306.06ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 237.32ms
+[webpackbar] ✔ Client: Compiled successfully in 261.43ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 328.85ms
+[webpackbar] ✔ Client: Compiled successfully in 339.10ms
+↻ Updated components/Navbar.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 365.69ms
+[webpackbar] ✔ Client: Compiled successfully in 397.79ms
+↻ Updated components/Navbar.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 389.84ms
+[webpackbar] ✔ Client: Compiled successfully in 424.85ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 425.98ms
+[webpackbar] ✔ Client: Compiled successfully in 442.19ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 454.56ms
+[webpackbar] ✔ Client: Compiled successfully in 470.33ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 332.60ms
+[webpackbar] ✔ Client: Compiled successfully in 351.34ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 407.59ms
+[webpackbar] ✔ Client: Compiled with some errors in 448.49ms
+
+[friendly-errors]  ERROR  Failed to compile with 8 errors
+
+[friendly-errors] These dependencies were not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled with some errors in 54.67ms
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Client: Compiled with some errors in 152.55ms
+
+[friendly-errors]  ERROR  Failed to compile with 8 errors
+
+[friendly-errors] These dependencies were not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 398.38ms
+[webpackbar] ✔ Client: Compiled with some errors in 413.11ms
+
+[friendly-errors]  ERROR  Failed to compile with 8 errors
+
+[friendly-errors] These dependencies were not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
+
+ ERROR  [Vue warn]: Error in data(): "Error: Cannot find module '~/assets/img/realisations/docker.png'"
+
+found in
+
+---> <Autres> at components/pages/competences/autres.vue
+       <Pages/competences.vue> at pages/competences.vue
+         <Nuxt>
+           <Layouts/default.vue> at layouts/default.vue
+             <Root>
+
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 386.54ms
+[webpackbar] ✔ Client: Compiled successfully in 405.64ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 391.78ms
+[webpackbar] ✔ Client: Compiled successfully in 417.50ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 293.11ms
+[webpackbar] ✔ Client: Compiled successfully in 353.24ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 394.46ms
+[webpackbar] ✔ Client: Compiled successfully in 409.32ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 261.82ms
+[webpackbar] ✔ Client: Compiled successfully in 311.50ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 381.87ms
+[webpackbar] ✔ Client: Compiled successfully in 395.42ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 345.77ms
+[webpackbar] ✔ Client: Compiled successfully in 359.77ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 351.27ms
+[webpackbar] ✔ Client: Compiled successfully in 372.18ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 485.96ms
+[webpackbar] ✔ Client: Compiled with some errors in 509.57ms
+
+[friendly-errors]  ERROR  Failed to compile with 2 errors
+
+[friendly-errors] These dependencies were not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/competences/java.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install them, you can run: npm install --save ~/assets/img/competences/csharp.png ~/assets/img/competences/java.png
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 79.65ms
+[webpackbar] ✔ Client: Compiled with some errors in 173.85ms
+
+[friendly-errors]  ERROR  Failed to compile with 2 errors
+
+[friendly-errors] These dependencies were not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] * ~/assets/img/competences/java.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install them, you can run: npm install --save ~/assets/img/competences/csharp.png ~/assets/img/competences/java.png
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 294.04ms
+[webpackbar] ✔ Client: Compiled with some errors in 314.39ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+[friendly-errors] This dependency was not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/csharp.png
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 323.29ms
+[webpackbar] ✔ Client: Compiled with some errors in 371.83ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+[friendly-errors] This dependency was not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/mysql.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.png
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled with some errors in 45.50ms
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Client: Compiled with some errors in 140.59ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+[friendly-errors] This dependency was not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/mysql.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.png
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled with some errors in 355.45ms
+[webpackbar] ✔ Client: Compiled with some errors in 368.54ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+[friendly-errors] This dependency was not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/mysql.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.jpg
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 78.45ms
+[webpackbar] ✔ Client: Compiled with some errors in 170.58ms
+
+[friendly-errors]  ERROR  Failed to compile with 1 errors
+
+[friendly-errors] This dependency was not found:
+[friendly-errors] 
+[friendly-errors] * ~/assets/img/competences/mysql.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+[friendly-errors] 
+[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.jpg
+
+ ERROR  [Vue warn]: Error in data(): "Error: Cannot find module '~/assets/img/competences/mysql.jpg'"
+
+found in
+
+---> <Languages> at components/pages/competences/languages.vue
+       <Pages/competences.vue> at pages/competences.vue
+         <Nuxt>
+           <Layouts/default.vue> at layouts/default.vue
+             <Root>
+
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 289.80ms
+[webpackbar] ✔ Client: Compiled successfully in 308.92ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 317.58ms
+[webpackbar] ✔ Client: Compiled successfully in 338.06ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 300.34ms
+[webpackbar] ✔ Client: Compiled successfully in 357.44ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 278.23ms
+[webpackbar] ✔ Client: Compiled successfully in 294.85ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 282.56ms
+[webpackbar] ✔ Client: Compiled successfully in 325.54ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 294.30ms
+[webpackbar] ✔ Client: Compiled successfully in 313.03ms
+↻ Updated components/pages/competences/autres.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 353.47ms
+[webpackbar] ✔ Client: Compiled successfully in 376.10ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 306.27ms
+[webpackbar] ✔ Client: Compiled successfully in 323.46ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 311.15ms
+[webpackbar] ✔ Client: Compiled successfully in 329.81ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 332.41ms
+[webpackbar] ✔ Client: Compiled successfully in 351.39ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 287.62ms
+[webpackbar] ✔ Client: Compiled successfully in 302.17ms
+↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 367.70ms
+[webpackbar] ✔ Client: Compiled successfully in 388.62ms
+↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 353.95ms
+[webpackbar] ✔ Client: Compiled successfully in 373.67ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 332.85ms
+[webpackbar] ✔ Client: Compiled successfully in 353.44ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 277.83ms
+[webpackbar] ✔ Client: Compiled successfully in 299.04ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 295.20ms
+[webpackbar] ✔ Client: Compiled successfully in 311.46ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 367.97ms
+[webpackbar] ✔ Client: Compiled successfully in 383.38ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 350.77ms
+[webpackbar] ✔ Client: Compiled successfully in 371.45ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 332.08ms
+[webpackbar] ✔ Client: Compiled successfully in 352.04ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 288.76ms
+[webpackbar] ✔ Client: Compiled successfully in 304.86ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 264.21ms
+[webpackbar] ✔ Client: Compiled successfully in 283.70ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 379.38ms
+[webpackbar] ✔ Client: Compiled successfully in 397.61ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 344.90ms
+[webpackbar] ✔ Client: Compiled successfully in 359.66ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 280.36ms
+[webpackbar] ✔ Client: Compiled successfully in 333.13ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 325.77ms
+[webpackbar] ✔ Client: Compiled successfully in 365.76ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 254.62ms
+[webpackbar] ✔ Client: Compiled successfully in 272.49ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 348.70ms
+[webpackbar] ✔ Client: Compiled successfully in 439.55ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 326.48ms
+[webpackbar] ✔ Client: Compiled successfully in 343.73ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 266.96ms
+[webpackbar] ✔ Client: Compiled successfully in 287.06ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 287.65ms
+[webpackbar] ✔ Client: Compiled successfully in 303.86ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 300.85ms
+[webpackbar] ✔ Client: Compiled successfully in 317.14ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 265.95ms
+[webpackbar] ✔ Client: Compiled successfully in 314.94ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 316.58ms
+[webpackbar] ✔ Client: Compiled successfully in 341.28ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 253.90ms
+[webpackbar] ✔ Client: Compiled successfully in 272.98ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 366.31ms
+[webpackbar] ✔ Client: Compiled successfully in 382.14ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 395.62ms
+[webpackbar] ✔ Client: Compiled successfully in 410.89ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 373.02ms
+[webpackbar] ✔ Client: Compiled successfully in 423.88ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 401.67ms
+[webpackbar] ✔ Client: Compiled successfully in 419.88ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 343.66ms
+[webpackbar] ✔ Client: Compiled successfully in 364.54ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 344.51ms
+[webpackbar] ✔ Client: Compiled successfully in 359.40ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 289.31ms
+[webpackbar] ✔ Client: Compiled successfully in 305.63ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 339.39ms
+[webpackbar] ✔ Client: Compiled successfully in 365.18ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 306.70ms
+[webpackbar] ✔ Client: Compiled successfully in 357.74ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 318.24ms
+[webpackbar] ✔ Client: Compiled successfully in 337.43ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 362.62ms
+[webpackbar] ✔ Client: Compiled successfully in 371.11ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 309.10ms
+[webpackbar] ✔ Client: Compiled successfully in 368.08ms

@@ -60,14 +60,6 @@ export default {
               img: require("~/assets/img/realisations/solveigdcMin.jpg"),
               imgAlt: "solveigdcfr",
               lienExterne: "https://www.solveigdc.fr/"
-            },
-            {
-              titre: "HARICOT DE CASTELNAUDARY",
-              content:
-                "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>.",
-              img: require("~/assets/img/realisations/haricotfr.jpg"),
-              imgAlt: "haricotfr",
-              lienExterne: "~/assets/img/realisations/haricotfrMin.jpg"
             }
           ]
         },
@@ -78,18 +70,26 @@ export default {
             {
               titre: "LUDO DRIVE",
               content:
-                "<b>Drive de jeux de société</b> pour la <a href='https://ludodrive-horbourg-wihr.site/' target='_blank' title='ludodrive - prod'>ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p>",
+                "<b>Drive de jeux de société</b> pour la ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p>",
               img: require("~/assets/img/realisations/ludodrive.png"),
               imgAlt: "ludodrive",
-              lienExterne: "https://ludo.hollux.pw/"
+              lienExterne: "#"//"https://ludo.hollux.pw/"
+            },
+            {
+              titre: "HARICOT DE CASTELNAUDARY",
+              content:
+                "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>, le site a été refait sur wordpress.",
+              img: require("~/assets/img/realisations/haricotfr.jpg"),
+              imgAlt: "haricotfr",
+              lienExterne: "https://haricotdecastelnaudary.fr/"
             },
             {
               titre: "Chroniques de waral",
               content:
-                "<b>Site vitrine administrable</b> pour le jeu <a href='https://www.chroniquesdewaral.fr/' target='_blank' title='Chroniques de Waral - site par Hollux'>Chroniques de Waral</a>. <br />Première version en <b>Symfony 3</b>, puis adaptation et migration du site sur <b>Wordpress</b>.",
+                "<b>Site vitrine administrable</b> pour le jeu Chroniques de Waral. <br />Première version en <b>Symfony 3</b>, puis adaptation et migration du site sur <b>Wordpress</b>.",
               img: require("~/assets/img/realisations/chroniqueswaralMin.jpg"),
               imgAlt: "chroniquesfr",
-              lienExterne: "https://www.chroniquesdewaral.fr/"
+              lienExterne: "#"//"https://www.chroniquesdewaral.fr/"
             }
           ]
         }

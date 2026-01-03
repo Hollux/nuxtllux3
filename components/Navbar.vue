@@ -1,11 +1,8 @@
 <template>
   <div class="navbarhlx">
-    <b-img
-      class="logohlx"
-      center
-      src="~/assets/img/base/logo_hollux_sanstexte_noir.png"
-      alt="Center image"
-    ></b-img>
+    <nuxt-link to="/">
+      <b-img class="logohlx" center src="~/assets/img/base/logo_hollux_sanstexte_noir.png" alt="Center image"></b-img>
+    </nuxt-link>
 
     <div>
       <b-nav tabs align="center">
@@ -26,11 +23,13 @@
   width: 85px;
   margin: 55px 0 45px 0;
 }
+
 @media (max-width: 890px) {
   .navbarhlx img {
     display: none !important;
   }
 }
+
 .navbarhlx {
   margin-bottom: 50px;
 }

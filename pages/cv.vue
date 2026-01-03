@@ -8,10 +8,7 @@
         <b-col>
           <h1>Curriculum vitae d'Hollux / Adrien Marchand</h1>
           <p>
-            Je recherche un poste de
-            <b>développeur web fullstack</b> ou
-            <b>front-end</b> en
-            <b>Alsace</b>.
+            Je recherche un poste de <b>lead développeur</b> en <b>Alsace</b> ou en <b>full-remote</b>.
             <br />Start-up, grosse société ou agence, toute entreprise peut me convenir tant qu’on y trouve des
             <b>projets stimulants</b> et des
             <b>passionnés de code</b> avec qui échanger !
@@ -19,16 +16,11 @@
         </b-col>
       </b-row>
     </div>
-    <button-trait-externe
-      linkName="Télécharger le CV (PDF)"
-      link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv"
-    />
-    <div class="cv container">
+    <button-trait-externe linkName="Télécharger le CV (PDF)" link="https://sf3.hollux.fr/viewpdf/adrien_marchand_cv" />
+    <div class="cvHeader cv container">
+      <p class="fauxh1"><b>Adrien Marchand</b> - LEAD DÉVELOPPEUR</p>
       <b-row>
         <b-col cols="auto" class="mr-auto">
-          <p>
-            <b>Adrien Marchand</b>
-          </p>
         </b-col>
         <b-col cols="auto">
           <p>Permis B + véhicule</p>
@@ -40,16 +32,19 @@
       <div>
         <p>holluxpanda@gmail.com</p>
       </div>
-      <div class="text-center">
-        <p class="fauxh1">DÉVELOPPEUR WEB FULLSTACK SYMFONY / VUE.JS</p>
+    </div>
+    <div class="cv marginContainer" style="display:flex;flex-direction: row;">
+      <div class="cvLeft">
+        <competences />
       </div>
-      <competences />
-      <trait-au-milieu />
-      <experiences />
-      <trait-au-milieu />
-      <projets />
-      <trait-au-milieu />
-      <plus />
+      <div class="cvRight">
+        <trait-au-milieu />
+        <experiences />
+        <trait-au-milieu />
+        <projets />
+        <trait-au-milieu />
+        <plus />
+      </div>
     </div>
     <button-trait linkName="Mon profil vous intéresse ? Contactez-moi !" link="contact" />
   </div>
@@ -83,6 +78,7 @@ export default {
   border: 1px solid black;
   padding: 33px 35px;
 }
+
 .fauxh1 {
   font-size: 1.3rem;
   margin: 25px auto 40px;
@@ -91,13 +87,68 @@ export default {
   padding-bottom: 10px;
   font-weight: 700;
 }
+
+.cvHeader {
+  background-color: black;
+}
+
+.cvHeader p {
+  color: rgb(199, 196, 196);
+  margin-bottom: 0;
+}
+
 .cv p {
   margin-bottom: 0;
 }
+
 .center-horiz {
   align-items: center;
 }
+
 .trait {
   margin-bottom: 0;
+}
+
+.cvLeft {
+  width: 35%;
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.cvRight {
+  width: 65%;
+  padding-left: 20px;
+}
+
+/* Container maison :  */
+.marginContainer {
+  border: 1px solid black;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .marginContainer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .marginContainer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .marginContainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .marginContainer {
+    max-width: 1140px;
+  }
 }
 </style>
