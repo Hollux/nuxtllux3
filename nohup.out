@@ -8,7 +8,11 @@
 
  WARN  mode option is deprecated. You can safely remove it from nuxt.config
 
-ℹ Listening on: http://192.168.1.182:3001/
+
+ WARN  Address 0.0.0.0:3001 is already in use.
+
+ℹ Trying a random port...
+ℹ Listening on: http://192.168.1.182:34945/
 ℹ Preparing project for development
 ℹ Initial build may take a while
 ✔ Builder initialized
@@ -39,54 +43,6 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-    ╷
-186 │ @import 'bootstrap/scss/bootstrap.scss';
-    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ╵
-    stdin 186:9  root stylesheet
-
-DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-    ╷
-187 │ @import 'bootstrap-vue/src/index.scss';
-    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ╵
-    stdin 187:9  root stylesheet
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
 
 More info: https://sass-lang.com/d/legacy-js-api
@@ -110,6 +66,66 @@ More info and automated migrator: https://sass-lang.com/d/import
     │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     ╵
     stdin 187:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+186 │ @import 'bootstrap/scss/bootstrap.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 186:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+187 │ @import 'bootstrap-vue/src/index.scss';
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    stdin 187:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
 
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
 
@@ -837,20 +853,86 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
 WARNING: 411 repetitive deprecation warnings omitted.
 
 WARNING: 411 repetitive deprecation warnings omitted.
 
-[webpackbar] ✔ Server: Compiled successfully in 11.12s
-[webpackbar] ✔ Client: Compiled successfully in 11.62s
+[webpackbar] ✔ Server: Compiled successfully in 12.57s
+[webpackbar] ✔ Client: Compiled successfully in 12.83s
 ℹ Waiting for file changes
-ℹ Memory usage: 416 MB (RSS: 628 MB)
-ℹ Listening on: http://192.168.1.182:3001/
-↻ Updated components/pages/competences/frameworks.vue
+ℹ Memory usage: 352 MB (RSS: 583 MB)
+ℹ Listening on: http://192.168.1.182:34945/
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 2.71s
+[webpackbar] ✔ Client: Compiled successfully in 2.73s
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 1.06s
+[webpackbar] ✔ Client: Compiled successfully in 1.07s
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 2.98s
+[webpackbar] ✔ Client: Compiled successfully in 3.50s
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 496.47ms
+[webpackbar] ✔ Client: Compiled successfully in 564.51ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 481.53ms
+[webpackbar] ✔ Client: Compiled successfully in 501.42ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 391.80ms
+[webpackbar] ✔ Client: Compiled successfully in 395.33ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 505.19ms
+[webpackbar] ✔ Client: Compiled successfully in 531.18ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 480.44ms
+[webpackbar] ✔ Client: Compiled successfully in 512.46ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 444.45ms
+[webpackbar] ✔ Client: Compiled successfully in 479.53ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 448.79ms
+[webpackbar] ✔ Client: Compiled successfully in 466.19ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 396.41ms
+[webpackbar] ✔ Client: Compiled successfully in 438.91ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 340.35ms
+[webpackbar] ✔ Client: Compiled successfully in 345.02ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 442.64ms
+[webpackbar] ✔ Client: Compiled successfully in 557.55ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 506.77ms
+[webpackbar] ✔ Client: Compiled successfully in 519.83ms
+↻ Updated components/pages/cv/plus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -861,22 +943,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 492.28ms
-[webpackbar] ✔ Client: Compiled successfully in 497.39ms
-↻ Updated components/pages/competences/frameworks.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 461.08ms
-[webpackbar] ✔ Client: Compiled successfully in 606.49ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 498.64ms
+[webpackbar] ✔ Client: Compiled successfully in 520.18ms
+↻ Updated components/pages/cv/plus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -887,9 +956,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 364.13ms
-[webpackbar] ✔ Client: Compiled successfully in 379.43ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 429.95ms
+[webpackbar] ✔ Client: Compiled successfully in 418.53ms
+↻ Updated components/pages/cv/plus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -900,9 +969,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 403.03ms
-[webpackbar] ✔ Client: Compiled successfully in 424.68ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 388.64ms
+[webpackbar] ✔ Client: Compiled successfully in 411.26ms
+↻ Updated components/pages/cv/plus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -913,9 +982,14 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 477.67ms
-[webpackbar] ✔ Client: Compiled successfully in 502.81ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 370.82ms
+[webpackbar] ✔ Client: Compiled successfully in 374.16ms
+↻ Updated components/pages/cv/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 432.78ms
+[webpackbar] ✔ Client: Compiled successfully in 457.26ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -926,9 +1000,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 353.73ms
-[webpackbar] ✔ Client: Compiled successfully in 368.57ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 923.00ms
+[webpackbar] ✔ Client: Compiled successfully in 1.04s
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -939,9 +1013,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 255.54ms
-[webpackbar] ✔ Client: Compiled successfully in 291.50ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 603.04ms
+[webpackbar] ✔ Client: Compiled successfully in 647.18ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -952,9 +1026,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 279.98ms
-[webpackbar] ✔ Client: Compiled successfully in 300.47ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 534.04ms
+[webpackbar] ✔ Client: Compiled successfully in 553.29ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -965,9 +1039,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 222.87ms
-[webpackbar] ✔ Client: Compiled successfully in 251.36ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 723.65ms
+[webpackbar] ✔ Client: Compiled successfully in 720.53ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -978,9 +1052,22 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 269.61ms
-[webpackbar] ✔ Client: Compiled successfully in 284.56ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 608.20ms
+[webpackbar] ✔ Client: Compiled successfully in 655.27ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 441.35ms
+[webpackbar] ✔ Client: Compiled successfully in 506.30ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -991,9 +1078,9 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 218.00ms
-[webpackbar] ✔ Client: Compiled successfully in 231.84ms
-↻ Updated components/pages/competences/frameworks.vue
+[webpackbar] ✔ Server: Compiled successfully in 481.51ms
+[webpackbar] ✔ Client: Compiled successfully in 482.80ms
+↻ Updated pages/enSavoirPlus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -1004,174 +1091,150 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled with some errors in 299.14ms
-[webpackbar] ✔ Client: Compiled with some errors in 309.26ms
+[webpackbar] ✔ Server: Compiled successfully in 574.74ms
+[webpackbar] ✔ Client: Compiled successfully in 576.79ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 657.33ms
+[webpackbar] ✔ Client: Compiled successfully in 643.97ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 564.57ms
+[webpackbar] ✔ Client: Compiled successfully in 559.51ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 779.96ms
+[webpackbar] ✔ Client: Compiled successfully in 785.73ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 585.03ms
+[webpackbar] ✔ Client: Compiled successfully in 618.42ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 1.36s
+[webpackbar] ✔ Client: Compiled successfully in 1.35s
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 525.04ms
+[webpackbar] ✔ Client: Compiled successfully in 598.70ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 549.48ms
+[webpackbar] ✔ Client: Compiled successfully in 553.06ms
+↻ Updated pages/contact.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 405.75ms
+[webpackbar] ✔ Client: Compiled successfully in 413.82ms
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 1.24s
+[webpackbar] ✔ Client: Compiled successfully in 1.30s
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 352.98ms
+[webpackbar] ✔ Client: Compiled with some errors in 378.28ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
 
-[friendly-errors]  ERROR  in ./components/pages/competences/frameworks.vue?vue&type=template&id=05066c80&scoped=true
+[friendly-errors]  ERROR  in ./assets/img/base/tete.png
 
-[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
-(Emitted value instead of an instance of Error) 
-
-  Errors compiling template:
-
-  tag <b-col> has no matching end tag.
-
-  44 |        <p>React</p>
-  45 |      </b-col>
-  46 |      <b-col>
-     |      ^^^^^^^
-  47 |        <p>jQuery</p>
-  48 |    </b-row>
-
+[friendly-errors] Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open '/home/hollux/web/nuxtllux3/assets/img/base/tete.png'
 [friendly-errors] 
- @ ./components/pages/competences/frameworks.vue?vue&type=template&id=05066c80&scoped=true 1:0-271 1:0-271
- @ ./components/pages/competences/frameworks.vue
- @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/competences.vue?vue&type=script&lang=js
- @ ./pages/competences.vue?vue&type=script&lang=js
- @ ./pages/competences.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/vue-loader/lib??vue-loader-options!./pages/cv.vue?vue&type=template&id=69f4052c 16:11-46
+ @ ./pages/cv.vue?vue&type=template&id=69f4052c
+ @ ./pages/cv.vue
  @ ./.nuxt/router.js
  @ ./.nuxt/index.js
  @ ./.nuxt/client.js
  @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-↻ Updated components/pages/competences/frameworks.vue
+↻ Updated pages/cv.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 365.86ms
-[webpackbar] ✔ Client: Compiled successfully in 384.18ms
-↻ Updated pages/competences.vue
+[webpackbar] ✔ Server: Compiled successfully in 481.32ms
+[webpackbar] ✔ Client: Compiled successfully in 481.55ms
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 310.00ms
-[webpackbar] ✔ Client: Compiled successfully in 334.16ms
-↻ Updated pages/competences.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 254.58ms
-[webpackbar] ✔ Client: Compiled successfully in 348.40ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 514.81ms
-[webpackbar] ✔ Client: Compiled successfully in 540.07ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 397.19ms
-[webpackbar] ✔ Client: Compiled successfully in 412.39ms
-↻ Updated components/pages/competences/systemes.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 313.76ms
-[webpackbar] ✔ Client: Compiled successfully in 335.74ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 274.10ms
-[webpackbar] ✔ Client: Compiled successfully in 307.24ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 330.99ms
-[webpackbar] ✔ Client: Compiled successfully in 348.95ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 319.49ms
-[webpackbar] ✔ Client: Compiled successfully in 340.17ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 400.85ms
-[webpackbar] ✔ Client: Compiled successfully in 417.63ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 242.23ms
-[webpackbar] ✔ Client: Compiled successfully in 257.45ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 248.72ms
-[webpackbar] ✔ Client: Compiled successfully in 281.32ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled with some errors in 318.61ms
-[webpackbar] ✔ Client: Compiled with some errors in 333.00ms
+[webpackbar] ✔ Server: Compiled with some errors in 361.33ms
+[webpackbar] ✔ Client: Compiled with some errors in 386.63ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
 
-[friendly-errors]  ERROR  in ./components/pages/realisations/sitesWeb.vue?vue&type=template&id=8e90bd8a&scoped=true
+[friendly-errors]  ERROR  in ./assets/img/realisations/laclefmin.png
 
-[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
-(Emitted value instead of an instance of Error) 
-
-  Errors compiling template:
-
-  <template> cannot be keyed. Place the key on real elements instead.
-
-  1  |  
-  2  |  <div class="container">
-  3  |    <template v-for="row in rowSites" :key="row.h2">
-     |                                      ^^^^^^^^^^^^^
-  4  |      <h2>{{ row.h2 }}</h2>
-  5  |      <p>{{ row.comment }}</p>
-
+[friendly-errors] Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open '/home/hollux/web/nuxtllux3/assets/img/realisations/laclefmin.png'
 [friendly-errors] 
- @ ./components/pages/realisations/sitesWeb.vue?vue&type=template&id=8e90bd8a&scoped=true 1:0-269 1:0-269
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/realisations/sitesWeb.vue?vue&type=script&lang=js 10:15-65
+ @ ./components/pages/realisations/sitesWeb.vue?vue&type=script&lang=js
  @ ./components/pages/realisations/sitesWeb.vue
  @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/realisations.vue?vue&type=script&lang=js
  @ ./pages/realisations.vue?vue&type=script&lang=js
@@ -1181,422 +1244,196 @@ More info: https://sass-lang.com/d/legacy-js-api
  @ ./.nuxt/client.js
  @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-↻ Updated components/pages/realisations/sitesWeb.vue
+↻ Updated assets/img/realisations/laclefmin.png
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 267.97ms
-[webpackbar] ✔ Client: Compiled successfully in 281.93ms
-↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ✔ Server: Compiled successfully in 368.01ms
+[webpackbar] ✔ Client: Compiled successfully in 391.03ms
+↻ Updated components/pages/index/technos.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 287.04ms
-[webpackbar] ✔ Client: Compiled successfully in 301.17ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 262.95ms
-[webpackbar] ✔ Client: Compiled successfully in 320.27ms
-↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ✔ Server: Compiled successfully in 377.77ms
+[webpackbar] ✔ Client: Compiled successfully in 383.50ms
+↻ Updated components/pages/index/projets.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 269.32ms
-[webpackbar] ✔ Client: Compiled successfully in 280.29ms
-↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ✔ Server: Compiled successfully in 455.50ms
+[webpackbar] ✔ Client: Compiled successfully in 484.24ms
+↻ Updated components/pages/index/projets.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 273.12ms
-[webpackbar] ✔ Client: Compiled successfully in 286.57ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 280.04ms
-[webpackbar] ✔ Client: Compiled successfully in 297.96ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 336.34ms
-[webpackbar] ✔ Client: Compiled successfully in 348.77ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 266.84ms
-[webpackbar] ✔ Client: Compiled successfully in 317.89ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 362.55ms
-[webpackbar] ✔ Client: Compiled successfully in 377.76ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 284.33ms
-[webpackbar] ✔ Client: Compiled successfully in 303.68ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 337.61ms
-[webpackbar] ✔ Client: Compiled successfully in 352.22ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 327.33ms
-[webpackbar] ✔ Client: Compiled successfully in 346.23ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Client: Compiled successfully in 324.49ms
-[webpackbar] ✔ Server: Compiled successfully in 374.95ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 313.03ms
-[webpackbar] ✔ Client: Compiled successfully in 331.02ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 329.57ms
-[webpackbar] ✔ Client: Compiled successfully in 352.20ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 245.94ms
-[webpackbar] ✔ Client: Compiled successfully in 259.42ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 321.08ms
-[webpackbar] ✔ Client: Compiled successfully in 328.03ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 310.98ms
-[webpackbar] ✔ Client: Compiled successfully in 327.29ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 255.13ms
-[webpackbar] ✔ Client: Compiled successfully in 275.74ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 351.95ms
-[webpackbar] ✔ Client: Compiled successfully in 368.61ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 276.78ms
-[webpackbar] ✔ Client: Compiled successfully in 295.33ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 296.55ms
-[webpackbar] ✔ Client: Compiled successfully in 306.06ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 237.32ms
-[webpackbar] ✔ Client: Compiled successfully in 261.43ms
-↻ Updated components/pages/realisations/sitesWeb.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 328.85ms
-[webpackbar] ✔ Client: Compiled successfully in 339.10ms
-↻ Updated components/Navbar.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 365.69ms
-[webpackbar] ✔ Client: Compiled successfully in 397.79ms
-↻ Updated components/Navbar.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 389.84ms
-[webpackbar] ✔ Client: Compiled successfully in 424.85ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 425.98ms
-[webpackbar] ✔ Client: Compiled successfully in 442.19ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 454.56ms
-[webpackbar] ✔ Client: Compiled successfully in 470.33ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 332.60ms
-[webpackbar] ✔ Client: Compiled successfully in 351.34ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled with some errors in 407.59ms
-[webpackbar] ✔ Client: Compiled with some errors in 448.49ms
-
-[friendly-errors]  ERROR  Failed to compile with 8 errors
-
-[friendly-errors] These dependencies were not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled with some errors in 54.67ms
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Client: Compiled with some errors in 152.55ms
-
-[friendly-errors]  ERROR  Failed to compile with 8 errors
-
-[friendly-errors] These dependencies were not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled with some errors in 398.38ms
-[webpackbar] ✔ Client: Compiled with some errors in 413.11ms
-
-[friendly-errors]  ERROR  Failed to compile with 8 errors
-
-[friendly-errors] These dependencies were not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/realisations/apache.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/docker.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/easyphp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/filezilla.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/github.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/mySQL.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/ovh.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/realisations/xampp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/autres.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install them, you can run: npm install --save ~/assets/img/realisations/apache.jpg ~/assets/img/realisations/docker.png ~/assets/img/realisations/easyphp.png ~/assets/img/realisations/filezilla.png ~/assets/img/realisations/github.png ~/assets/img/realisations/mySQL.png ~/assets/img/realisations/ovh.png ~/assets/img/realisations/xampp.png
-
- ERROR  [Vue warn]: Error in data(): "Error: Cannot find module '~/assets/img/realisations/docker.png'"
-
-found in
-
----> <Autres> at components/pages/competences/autres.vue
-       <Pages/competences.vue> at pages/competences.vue
-         <Nuxt>
-           <Layouts/default.vue> at layouts/default.vue
-             <Root>
-
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 386.54ms
-[webpackbar] ✔ Client: Compiled successfully in 405.64ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 391.78ms
-[webpackbar] ✔ Client: Compiled successfully in 417.50ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 293.11ms
-[webpackbar] ✔ Client: Compiled successfully in 353.24ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 394.46ms
-[webpackbar] ✔ Client: Compiled successfully in 409.32ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 261.82ms
-[webpackbar] ✔ Client: Compiled successfully in 311.50ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 381.87ms
-[webpackbar] ✔ Client: Compiled successfully in 395.42ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 345.77ms
-[webpackbar] ✔ Client: Compiled successfully in 359.77ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 351.27ms
-[webpackbar] ✔ Client: Compiled successfully in 372.18ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled with some errors in 485.96ms
-[webpackbar] ✔ Client: Compiled with some errors in 509.57ms
-
-[friendly-errors]  ERROR  Failed to compile with 2 errors
-
-[friendly-errors] These dependencies were not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/competences/java.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install them, you can run: npm install --save ~/assets/img/competences/csharp.png ~/assets/img/competences/java.png
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled with some errors in 79.65ms
-[webpackbar] ✔ Client: Compiled with some errors in 173.85ms
-
-[friendly-errors]  ERROR  Failed to compile with 2 errors
-
-[friendly-errors] These dependencies were not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
-[friendly-errors] * ~/assets/img/competences/java.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install them, you can run: npm install --save ~/assets/img/competences/csharp.png ~/assets/img/competences/java.png
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled with some errors in 294.04ms
-[webpackbar] ✔ Client: Compiled with some errors in 314.39ms
+[webpackbar] ✔ Server: Compiled with some errors in 439.43ms
+[webpackbar] ✔ Client: Compiled with some errors in 479.90ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
-[friendly-errors] This dependency was not found:
+
+[friendly-errors]  ERROR  in ./components/pages/index/projets.vue?vue&type=template&id=0942e374
+
+[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  tag <b> has no matching end tag.
+
+  8  |          <h3>La Clef</h3>
+  9  |          <p>
+  10 |            Site web pour les livres d'énigmes <b><a href="https://www.laclef.online" target="_blank"
+     |                                               ^^^
+  11 |                title="La Clef - site par Hollux">La Clef</a>.</p>
+  12 |  
+
 [friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/csharp.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+ @ ./components/pages/index/projets.vue?vue&type=template&id=0942e374 1:0-256 1:0-256
+ @ ./components/pages/index/projets.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js
+ @ ./pages/index.vue?vue&type=script&lang=js
+ @ ./pages/index.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/csharp.png
-↻ Updated components/pages/competences/languages.vue
+↻ Updated components/pages/index/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 374.59ms
+[webpackbar] ✔ Client: Compiled successfully in 376.38ms
+↻ Updated components/pages/index/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 521.31ms
+[webpackbar] ✔ Client: Compiled successfully in 537.81ms
+↻ Updated components/pages/index/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 401.87ms
+[webpackbar] ✔ Client: Compiled successfully in 401.74ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 385.70ms
+[webpackbar] ✔ Client: Compiled successfully in 407.46ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 530.55ms
+[webpackbar] ✔ Client: Compiled successfully in 526.56ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 465.29ms
+[webpackbar] ✔ Client: Compiled successfully in 487.99ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 379.21ms
+[webpackbar] ✔ Client: Compiled successfully in 373.51ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 339.44ms
+[webpackbar] ✔ Client: Compiled successfully in 341.77ms
+↻ Updated components/Footer.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 436.90ms
+[webpackbar] ✔ Client: Compiled successfully in 1.62s
+↻ Updated layouts/miniQuizz.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 417.34ms
+[webpackbar] ✔ Client: Compiled successfully in 504.47ms
+↻ Updated .nuxt/App.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 682.72ms
+[webpackbar] ✔ Client: Compiled successfully in 731.68ms
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ↻ Updated .nuxt/workbox.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 1.32s
+[webpackbar] ✔ Client: Compiled successfully in 1.35s
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 2.35s
+[webpackbar] ✔ Client: Compiled successfully in 3.10s
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 731.09ms
+[webpackbar] ✔ Client: Compiled successfully in 1.01s
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 1.96s
+[webpackbar] ✔ Client: Compiled successfully in 3.84s
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 427.64ms
+[webpackbar] ✔ Client: Compiled successfully in 519.22ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 433.81ms
+[webpackbar] ✔ Client: Compiled successfully in 468.05ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 308.26ms
+[webpackbar] ✔ Client: Compiled successfully in 332.03ms
+↻ Updated components/pages/realisations/sitesWeb.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 354.27ms
+[webpackbar] ✔ Client: Compiled successfully in 437.01ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 446.44ms
+[webpackbar] ✔ Client: Compiled successfully in 485.40ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 377.76ms
+[webpackbar] ✔ Client: Compiled successfully in 428.69ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 347.67ms
+[webpackbar] ✔ Client: Compiled successfully in 399.90ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 302.44ms
+[webpackbar] ✔ Client: Compiled successfully in 343.24ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 385.40ms
+[webpackbar] ✔ Client: Compiled successfully in 390.47ms
+↻ Updated components/pages/cv/competences.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 328.61ms
+[webpackbar] ✔ Client: Compiled successfully in 418.43ms
+↻ Updated pages/cv.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 402.65ms
+[webpackbar] ✔ Client: Compiled successfully in 423.46ms
+↻ Updated components/pages/cv/plus.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -1607,112 +1444,404 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled with some errors in 323.29ms
-[webpackbar] ✔ Client: Compiled with some errors in 371.83ms
+[webpackbar] ✔ Server: Compiled successfully in 390.03ms
+[webpackbar] ✔ Client: Compiled successfully in 433.03ms
+↻ Updated components/pages/cv/plus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 291.17ms
+[webpackbar] ✔ Client: Compiled successfully in 305.73ms
+↻ Updated components/pages/cv/plus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 347.30ms
+[webpackbar] ✔ Client: Compiled successfully in 366.69ms
+↻ Updated components/pages/cv/plus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 345.27ms
+[webpackbar] ✔ Client: Compiled successfully in 394.09ms
+↻ Updated components/pages/cv/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 375.02ms
+[webpackbar] ✔ Client: Compiled successfully in 391.07ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 664.51ms
+[webpackbar] ✔ Client: Compiled successfully in 686.60ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 542.06ms
+[webpackbar] ✔ Client: Compiled successfully in 565.84ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 471.86ms
+[webpackbar] ✔ Client: Compiled successfully in 485.55ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 498.49ms
+[webpackbar] ✔ Client: Compiled successfully in 514.54ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 513.94ms
+[webpackbar] ✔ Client: Compiled successfully in 527.21ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 395.36ms
+[webpackbar] ✔ Client: Compiled successfully in 408.47ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 437.35ms
+[webpackbar] ✔ Client: Compiled successfully in 450.94ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 536.99ms
+[webpackbar] ✔ Client: Compiled successfully in 553.21ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 418.49ms
+[webpackbar] ✔ Client: Compiled successfully in 432.50ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 433.05ms
+[webpackbar] ✔ Client: Compiled successfully in 447.23ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 629.64ms
+[webpackbar] ✔ Client: Compiled successfully in 682.20ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 528.79ms
+[webpackbar] ✔ Client: Compiled successfully in 544.25ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 515.01ms
+[webpackbar] ✔ Client: Compiled successfully in 540.12ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 434.24ms
+[webpackbar] ✔ Client: Compiled successfully in 456.79ms
+↻ Updated pages/enSavoirPlus.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[webpackbar] ✔ Server: Compiled successfully in 491.94ms
+[webpackbar] ✔ Client: Compiled successfully in 505.48ms
+↻ Updated pages/contact.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 258.47ms
+[webpackbar] ✔ Client: Compiled successfully in 278.01ms
+↻ Updated .nuxt/axios.js
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 1.14s
+[webpackbar] ✔ Client: Compiled successfully in 1.24s
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 295.78ms
+[webpackbar] ✔ Client: Compiled with some errors in 331.04ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
-[friendly-errors] This dependency was not found:
+
+[friendly-errors]  ERROR  in ./assets/img/base/tete.png
+
+[friendly-errors] Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open '/home/hollux/web/nuxtllux3/assets/img/base/tete.png'
 [friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/mysql.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/vue-loader/lib??vue-loader-options!./pages/cv.vue?vue&type=template&id=69f4052c 16:11-46
+ @ ./pages/cv.vue?vue&type=template&id=69f4052c
+ @ ./pages/cv.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.png
+↻ Updated pages/cv.vue
 [webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled with some errors in 45.50ms
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Client: Compiled with some errors in 140.59ms
+[webpackbar] ✔ Server: Compiled successfully in 389.04ms
+[webpackbar] ✔ Client: Compiled successfully in 408.92ms
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled with some errors in 244.13ms
+[webpackbar] ✔ Client: Compiled with some errors in 277.73ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
-[friendly-errors] This dependency was not found:
+
+[friendly-errors]  ERROR  in ./assets/img/realisations/laclefmin.png
+
+[friendly-errors] Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open '/home/hollux/web/nuxtllux3/assets/img/realisations/laclefmin.png'
 [friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/mysql.png in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/realisations/sitesWeb.vue?vue&type=script&lang=js 10:15-65
+ @ ./components/pages/realisations/sitesWeb.vue?vue&type=script&lang=js
+ @ ./components/pages/realisations/sitesWeb.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/realisations.vue?vue&type=script&lang=js
+ @ ./pages/realisations.vue?vue&type=script&lang=js
+ @ ./pages/realisations.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.png
-↻ Updated components/pages/competences/languages.vue
+↻ Updated assets/img/realisations/laclefmin.png
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled with some errors in 355.45ms
-[webpackbar] ✔ Client: Compiled with some errors in 368.54ms
+[webpackbar] ✔ Server: Compiled successfully in 246.37ms
+[webpackbar] ✔ Client: Compiled successfully in 264.57ms
+↻ Updated components/pages/index/technos.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 321.63ms
+[webpackbar] ✔ Client: Compiled successfully in 336.86ms
+↻ Updated components/pages/index/projets.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 415.88ms
+[webpackbar] ✔ Client: Compiled successfully in 441.07ms
+↻ Updated components/pages/index/projets.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled with some errors in 312.68ms
+[webpackbar] ✔ Client: Compiled with some errors in 414.64ms
 
 [friendly-errors]  ERROR  Failed to compile with 1 errors
 
-[friendly-errors] This dependency was not found:
+
+[friendly-errors]  ERROR  in ./components/pages/index/projets.vue?vue&type=template&id=0942e374
+
+[friendly-errors] Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  tag <b> has no matching end tag.
+
+  8  |          <h3>La Clef</h3>
+  9  |          <p>
+  10 |            Site web pour les livres d'énigmes <b><a href="https://www.laclef.online" target="_blank"
+     |                                               ^^^
+  11 |                title="La Clef - site par Hollux">La Clef</a>.</p>
+  12 |  
+
 [friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/mysql.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
+ @ ./components/pages/index/projets.vue?vue&type=template&id=0942e374 1:0-256 1:0-256
+ @ ./components/pages/index/projets.vue
+ @ ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js
+ @ ./pages/index.vue?vue&type=script&lang=js
+ @ ./pages/index.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
 [friendly-errors] 
-[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.jpg
+↻ Updated components/pages/index/projets.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled with some errors in 78.45ms
-[webpackbar] ✔ Client: Compiled with some errors in 170.58ms
-
-[friendly-errors]  ERROR  Failed to compile with 1 errors
-
-[friendly-errors] This dependency was not found:
-[friendly-errors] 
-[friendly-errors] * ~/assets/img/competences/mysql.jpg in ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/competences/languages.vue?vue&type=script&lang=js
-[friendly-errors] 
-[friendly-errors] To install it, you can run: npm install --save ~/assets/img/competences/mysql.jpg
-
- ERROR  [Vue warn]: Error in data(): "Error: Cannot find module '~/assets/img/competences/mysql.jpg'"
-
-found in
-
----> <Languages> at components/pages/competences/languages.vue
-       <Pages/competences.vue> at pages/competences.vue
-         <Nuxt>
-           <Layouts/default.vue> at layouts/default.vue
-             <Root>
-
-↻ Updated components/pages/competences/languages.vue
+[webpackbar] ✔ Server: Compiled successfully in 365.58ms
+[webpackbar] ✔ Client: Compiled successfully in 390.08ms
+↻ Updated components/pages/index/projets.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 289.80ms
-[webpackbar] ✔ Client: Compiled successfully in 308.92ms
-↻ Updated components/pages/competences/languages.vue
+[webpackbar] ✔ Server: Compiled successfully in 334.01ms
+[webpackbar] ✔ Client: Compiled successfully in 355.48ms
+↻ Updated components/pages/index/projets.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 317.58ms
-[webpackbar] ✔ Client: Compiled successfully in 338.06ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 366.60ms
+[webpackbar] ✔ Client: Compiled successfully in 377.71ms
+↻ Updated components/pages/index/presentation.vue
 [webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 300.34ms
-[webpackbar] ✔ Client: Compiled successfully in 357.44ms
-↻ Updated components/pages/competences/languages.vue
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 327.63ms
+[webpackbar] ✔ Client: Compiled successfully in 346.93ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 328.94ms
+[webpackbar] ✔ Client: Compiled successfully in 371.07ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 328.33ms
+[webpackbar] ✔ Client: Compiled successfully in 348.17ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 272.97ms
+[webpackbar] ✔ Client: Compiled successfully in 288.45ms
+↻ Updated components/pages/index/presentation.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 282.73ms
+[webpackbar] ✔ Client: Compiled successfully in 300.88ms
+↻ Updated components/Footer.vue
+[webpackbar] ℹ Compiling Server
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Server: Compiled successfully in 460.19ms
+[webpackbar] ✔ Client: Compiled successfully in 1.06s
+↻ Updated layouts/miniQuizz.vue
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
@@ -1723,287 +1852,10 @@ DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be
 
 More info: https://sass-lang.com/d/legacy-js-api
 
-[webpackbar] ✔ Server: Compiled successfully in 278.23ms
-[webpackbar] ✔ Client: Compiled successfully in 294.85ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 282.56ms
-[webpackbar] ✔ Client: Compiled successfully in 325.54ms
-↻ Updated components/pages/competences/languages.vue
+[webpackbar] ✔ Server: Compiled successfully in 405.47ms
+[webpackbar] ✔ Client: Compiled successfully in 483.70ms
+↻ Updated .nuxt/App.js
 [webpackbar] ℹ Compiling Server
 [webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 294.30ms
-[webpackbar] ✔ Client: Compiled successfully in 313.03ms
-↻ Updated components/pages/competences/autres.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 353.47ms
-[webpackbar] ✔ Client: Compiled successfully in 376.10ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 306.27ms
-[webpackbar] ✔ Client: Compiled successfully in 323.46ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 311.15ms
-[webpackbar] ✔ Client: Compiled successfully in 329.81ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 332.41ms
-[webpackbar] ✔ Client: Compiled successfully in 351.39ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 287.62ms
-[webpackbar] ✔ Client: Compiled successfully in 302.17ms
-↻ Updated components/pages/competences/languages.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 367.70ms
-[webpackbar] ✔ Client: Compiled successfully in 388.62ms
-↻ Updated components/pages/competences/frameworks.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-
-More info: https://sass-lang.com/d/legacy-js-api
-
-[webpackbar] ✔ Server: Compiled successfully in 353.95ms
-[webpackbar] ✔ Client: Compiled successfully in 373.67ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 332.85ms
-[webpackbar] ✔ Client: Compiled successfully in 353.44ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 277.83ms
-[webpackbar] ✔ Client: Compiled successfully in 299.04ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 295.20ms
-[webpackbar] ✔ Client: Compiled successfully in 311.46ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 367.97ms
-[webpackbar] ✔ Client: Compiled successfully in 383.38ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 350.77ms
-[webpackbar] ✔ Client: Compiled successfully in 371.45ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 332.08ms
-[webpackbar] ✔ Client: Compiled successfully in 352.04ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 288.76ms
-[webpackbar] ✔ Client: Compiled successfully in 304.86ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 264.21ms
-[webpackbar] ✔ Client: Compiled successfully in 283.70ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 379.38ms
-[webpackbar] ✔ Client: Compiled successfully in 397.61ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 344.90ms
-[webpackbar] ✔ Client: Compiled successfully in 359.66ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 280.36ms
-[webpackbar] ✔ Client: Compiled successfully in 333.13ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 325.77ms
-[webpackbar] ✔ Client: Compiled successfully in 365.76ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 254.62ms
-[webpackbar] ✔ Client: Compiled successfully in 272.49ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 348.70ms
-[webpackbar] ✔ Client: Compiled successfully in 439.55ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 326.48ms
-[webpackbar] ✔ Client: Compiled successfully in 343.73ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 266.96ms
-[webpackbar] ✔ Client: Compiled successfully in 287.06ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 287.65ms
-[webpackbar] ✔ Client: Compiled successfully in 303.86ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 300.85ms
-[webpackbar] ✔ Client: Compiled successfully in 317.14ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 265.95ms
-[webpackbar] ✔ Client: Compiled successfully in 314.94ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 316.58ms
-[webpackbar] ✔ Client: Compiled successfully in 341.28ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 253.90ms
-[webpackbar] ✔ Client: Compiled successfully in 272.98ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 366.31ms
-[webpackbar] ✔ Client: Compiled successfully in 382.14ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 395.62ms
-[webpackbar] ✔ Client: Compiled successfully in 410.89ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 373.02ms
-[webpackbar] ✔ Client: Compiled successfully in 423.88ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 401.67ms
-[webpackbar] ✔ Client: Compiled successfully in 419.88ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 343.66ms
-[webpackbar] ✔ Client: Compiled successfully in 364.54ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 344.51ms
-[webpackbar] ✔ Client: Compiled successfully in 359.40ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 289.31ms
-[webpackbar] ✔ Client: Compiled successfully in 305.63ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 339.39ms
-[webpackbar] ✔ Client: Compiled successfully in 365.18ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 306.70ms
-[webpackbar] ✔ Client: Compiled successfully in 357.74ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 318.24ms
-[webpackbar] ✔ Client: Compiled successfully in 337.43ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Server
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Server: Compiled successfully in 362.62ms
-[webpackbar] ✔ Client: Compiled successfully in 371.11ms
-↻ Updated pages/cv.vue
-[webpackbar] ℹ Compiling Client
-[webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 309.10ms
-[webpackbar] ✔ Client: Compiled successfully in 368.08ms
+[webpackbar] ✔ Server: Compiled successfully in 531.62ms
+[webpackbar] ✔ Client: Compiled successfully in 804.60ms

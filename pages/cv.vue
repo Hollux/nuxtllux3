@@ -3,7 +3,7 @@
     <div class="container">
       <b-row class="center-horiz">
         <b-col cols="2">
-          <b-img src="~/assets/img/base/tete.png" fluid alt="Fluid image"></b-img>
+          <b-img src="~/assets/img/base/tete.webp" fluid alt="Fluid image"></b-img>
         </b-col>
         <b-col>
           <h1>Curriculum vitae d'Hollux / Adrien Marchand</h1>
@@ -36,14 +36,13 @@
     <div class="cv marginContainer" style="display:flex;flex-direction: row;">
       <div class="cvLeft">
         <competences />
+        <formations />
+        <plus />
       </div>
       <div class="cvRight">
-        <trait-au-milieu />
         <experiences />
         <trait-au-milieu />
         <projets />
-        <trait-au-milieu />
-        <plus />
       </div>
     </div>
     <button-trait linkName="Mon profil vous intéresse ? Contactez-moi !" link="contact" />
@@ -59,6 +58,7 @@ import Plus from "~/components/pages/cv/plus.vue";
 import TraitAuMilieu from "~/components/miseEnForme/traitAuMilieu.vue";
 import ButtonTrait from "~/components/miseEnForme/buttonTrait.vue";
 import ButtonTraitExterne from "~/components/miseEnForme/buttonTraitExterne.vue";
+import Formations from "~/components/pages/cv/formations.vue";
 
 export default {
   components: {
@@ -68,7 +68,8 @@ export default {
     Plus,
     TraitAuMilieu,
     ButtonTrait,
-    ButtonTraitExterne
+    ButtonTraitExterne,
+    Formations
   }
 };
 </script>
@@ -110,13 +111,14 @@ export default {
 }
 
 .cvLeft {
-  width: 35%;
-  padding-right: 20px;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 10px;
   border-right: 1px solid black;
 }
 
 .cvRight {
-  width: 65%;
+  width: 75%;
   padding-left: 20px;
 }
 

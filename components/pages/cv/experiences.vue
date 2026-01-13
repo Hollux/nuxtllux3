@@ -1,25 +1,16 @@
 <template>
   <div>
-    <h2>Expériences professionnelles & Formations</h2>
-    <div v-for="experience in experiences" :key="experience.index" class="experiencefor">
-      <b-row>
-        <b-col offset-sm="1" sm="4">
-          <p>{{ experience.periodes }}</p>
-        </b-col>
-        <b-col sm="7">
-          <p>
-            <b>{{ experience.titre }}</b>
-            <i>{{ experience.personne }}</i>
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col offset-xs="6" offset-sm="5">
-          <p v-html="experience.text"></p>
-        </b-col>
-      </b-row>
+    <h2>Expériences professionnelles</h2>
+    <ul v-for="experience in experiences" :key="experience.index" class="experiencefor">
+      <li>
+        <p>
+          <b>{{ experience.periodes }} : {{ experience.titre }}</b>
+          // <i>{{ experience.personne }}</i>
+        </p>
+        <p v-html="experience.text"></p>
+      </li>
       <br />
-    </div>
+    </ul>
   </div>
 </template>
 
@@ -29,19 +20,42 @@ export default {
     return {
       experiences: [
         {
-          periodes: "Juin à novembre 2019",
-          titre: "Chef de projet / Développeur fullstack",
-          personne: "// 2LE",
+          periodes: "Août 2023 à aujourd'hui",
+          titre: "Lead Développeur",
+          personne: "Sermes",
           text:
-            "Migration d’un site de Symfony 2 vers <b>Symfony 4</b> + <b>Vue.JS</b> avec gestion hors-ligne.<br/>Gestion de projet.<br/>Utilisation de EasyAdmin+ et Maker.js."
+            "Développement d’outils internes en Symfony / React / SQL. Analyse et réalisation des demandes internes, gestion des serveurs, relation avec les clients / prestataires / autres développeurs, gestion de projet. Encadrement de l'équipe de développement web, collaboration avec l’équipe AS400 gérant l’ERP de l’entreprise."
+        },
+        {
+          periodes: "Novembre 2021 à août 2023",
+          titre: "Développeur Full Stack",
+          personne: "Jaune de Mars",
+          text:
+            "Administration et évolution d'un outil complet de gestion d’ascenseur : clients, appareils, techniciens, tickets, suivi des interventions, API, etc. Site PHP \"fait main\" avec évolutions MVC / Objet s'inspirant des framework modernes."
+        },
+        {
+          periodes: "Juillet à novembre 2021",
+          titre: "Développeur Full Stack",
+          personne: "Agence Thuria",
+          text:
+            "Création de sites administrables avec modules de gestion pour les offices de tourisme, entièrement réalisés en Wordpress / PHP, Twig, JS."
+        },
+        {
+          periodes: "Juin à novembre 2019",
+          titre: "Chef de projet / Développeur Full Stack",
+          personne: "2LE",
+          text:
+            "Migration d’un site de Symfony 2 vers Symfony 4 + Vue.JS. Gestion de projet web.",
         },
         {
           periodes: "Mars 2016 à janvier 2019",
-          titre: "Développeur fullstack",
-          personne: "// Alcyon",
+          titre: "Développeur Full Stack",
+          personne: "Alcyon France",
           text:
-            "Travail sur la refonte du site d’Alcyon en <b>Symfony 3</b> pendant 2 ans (site marchand, accès privé, catalogue en ligne, applications web à destination des vétérinaires).<br/>Maintenance de l’ancien site sous <b>Zend Framework 1</b>.<br/>Développement d’une application Android en <b>Java</b>.<br/>Recherches pour la création d'une <b>progressive web app</b>."
-        },
+            "Travail sur la refonte du site d’Alcyon en Symfony 3 pendant 2 ans(site marchand, accès privé, catalogue en ligne, applications web à destination des vétérinaires). Maintenance de l’ancien site sous Zend Framework 1. Développement d’une application Android en Java.Recherches pour la création d'une progressive web app."
+        }
+      ],
+      formations: [
         {
           periodes: "Septembre 2018",
           titre: "Formation Vue.JS",

@@ -2,11 +2,12 @@
   <div>
     <h2>Compétences</h2>
     <ul>
-      <li>Langages : <b>HTML</b>, <b>CSS</b>, <b>PHP</b>, <b>JS</b>, <b>MySql</b>, Less, Sass.</li>
-      <li>Frameworks : <b>VueJS</b>, <b>Nuxt</b>, <b>Symfony</b> 3 / 4, Laravel, ZendFramework.</li>
-      <li>CMS : WordPress, Prestashop.</li>
-      <li>Mise en place de sécurité sur le site, gestion de base de données, notions de SEO.</li>
-      <li>Utilisation d'outils divers : Git, SVN, Captcha, PageSpeedInsight, Analytics.</li>
+      <li>Langages : <b>PHP</b>, <b>JS</b>, HTML, CSS, SQL, Sass</li>
+      <li><b>Docker</b> (configuration et gestion).</li>
+      <li><b>Symfony, Vue.JS</b>, React, Laravel</li>
+      <li>Outils d'<b>IA</b> : Github Copilot, Mammouth, ChatGPT</li>
+      <li>Gestion complète de <b>serveur Linux</b> (DNS, Apache, Docker, BDD)</li>
+      <li>Divers : Git, Captcha, Analytics, notions de SEO.</li>
     </ul>
   </div>
 </template>
@@ -15,5 +16,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

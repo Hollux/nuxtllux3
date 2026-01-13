@@ -14,23 +14,19 @@
       <b-col md>
       </b-col>
     </b-row>-->
-        <h2>Projets Personnels</h2>
-        <ul>
-          <li>Apprentissage de Vue.JS / Nuxt avant d’en proposer l’utilisation chez Alcyon.</li>
-          <li>Apprentissage de Symfony 3 et 4 avant la formation Sensiolabs.</li>
-          <li>Mise en place de serveurs :</li>
-          <ul>
-            <li>Raspberry / NUC</li>
-            <li>Raspbian / Linux</li>
-            <li>Apache + PHP 7 + node.js + SSL</li>
-            <li>MySQL + phpMyAdmin</li>
-          </ul>
-          <li>Création pour une ludothèque d'un site drive lié à leur outil de gestion Ludoprêt.</li>
-          <li>Création de thèmes Wordpress (le premier from scratch, le second est un thème enfant).</li>
-          <li>Création d'un serveur Web Multi-site en Linux.</li>
-          <li>Petit framework maison MVC.</li>
-        </ul>
-      
+    <h2>Projets Personnels</h2>
+    <ul>
+      <li><b>2024</b> : Développement du site du livre-énigme La Clef en React.</li>
+      <li><b>2021-2026</b> : Réalisation d'un site d'outil météorologique de la ville d'Horbourg-Wihr en Nuxt + Symfony.
+      </li>
+      <li><b>2022-2025</b> : Développement d'un outil "team builder" en Nuxt + Symfony pour le fansite Genshin Impact
+        FR.</li>
+      <li><b>2020-2021</b> : Création pour une ludothèque d'un drive lié à leur outil Ludoprêt, en Symfony +
+        VueJS.Adaptation navigateur du jeu de société TIME Stories en Symfony + VueJS.</li>
+      <li>Mise en place de serveurs : Raspberry / Nuc, Apache, Php, node.js, Docker, SSL, Sql, Multisite en Linux.</li>
+      <li>Divers autres réalisations en usage privé à des fins d'apprentissage ou simplement d'outils personnels.</li>
+    </ul>
+
   </div>
 </template>
 
@@ -38,5 +34,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

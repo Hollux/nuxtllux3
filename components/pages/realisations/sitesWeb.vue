@@ -38,9 +38,9 @@ export default {
           comment: "Ces sites sont toujours en ligne et accessibles au public.",
           sites: [
             {
-              titre: "La Clef : Astolie",
+              titre: "La Clef",
               content:
-                "<p>Site web pour les livres d'énigmes <b>La Clef : Astolie</b> pour <a href='https://www.laclef.online' target='_blank' title='La clef - site par Hollux'>La Clef'</a>.<br />Réalisé en <b>React</b> avec de nombreux secrets, spécificité lié aux énigmes des livres, des outils sur les pages.</p>",
+                "<p><a href='https://www.laclef.online' target='_blank' title='La clef - site par Hollux'>Site web</a> pour les livres d'énigmes <b>La Clef</b>.<br />Réalisé en <b>React</b> avec de nombreux secrets, spécificités liées aux énigmes des livres, des outils sur les pages.</p>",
               img: require("~/assets/img/realisations/laclefmin.png"),
               imgAlt: "laclef",
               lienExterne: "https://www.laclef.online/"
@@ -48,7 +48,7 @@ export default {
             {
               titre: "Meteo Horbourg-Wihr",
               content:
-                "<p><b>Site météo</b> pour la commune d'horbourg-wihr. Sauvegarde des relevés météo avec utilisation dans des graphiques et statistiques.<br />Réalisé en <b>nuxt</b> avec intégration d'une API météo.</p>",
+                "<p><b>Site météo</b> ciblé sur la commune d'horbourg-wihr. Sauvegarde des relevés météo avec visualisation dans des graphiques et statistiques.<br />Réalisé en <b>nuxt</b> avec intégration d'une API météo.</p>",
               img: require("~/assets/img/realisations/meteohw.png"),
               imgAlt: "meteohw",
               lienExterne: "https://meteohw.hollux.fr/"
@@ -56,7 +56,7 @@ export default {
             {
               titre: "SOLVEIG DE CUYPER",
               content:
-                "<p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'>Solveig De Cuyper'</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
+                "<p><b>Site vitrine</b> pour <a href='https://www.solveigdc.fr/' target='_blank' title='Solveig De Cuyper - site par Hollux'>Solveig De Cuyper</a>, graphiste webdesigner.<br />Réalisé en <b>Symfony 3</b> avec mise en place d’outils spécifiques (portfolio, filtres).</p>",
               img: require("~/assets/img/realisations/solveigdcMin.jpg"),
               imgAlt: "solveigdcfr",
               lienExterne: "https://www.solveigdc.fr/"
@@ -70,7 +70,7 @@ export default {
             {
               titre: "LUDO DRIVE",
               content:
-                "<b>Drive de jeux de société</b> pour la ludothèque de Horbourg-Wihr</a>, créé afin d'éviter la propagation du COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p>",
+                "<b>Drive de jeux de société</b> pour la ludothèque de Horbourg-Wihr</a>, créé pour que leur activité puisse continuer malgré l'épidémie de COVID. <p>Réalisé en <b>nuxt</b> (front) et <b>symfony</b> (api), et lié à leur outil de gestion Ludoprêt.</p>",
               img: require("~/assets/img/realisations/ludodrive.png"),
               imgAlt: "ludodrive",
               lienExterne: "#"//"https://ludo.hollux.pw/"
@@ -78,7 +78,7 @@ export default {
             {
               titre: "HARICOT DE CASTELNAUDARY",
               content:
-                "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>, le site a été refait sur wordpress.",
+                "<b>Site vitrine</b> pour <a href='http://haricotdecastelnaudary.fr/' target='_blank' title='Le Haricot de Castelnaudary - site par Hollux'>Le haricot de Castelnaudary</a>, un label visant à promouvoir le haricot lingot du Languedoc. <br />Réalisation sur-mesure en <b>MVC</b>, le site a été refait sur Wordpress.",
               img: require("~/assets/img/realisations/haricotfr.jpg"),
               imgAlt: "haricotfr",
               lienExterne: "https://haricotdecastelnaudary.fr/"
