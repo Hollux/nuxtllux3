@@ -91,6 +91,8 @@ const domains = [
     items: [
       'Administration de serveurs Linux',
       'Docker, Apache, DNS, SSL, bases de données',
+      'CI/CD avec Forgejo, mise en production automatisée',
+      'Serveurs de dev et de prod séparés, sauvegardes externalisées',
       'Serveurs maison : Raspberry Pi puis NUC',
       'Hébergement et déploiement chez OVH',
     ],
@@ -105,10 +107,12 @@ const domains = [
     ],
   },
   {
-    title: 'Développement assisté par IA',
+    title: 'IA & développement agentique',
     items: [
       'Copilot, Claude Code et ChatGPT au quotidien',
       'Pour aller plus vite sur le répétitif',
+      'Développement agentique : déléguer des tâches à des agents IA',
+      'IA en local avec Ollama : chatbot, analyse de données',
       'Toujours relu, compris et maîtrisé',
     ],
   },
@@ -123,7 +127,7 @@ const timeline = [
   { year: 2021, title: 'PHP sans filet', text: 'WordPress et Twig chez Thuria, puis deux ans de PHP objet fait main chez Jaune de Mars.' },
   { year: 2023, title: 'Lead développeur', text: 'Chez Sermes : Symfony + React, Docker, serveurs, encadrement d’équipe.' },
   { year: 2024, title: 'La Clef', text: 'Un site React pour un livre-énigme, avec des développements à l’aveugle à la demande des auteurs.' },
-  { year: 2026, title: 'Nuxt 4 & IA', text: 'Ce site passe de Nuxt 2 à Nuxt 4, et l’IA devient un outil du quotidien.' },
+  { year: 2026, title: 'Développement agentique', text: 'Montée en compétences à temps plein : CI/CD Forgejo, Docker, sauvegardes, outils connectés à l’API Claude, développement avec agents IA.' },
 ]
 
 type Category = 'Langages' | 'Frameworks' | 'Serveurs & données' | 'Outils' | 'IA' | 'CMS'
@@ -139,13 +143,13 @@ const tools: { name: string; cat: Category; level: Level }[] = [
   { name: 'HTML', cat: 'Langages', level: 3 },
   { name: 'CSS', cat: 'Langages', level: 3 },
   { name: 'TypeScript', cat: 'Langages', level: 2 },
-  { name: 'Twig', cat: 'Langages', level: 2 },
+  { name: 'Twig', cat: 'Langages', level: 1 },
   { name: 'Sass', cat: 'Langages', level: 2 },
   { name: 'Less', cat: 'Langages', level: 1 },
   { name: 'Java', cat: 'Langages', level: 1 },
   { name: 'Symfony', cat: 'Frameworks', level: 3 },
-  { name: 'Vue.js', cat: 'Frameworks', level: 3 },
-  { name: 'Nuxt', cat: 'Frameworks', level: 3 },
+  { name: 'Vue.js', cat: 'Frameworks', level: 2 },
+  { name: 'Nuxt', cat: 'Frameworks', level: 2 },
   { name: 'React', cat: 'Frameworks', level: 3 },
   { name: 'Laravel', cat: 'Frameworks', level: 1 },
   { name: 'Bootstrap', cat: 'Frameworks', level: 1 },
@@ -160,10 +164,10 @@ const tools: { name: string; cat: Category; level: Level }[] = [
   { name: 'Raspberry Pi / NUC', cat: 'Serveurs & données', level: 2 },
   { name: 'Git / GitHub', cat: 'Outils', level: 3 },
   { name: 'VS Code', cat: 'Outils', level: 3 },
-  { name: 'PhpStorm', cat: 'Outils', level: 2 },
+  { name: 'PhpStorm', cat: 'Outils', level: 1 },
   { name: 'macOS', cat: 'Outils', level: 2 },
-  { name: 'Windows', cat: 'Outils', level: 2 },
   { name: 'Analytics / SEO', cat: 'Outils', level: 1 },
+  { name: 'Forgejo CI/CD', cat: 'Serveurs & données', level: 3 },
   { name: 'SVN', cat: 'Outils', level: 1 },
   { name: 'SoapUI', cat: 'Outils', level: 1 },
   { name: 'NetBeans', cat: 'Outils', level: 1 },
@@ -171,6 +175,8 @@ const tools: { name: string; cat: Category; level: Level }[] = [
   { name: 'XAMPP / EasyPHP', cat: 'Outils', level: 1 },
   { name: 'GitHub Copilot', cat: 'IA', level: 3 },
   { name: 'Claude Code', cat: 'IA', level: 3 },
+  { name: 'API Claude', cat: 'IA', level: 3 },
+  { name: 'Ollama (IA locale)', cat: 'IA', level: 2 },
   { name: 'ChatGPT', cat: 'IA', level: 2 },
   { name: 'WordPress', cat: 'CMS', level: 1 },
   { name: 'PrestaShop', cat: 'CMS', level: 1 },
@@ -200,7 +206,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
     <div class="trait" />
 
     <section class="container">
-      <h2>ma stack principale</h2>
+      <h2>Ma stack principale</h2>
       <ul class="core">
         <li v-for="tech in core" :key="tech.name">
           <div class="core-head">
@@ -225,7 +231,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
     <div class="trait" />
 
     <section class="container">
-      <h2>ce que je fais concrètement</h2>
+      <h2>Ce que je fais concrètement</h2>
       <ol class="domains">
         <li v-for="(domain, i) in domains" :key="domain.title">
           <span class="domain-num" aria-hidden="true">{{ String(i + 1).padStart(2, '0') }}</span>
@@ -240,7 +246,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
     <div class="trait" />
 
     <section class="container">
-      <h2>comment ma stack a évolué</h2>
+      <h2>Comment ma stack a évolué</h2>
       <ol class="timeline">
         <li v-for="step in timeline" :key="step.year">
           <span class="timeline-year">{{ step.year }}</span>
@@ -255,7 +261,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
     <div class="trait" />
 
     <section class="container">
-      <h2>la boîte à outils complète</h2>
+      <h2>La boîte à outils complète</h2>
       <div class="filters" role="group" aria-label="Filtrer par catégorie">
         <button type="button" :aria-pressed="filter === null" @click="filter = null">Tout ({{ tools.length }})</button>
         <button v-for="cat in categories" :key="cat" type="button" :aria-pressed="filter === cat" @click="filter = cat">
@@ -342,13 +348,13 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
   margin: 0;
   padding: 22px;
   border: 1px solid var(--c-ink);
-  box-shadow: 6px 6px 0 var(--c-ink);
+  box-shadow: 6px 6px 0 var(--c-shadow);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .core > li:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 8px 8px 0 var(--c-ink);
+  box-shadow: 8px 8px 0 var(--c-shadow);
 }
 
 .core-head {
@@ -385,7 +391,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
 .core-used span:not(.visually-hidden) {
   padding: 2px 8px;
   background: var(--c-ink);
-  color: #fff;
+  color: var(--c-on-ink);
   font-size: 0.75rem;
 }
 
@@ -398,6 +404,10 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
 }
 
 .domains > li {
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+  row-gap: 0;
   margin: 0;
 }
 
@@ -412,6 +422,8 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
 }
 
 .domains h3 {
+  display: flex;
+  align-items: flex-end;
   margin: 8px 0 12px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--c-ink);
@@ -508,12 +520,12 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
 }
 
 .filters button:hover {
-  background: #eee;
+  background: var(--c-hover);
 }
 
 .filters button[aria-pressed='true'] {
   background: var(--c-ink);
-  color: #fff;
+  color: var(--c-on-ink);
 }
 
 .legend {
@@ -545,7 +557,7 @@ const visibleTools = computed(() => (filter.value ? tools.filter((t) => t.cat ==
 
 .tools li.level-1 {
   border-style: dashed;
-  color: #6b6b6b;
+  color: var(--c-subtle);
 }
 
 .dots {

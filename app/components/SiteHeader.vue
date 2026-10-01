@@ -5,12 +5,19 @@ const links = [
   { to: '/realisations', label: 'Réalisations' },
   { to: '/cv', label: 'CV' },
   { to: '/ensavoirplus', label: 'En savoir plus' },
-  { to: '/contact', label: 'Contact' },
 ]
+
+const theme = useState<'light' | 'dark'>('theme', () => 'light')
+const { $setTheme } = useNuxtApp()
+const booting = useState('themeBoot', () => false)
+const dark = computed(() => theme.value === 'dark')
 </script>
 
 <template>
   <header class="site-header">
+    <button type="button" class="theme-toggle" :aria-pressed="dark" :disabled="booting" @click="$setTheme(dark ? 'light' : 'dark')">
+      <span aria-hidden="true" />{{ dark ? 'light mode' : 'dark mode' }}
+    </button>
     <NuxtLink to="/" class="logo" aria-label="Hollux, retour à l'accueil">
       <NuxtImg format="webp" src="/img/base/logo.png" alt="Logo Hollux" width="85" height="85" />
     </NuxtLink>
@@ -26,8 +33,43 @@ const links = [
 
 <style scoped>
 .site-header {
+  position: relative;
   margin-bottom: 50px;
   text-align: center;
+}
+
+/* Bascule de thème, discrète, en haut à droite */
+.theme-toggle {
+  position: absolute;
+  top: 14px;
+  right: var(--gutter);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  color: var(--c-subtle);
+  background: none;
+  border: 1px solid transparent;
+  font-family: var(--f-body);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.theme-toggle:disabled {
+  cursor: wait;
+}
+
+.theme-toggle:hover {
+  color: var(--c-ink);
+  border-color: var(--c-line);
+}
+
+.theme-toggle span {
+  width: 9px;
+  height: 9px;
+  border: 1px solid currentColor;
+  background: linear-gradient(90deg, currentColor 50%, transparent 50%);
 }
 
 .logo {
@@ -48,7 +90,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid var(--c-line);
 }
 
 nav li {
@@ -66,13 +108,19 @@ nav a {
 }
 
 nav a:hover {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: var(--c-line-soft) var(--c-line-soft) var(--c-line);
 }
 
 nav a.router-link-exact-active {
-  color: #495057;
+  color: var(--c-text);
   background: var(--c-bg);
-  border-color: #dee2e6 #dee2e6 var(--c-bg);
+  border-color: var(--c-line) var(--c-line) var(--c-bg);
+}
+
+@media print {
+  .theme-toggle {
+    display: none;
+  }
 }
 
 @media (max-width: 890px) {
@@ -91,7 +139,7 @@ nav a.router-link-exact-active {
   }
 
   nav a.router-link-exact-active {
-    border-color: #dee2e6;
+    border-color: var(--c-line);
     border-radius: 0.25rem;
   }
 }

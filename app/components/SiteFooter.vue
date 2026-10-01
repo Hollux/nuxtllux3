@@ -7,7 +7,6 @@ const year = new Date().getFullYear()
     <nav class="footer-nav" aria-label="Liens de pied de page">
       <NuxtLink to="/">Accueil</NuxtLink>
       <NuxtLink to="/mentions-legales">Mentions légales</NuxtLink>
-      <a href="https://github.com/Hollux" target="_blank" rel="noopener">GitHub</a>
     </nav>
     <p>Copyright {{ year }} Adrien Marchand - Tous droits réservés.</p>
   </footer>
@@ -30,7 +29,7 @@ const year = new Date().getFullYear()
 }
 
 .footer-nav a {
-  color: #fff;
+  color: var(--c-on-ink);
   font-style: normal;
 }
 
