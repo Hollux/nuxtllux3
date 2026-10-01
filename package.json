@@ -1,25 +1,25 @@
 {
-  "name": "Hollux",
-  "version": "1.0.0",
-  "description": "My website",
+  "name": "hollux",
+  "version": "2.0.0",
+  "description": "Site portfolio d'Hollux / Adrien Marchand, développeur web fullstack",
   "author": "hollux",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/pwa": "^3.0.2",
-    "bootstrap": "^4.5.2",
-    "bootstrap-vue": "^2.16.0",
-    "core-js": "2.6.5",
-    "nuxt": "^2.14.4"
-  },
-  "devDependencies": {
-    "sass": "^1.97.1",
-    "sass-loader": "^8.0.2"
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/image": "^2.1.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
   }
 }

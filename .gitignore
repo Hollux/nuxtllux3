@@ -66,11 +66,16 @@ typings/
 # next.js build output
 .next
 
-# nuxt.js build output
+# nuxt build output
 .nuxt
+.output
+.data
 
-# Nuxt generate
+# Nuxt generate (lien symbolique vers .output/public)
 dist
+
+# Logs du serveur de dev
+nohup.out
 
 # vuepress build output
 .vuepress/dist
@@ -81,8 +86,6 @@ dist
 # IDE / Editor
 .idea
 
-# Service worker
-sw.*
 
 # macOS
 .DS_Store

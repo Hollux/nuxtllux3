@@ -1,0 +1,134 @@
+:root {
+  --c-text: #3f3f40;
+  --c-ink: #000;
+  --c-bg: #fff;
+  --c-muted: #c7c4c4;
+  --f-title: 'Raleway', sans-serif;
+  --f-body: 'Courier Prime', monospace;
+  --container: 1140px;
+  --gutter: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--f-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* TITRES */
+
+h1,
+h2,
+h3 {
+  color: var(--c-ink);
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: var(--f-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: var(--f-body);
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin: 30px 0;
+}
+
+h3 {
+  font-family: var(--f-title);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 15px 0 20px;
+}
+
+p,
+li {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0 0 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--c-ink);
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-ink);
+  outline-offset: 2px;
+}
+
+/* MISE EN PAGE */
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.trait {
+  border-bottom: 1px solid var(--c-ink);
+  height: 10px;
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Grille de cartes : 3 colonnes sur grand écran, 1 sur mobile */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
