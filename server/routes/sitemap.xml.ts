@@ -1,4 +1,4 @@
-const pages = ['/', '/competences', '/realisations', '/cv', '/ensavoirplus', '/contact']
+const pages = ['/', '/competences', '/realisations', '/cv', '/ensavoirplus']
 
 export default defineEventHandler((event) => {
   const { siteUrl } = useRuntimeConfig(event).public

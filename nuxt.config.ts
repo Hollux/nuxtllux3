@@ -8,7 +8,7 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/fonts', '@nuxt/image'],
 
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/cyber.css'],
 
   app: {
     head: {
@@ -25,6 +25,14 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'apple-touch-icon', href: '/icon.png' },
+      ],
+      // Thème sombre posé avant le premier rendu (pas de flash du thème clair) ;
+      // cp-boot masque la page jusqu'au lancement de l'effet de décodage
+      script: [
+        {
+          innerHTML:
+            "try{if(localStorage.getItem('theme')==='dark'){var d=document.documentElement;d.dataset.theme='dark';d.classList.add('cp-boot')}}catch(e){}",
+        },
       ],
     },
   },
@@ -44,7 +52,7 @@ export default defineNuxtConfig({
     quality: 80,
   },
 
-  // Site 100 % statique (hébergement OVH) : toutes les pages sont pré-rendues.
+  // Site 100 % statique (auto-hébergé sur serveur Debian) : toutes les pages sont pré-rendues.
   routeRules: {
     '/**': { prerender: true },
     // Anciennes URL. /enSavoirPlus est une page statique dans public/ : une règle ici
@@ -52,12 +60,15 @@ export default defineNuxtConfig({
     '/miniquizz': { redirect: 'https://cinequizz.hollux.fr/cinequizz' },
     '/miniquizzend': { redirect: 'https://cinequizz.hollux.fr/cinequizz' },
     '/randomSmashUp': { redirect: '/realisations' },
+    '/contact': { redirect: '/cv' },
   },
 
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/sitemap.xml', '/miniquizz', '/miniquizzend', '/randomSmashUp'],
+      // Une page en erreur ou un lien interne cassé fait échouer la génération (et la CI)
+      failOnError: true,
+      routes: ['/', '/sitemap.xml', '/miniquizz', '/miniquizzend', '/randomSmashUp', '/contact'],
     },
   },
 

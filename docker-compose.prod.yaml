@@ -1,0 +1,40 @@
+# Stack de PRODUCTION (debianProd), pilotée par l'outil "prod" du serveur :
+#   prod hollux deploy vX.Y.Z   /   prod hollux rollback vX.Y.Z   /   prod hollux status
+#
+# Organisation sur le serveur (/srv/hollux) :
+#   releases/vX.Y.Z/docker-compose.prod.yaml   ce fichier, livré avec chaque version
+#   current -> releases/vX.Y.Z                 version en service
+#   shared/                                     commun à toutes les versions :
+#     .env (SITE_PORT), prod.conf
+#
+# L'image REGISTRY/hollux-site:APP_VERSION contient tout le site (statique, nginx).
+# APP_VERSION est fourni par l'outil "prod" (nom du dossier de version), REGISTRY aussi.
+
+# NE PAS CHANGER : le nom de projet préfixe les conteneurs et le réseau.
+name: hollux
+
+services:
+  site:
+    container_name: hollux_prod_site
+    image: ${REGISTRY:?}/hollux-site:${APP_VERSION:?}
+    restart: always
+    # Uniquement sur la boucle locale : Apache (hôte) relaie en HTTPS.
+    ports:
+      - "127.0.0.1:${SITE_PORT:?}:80"
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    security_opt: ["no-new-privileges:true"]
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO /dev/null http://127.0.0.1/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"

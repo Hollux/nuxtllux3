@@ -1,0 +1,62 @@
+# CI de hollux.fr sur la forge interne (Forgejo, nuclluxII) — runner local, sans quota.
+#
+#   à chaque push       : génération complète du site (nuxt generate : une page en
+#                         erreur ou un lien interne cassé fait échouer la CI)
+#   à chaque tag vX.Y.Z : génération, PUIS construction et publication dans le registre
+#                         de la forge des images de la version :
+#     REGISTRY/hollux-site     (site statique servi par nginx)
+#     REGISTRY/hollux-release  (docker-compose.prod.yaml de la version)
+#   Si la génération échoue, aucune image n'est publiée : la version ne peut pas partir en prod.
+#
+# Les jobs pilotent le Docker ISOLÉ de la CI (DOCKER_HOST fourni par le runner).
+# Secret requis : REGISTRY_TOKEN (jeton Forgejo "write:package").
+
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*.*.*"]
+
+env:
+  REGISTRY: hlxvault.tail47a825.ts.net:8443/hollux
+
+jobs:
+  generate:
+    runs-on: docker
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Génération du site
+        run: docker build --target build -t "hollux-test:${{ github.sha }}" .
+
+      - name: Nettoyage
+        if: always()
+        run: docker rmi "hollux-test:${{ github.sha }}" >/dev/null 2>&1 || true
+
+  images:
+    needs: generate
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: docker
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Connexion au registre de la forge
+        run: echo "${{ secrets.REGISTRY_TOKEN }}" | docker login "${REGISTRY%%/*}" -u hollux --password-stdin
+
+      - name: Construction et publication
+        run: |
+          V="${{ github.ref_name }}"
+          docker build --build-arg APP_VERSION="$V" -t "$REGISTRY/hollux-site:$V" .
+          # Paquet de déploiement : le compose de CETTE version (extrait par l'outil "prod")
+          rm -rf /tmp/release && mkdir -p /tmp/release && cp docker-compose.prod.yaml /tmp/release/
+          printf 'FROM scratch\nCOPY docker-compose.prod.yaml /\nCMD ["none"]\n' | docker build -t "$REGISTRY/hollux-release:$V" -f - /tmp/release
+          for img in hollux-site hollux-release; do
+            docker push -q "$REGISTRY/$img:$V"
+          done
+
+      - name: Nettoyage du Docker de la CI
+        if: always()
+        run: |
+          docker logout "${REGISTRY%%/*}" >/dev/null 2>&1 || true
+          docker image prune -af --filter "until=168h" >/dev/null 2>&1 || true

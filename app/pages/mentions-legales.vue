@@ -16,7 +16,10 @@ useSeoMeta({
     </p>
 
     <h2>Hébergement</h2>
-    <p>OVH SAS, 2 rue Kellermann, 59100 Roubaix, France. Téléphone : 1007.</p>
+    <p>
+      Ce site est auto-hébergé par son éditeur, Adrien Marchand, sur un serveur privé situé en France. Pour toute
+      demande relative à l'hébergement : <a href="mailto:holluxpanda@gmail.com">holluxpanda@gmail.com</a>
+    </p>
 
     <h2>Données personnelles et cookies</h2>
     <p>Ce site ne collecte aucune donnée personnelle et ne dépose aucun cookie.</p>

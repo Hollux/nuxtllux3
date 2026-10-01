@@ -1,0 +1,330 @@
+/* MODE SOMBRE « CYBERPUNK »
+   Activé par <html data-theme="dark"> (voir plugins/cyber.client.ts).
+   Limité à l'écran : l'impression garde toujours le thème clair. */
+
+@media screen {
+  html[data-theme='dark'] {
+    --c-bg: #06070d;
+    --c-text: #b4bfd4;
+    --c-ink: #00e5ff;
+    --c-on-ink: #06070d;
+    --c-ink-hover: #33ff66;
+    --c-shadow: #33ff66;
+    --c-muted: #4b3d70;
+    --c-hover: #121829;
+    --c-soft: #0c1020;
+    --c-subtle: #6f7c98;
+    --c-line: #1d2944;
+    --c-line-soft: #2a3a5e;
+    --c-accent: #33ff66;
+    --c-violet: #9d4dff;
+    --c-bright: #e4f4ff;
+    color-scheme: dark;
+  }
+
+  /* Fond : halos violet et vert, quadrillage très léger */
+  html[data-theme='dark'] body {
+    background:
+      radial-gradient(ellipse at 10% -10%, rgb(157 77 255 / 0.16), transparent 55%),
+      radial-gradient(ellipse at 110% 110%, rgb(51 255 102 / 0.1), transparent 50%),
+      linear-gradient(rgb(0 229 255 / 0.035) 1px, transparent 1px) 0 0 / 100% 40px,
+      linear-gradient(90deg, rgb(0 229 255 / 0.035) 1px, transparent 1px) 0 0 / 40px 100%,
+      var(--c-bg);
+    background-attachment: fixed;
+  }
+
+  /* Lignes de balayage et vignettage, par-dessus tout le site */
+  html[data-theme='dark'] body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    background:
+      repeating-linear-gradient(to bottom, transparent 0 2px, rgb(0 0 0 / 0.22) 2px 3px),
+      radial-gradient(ellipse at center, transparent 55%, rgb(0 0 0 / 0.55));
+  }
+
+  html[data-theme='dark'] ::selection {
+    color: var(--c-bg);
+    background: var(--c-accent);
+  }
+
+  /* TEXTES */
+
+  html[data-theme='dark'] h1 {
+    text-shadow:
+      0 0 14px rgb(0 229 255 / 0.45),
+      -1px 0 rgb(51 255 102 / 0.7);
+    animation: cp-flicker 8s infinite;
+  }
+
+  /* Curseur clignotant au bout du titre */
+  html[data-theme='dark'] h1::after {
+    content: '_';
+    margin-left: 4px;
+    color: var(--c-accent);
+    animation: cp-blink 1.1s steps(1) infinite;
+  }
+
+  html[data-theme='dark'] h2 {
+    color: var(--c-bright);
+    text-shadow: 1px 0 rgb(0 229 255 / 0.35);
+  }
+
+  html[data-theme='dark'] h2::before {
+    background: var(--c-accent);
+    box-shadow: 0 0 10px var(--c-accent);
+  }
+
+  html[data-theme='dark'] h3 {
+    color: var(--c-bright);
+  }
+
+  html[data-theme='dark'] b,
+  html[data-theme='dark'] strong {
+    color: var(--c-bright);
+  }
+
+  html[data-theme='dark'] a:hover {
+    color: var(--c-accent);
+    text-shadow: 0 0 8px rgb(51 255 102 / 0.6);
+  }
+
+  /* EN-TÊTE ET PIED DE PAGE */
+
+  html[data-theme='dark'] .site-header .logo img {
+    filter: invert(1) drop-shadow(0 0 8px rgb(0 229 255 / 0.6));
+  }
+
+  html[data-theme='dark'] .site-header nav a.router-link-exact-active {
+    color: var(--c-ink);
+    text-shadow: 0 0 8px rgb(0 229 255 / 0.6);
+    box-shadow: inset 0 -2px 0 var(--c-accent);
+  }
+
+  html[data-theme='dark'] .theme-toggle {
+    color: var(--c-ink);
+    border-color: var(--c-line-soft);
+  }
+
+  html[data-theme='dark'] .footer-nav {
+    background: none;
+    border-block: 1px solid var(--c-line-soft);
+  }
+
+  html[data-theme='dark'] .footer-nav a {
+    color: var(--c-ink);
+  }
+
+  /* BLOCS */
+
+  /* Boutons aux coins coupés */
+  html[data-theme='dark'] .button-trait a {
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+  }
+
+  html[data-theme='dark'] .button-trait::before,
+  html[data-theme='dark'] .button-trait::after {
+    border-color: var(--c-line-soft);
+  }
+
+  /* Les terminaux restent sombres, cadrés de néon */
+  html[data-theme='dark'] .terminal,
+  html[data-theme='dark'] .cv-header {
+    --c-on-ink: var(--c-bright);
+    --c-muted: var(--c-subtle);
+    background: rgb(10 14 28 / 0.9);
+    border: 1px solid var(--c-ink);
+    box-shadow:
+      6px 6px 0 var(--c-accent),
+      0 0 24px rgb(0 229 255 / 0.15);
+  }
+
+  html[data-theme='dark'] .cv-header {
+    border: 0;
+    border-bottom: 1px solid var(--c-ink);
+    box-shadow: none;
+  }
+
+  html[data-theme='dark'] .cv-name {
+    color: var(--c-ink);
+    text-shadow: 0 0 12px rgb(0 229 255 / 0.45);
+  }
+
+  html[data-theme='dark'] .scroll-top {
+    box-shadow: 0 0 14px rgb(0 229 255 / 0.4);
+  }
+
+  /* IMAGES */
+
+  html[data-theme='dark'] .hero-portrait img {
+    filter: contrast(1.05) saturate(0.85);
+  }
+
+  /* Logos de technos : liseré clair pour que les logos noirs restent lisibles */
+  html[data-theme='dark'] img[src*='competences'] {
+    filter: drop-shadow(0 0 1px var(--c-bright)) drop-shadow(0 0 4px rgb(0 229 255 / 0.3));
+  }
+
+  /* EFFETS */
+
+  /* Au chargement, page masquée jusqu'au lancement du décodage (filet de sécurité : 2,5 s) */
+  html.cp-boot .layout {
+    visibility: hidden;
+    animation: cp-boot 0s 2.5s forwards;
+  }
+
+  html[data-theme='dark'] .cp-glitch {
+    animation: cp-glitch 0.4s steps(1) both;
+  }
+
+  html[data-theme='dark'] .cp-glitch-img {
+    animation: cp-glitch-img 0.4s steps(1) both;
+  }
+
+  html.cp-screen-glitch .content {
+    animation: cp-shake 0.26s steps(1);
+  }
+
+  /* Bande de distorsion qui traverse l'écran */
+  html.cp-screen-glitch body::before {
+    content: '';
+    position: fixed;
+    top: var(--cp-bar-top, 30vh);
+    left: 0;
+    right: 0;
+    z-index: 101;
+    height: 14vh;
+    pointer-events: none;
+    backdrop-filter: hue-rotate(150deg) saturate(3) brightness(1.4);
+    border-block: 1px solid rgb(51 255 102 / 0.6);
+    animation: cp-bar 0.26s steps(1);
+  }
+}
+
+@keyframes cp-boot {
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes cp-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Néon qui grésille brièvement */
+@keyframes cp-flicker {
+  0%,
+  91%,
+  93%,
+  96%,
+  100% {
+    opacity: 1;
+  }
+  92%,
+  95% {
+    opacity: 0.55;
+  }
+  94% {
+    opacity: 0.85;
+  }
+}
+
+/* Aberration chromatique et tranches décalées */
+@keyframes cp-glitch {
+  0% {
+    transform: translate(-3px, 1px);
+    clip-path: inset(15% 0 50% 0);
+    text-shadow:
+      -3px 0 var(--c-accent),
+      3px 0 var(--c-ink);
+  }
+  20% {
+    transform: translate(3px, -1px);
+    clip-path: inset(60% 0 8% 0);
+  }
+  40% {
+    transform: translate(-1px, 0) skewX(10deg);
+    clip-path: inset(5% 0 70% 0);
+    text-shadow:
+      2px 0 var(--c-violet),
+      -2px 0 var(--c-ink);
+  }
+  60% {
+    transform: translate(2px, 0);
+    clip-path: inset(40% 0 25% 0);
+  }
+  80% {
+    transform: translate(-2px, 1px);
+    clip-path: inset(0);
+    text-shadow:
+      -1px 0 var(--c-accent),
+      1px 0 var(--c-ink);
+  }
+  100% {
+    transform: none;
+    clip-path: none;
+  }
+}
+
+@keyframes cp-glitch-img {
+  0% {
+    transform: translate(-4px, 0);
+    clip-path: inset(10% 0 55% 0);
+    filter: hue-rotate(120deg) saturate(3);
+  }
+  25% {
+    transform: translate(4px, 0);
+    clip-path: inset(50% 0 20% 0);
+  }
+  50% {
+    transform: translate(-2px, 0);
+    clip-path: inset(0);
+    filter: hue-rotate(-90deg) contrast(1.6);
+  }
+  75% {
+    transform: translate(1px, 0);
+    filter: invert(0.15);
+  }
+  100% {
+    transform: none;
+    clip-path: none;
+  }
+}
+
+@keyframes cp-shake {
+  0% {
+    transform: translate(-3px, 0);
+  }
+  33% {
+    transform: translate(3px, 1px);
+  }
+  66% {
+    transform: translate(-1px, -1px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes cp-bar {
+  0% {
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateY(6vh) scaleY(0.4);
+  }
+  100% {
+    transform: translateY(-4vh) scaleY(0.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme='dark'] h1,
+  html[data-theme='dark'] h1::after {
+    animation: none;
+  }
+}

@@ -1,0 +1,14 @@
+# Réglages de l'outil "prod" pour hollux — à copier dans /srv/hollux/shared/prod.conf
+# (site statique : pas de base, donc ni dump, ni migrations, ni console)
+
+# Registre de la forge (via Tailscale) et images de la version
+REGISTRY=hlxvault.tail47a825.ts.net:8443/hollux
+IMAGES="hollux-site"
+# Paquet de déploiement : contient le docker-compose.prod.yaml de la version
+BUNDLE=hollux-release
+
+# L'outil attend que le site réponde après la bascule
+HEALTH_CONTAINER=hollux_prod_site
+
+# Nombre de versions gardées sur le serveur
+KEEP=5

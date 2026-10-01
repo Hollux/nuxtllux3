@@ -3,6 +3,14 @@
   --c-ink: #000;
   --c-bg: #fff;
   --c-muted: #c7c4c4;
+  --c-on-ink: #fff;
+  --c-ink-hover: #333;
+  --c-shadow: var(--c-ink);
+  --c-hover: #eee;
+  --c-soft: #f6f6f6;
+  --c-subtle: #6b6b6b;
+  --c-line: #dee2e6;
+  --c-line-soft: #e9ecef;
   --f-title: 'Raleway', sans-serif;
   --f-body: 'Courier Prime', monospace;
   --container: 1140px;
@@ -51,12 +59,23 @@ h1 {
   padding-bottom: 10px;
 }
 
+/* Titres de section : précédés d'un carré noir */
 h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--f-body);
-  font-size: 1.25rem;
-  font-weight: 400;
-  text-transform: lowercase;
-  margin: 30px 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin: 40px 0 30px;
+}
+
+h2::before {
+  content: '';
+  flex: none;
+  width: 12px;
+  height: 12px;
+  background: var(--c-ink);
 }
 
 h3 {

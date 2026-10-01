@@ -6,13 +6,11 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>
+  <div class="realisations">
     <div class="container">
       <h1>Réalisations web par Hollux</h1>
       <p>
-        Vous trouverez ici mes réalisations de <b>sites et applications web</b>, pour des clients ou personnelles. Pour
-        voir du code, direction
-        <a href="https://github.com/Hollux" target="_blank" rel="noopener">mon GitHub</a> !
+        Vous trouverez ici mes réalisations de <b>sites et applications web</b>, pour des clients ou personnelles.
       </p>
     </div>
     <div class="trait" />
@@ -20,12 +18,18 @@ useSeoMeta({
     <section class="container">
       <h2>Sites web actifs</h2>
       <p>Ces sites sont toujours en ligne et accessibles au public.</p>
-      <div class="cards">
+      <div class="cards cards--4">
         <ProjectCard title="La Clef" img="/img/realisations/laclefmin.png" url="https://www.laclef.online/">
           <p>
             Site web pour les livres d'énigmes <b>La Clef</b>.<br />
             Réalisé en <b>React</b> avec de nombreux secrets, des spécificités liées aux énigmes des livres et des outils
             sur les pages.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="Genshin Team Builder" img="/img/realisations/genshin-team.png" url="https://www.genshin-impact.fr/team/">
+          <p>
+            <b>Outil complet d'aide à la création d'équipe</b> pour le jeu Genshin Impact.<br />
+            Deuxième version, développée en <b>plugin WordPress</b> avec une interface d'administration complète.
           </p>
         </ProjectCard>
         <ProjectCard title="Météo Horbourg-Wihr" img="/img/realisations/meteohw.png" url="https://meteohw.hollux.fr/">
@@ -45,9 +49,60 @@ useSeoMeta({
     </section>
 
     <section class="container">
+      <h2>Applis web perso</h2>
+      <p>Des projets personnels, pour le plaisir de jouer et d'expérimenter, tous en ligne.</p>
+      <div class="cards cards--3">
+        <ProjectCard title="Liminal" img="/img/realisations/liminal.png" url="https://liminal.hollux.fr/liminal">
+          <p>
+            <b>Jeu de cartes roguelike</b> en deckbuilding, en solo contre un bot.<br />
+            Réalisé en <b>React</b> et <b>Symfony</b>, avec toutes les règles calculées côté serveur et des parties
+            sauvegardées.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="Patrimoine" img="/img/realisations/patrimoine.png" url="https://patrimoine.hollux.fr">
+          <p>
+            <b>Tableau de bord</b> pour conseiller en gestion de patrimoine : clients, tâches, mails et agenda réunis,
+            avec Claude comme assistant via un connecteur MCP.<br />
+            Réalisé en <b>Next.js</b>.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="Timeline One Piece" img="/img/realisations/timeline.png" url="https://timeline.hollux.fr/timeline">
+          <p>
+            <b>Frise chronologique interactive</b> de l'univers One Piece, avec filtres par catégories et zone
+            anti-spoiler.<br />
+            Réalisé en <b>React</b> et <b>Symfony</b>, avec une administration et un import depuis le wiki.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="T.I.M.E Stories" img="/img/realisations/timestories.png" url="https://sandbox.hollux.fr/time-stories">
+          <p>
+            Adaptation web du <b>jeu de plateau coopératif</b> T.I.M.E Stories : parties, joueurs, réceptacles et
+            missions.<br />
+            Réalisé en <b>React</b> et <b>Symfony</b>, en temps réel avec Mercure.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="Planechase MtG" img="/img/realisations/planar.png" url="https://planar.hollux.fr/planar">
+          <p>
+            <b>Support de jeu</b> pour le format Planechase de Magic: The Gathering : création de decks de plans et
+            gestion de la partie.<br />
+            Réalisé en <b>React</b>.
+          </p>
+        </ProjectCard>
+        <ProjectCard title="Quizz cinéma" img="/img/realisations/quizzcinema.jpg" url="https://cinequizz.hollux.fr/cinequizz">
+          <p>
+            <b>Mini-jeu</b> pour tester vos connaissances en cinéma : deviner un film à partir d'une affiche
+            minimaliste.<br />
+            Réalisé en <b>React</b>.
+          </p>
+        </ProjectCard>
+      </div>
+    </section>
+
+    <div class="trait" />
+
+    <section class="container">
       <h2>Sites web inactifs</h2>
       <p>Ces sites ne sont plus en ligne, ou ont été refaits depuis, mais restent des références de réalisations.</p>
-      <div class="cards">
+      <div class="cards cards--3">
         <ProjectCard title="Ludo Drive" img="/img/realisations/ludodrive.png">
           <p>
             <b>Drive de jeux de société</b> pour la ludothèque de Horbourg-Wihr, créé pour que leur activité puisse
@@ -70,39 +125,21 @@ useSeoMeta({
         </ProjectCard>
       </div>
     </section>
-
-    <div class="trait" />
-
-    <section class="container">
-      <h2>Applis web perso</h2>
-      <div class="cards">
-        <ProjectCard title="Quizz cinéma" img="/img/realisations/quizzcinema.jpg" url="https://cinequizz.hollux.fr/cinequizz">
-          <p>Mini-jeu pour tester vos connaissances en cinéma.<br />Réalisé en <b>Vue.js</b>.</p>
-        </ProjectCard>
-        <ProjectCard
-          title="Conception list builder"
-          img="/img/realisations/listBuilder.png"
-          url="https://sf3.hollux.fr/listbuilde/"
-        >
-          <p>
-            Test de création d'un outil de conception de liste pour un jeu de figurines, basé sur Warhammer.<br />
-            Réalisé en <b>Vue.js</b>.
-          </p>
-        </ProjectCard>
-        <ProjectCard
-          title="Module PDF"
-          img="/img/realisations/modulepdf.png"
-          url="https://sf3.hollux.fr/viewpdf/solveig-de-cuyper_cv_da-junior"
-        >
-          <p>Outil de visualisation de PDF, toujours utile sur un site web.</p>
-        </ProjectCard>
-        <ProjectCard title="Tutos code fun" img="/img/realisations/tutoshollux.jpg" url="https://sf3.hollux.fr/tutos/">
-          <p>
-            Réalisation fun de tutos code pour me perfectionner. Très inspiré par la Désencyclopédie ainsi que « Les
-            tutos » de Jérôme Niel.<br />Réalisé en <b>Symfony 3</b>.
-          </p>
-        </ProjectCard>
-      </div>
-    </section>
   </div>
 </template>
+
+<style scoped>
+.realisations .container {
+  max-width: 1400px;
+}
+
+@media (min-width: 1100px) {
+  .cards--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cards--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+</style>

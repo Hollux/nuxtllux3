@@ -5,6 +5,8 @@
       <slot />
     </main>
     <SiteFooter />
+    <ScrollTop />
+    <DarkBoot />
   </div>
 </template>
 
