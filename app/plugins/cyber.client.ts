@@ -9,11 +9,13 @@ const GLITCH_TARGETS = 'h1, h2, h3, img, .tag, nav a, .button-trait a'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const html = document.documentElement
-  const theme = useState<Theme>('theme', () => 'light')
+  const theme = useState<Theme>('theme', () => 'dark')
   // Séquence d'activation en cours (terminal de DarkBoot.vue)
   const booting = useState('themeBoot', () => false)
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)')
-  const animated = () => html.dataset.theme === 'dark' && !reduced.matches
+  // Console de démarrage en cours (OsBoot.vue) : rien ne bouge derrière
+  const intro = () => html.classList.contains('os-boot')
+  const animated = () => html.dataset.theme === 'dark' && !reduced.matches && !intro()
 
   let cancelDecode = () => {}
   let glitchTimer: ReturnType<typeof setTimeout> | undefined
@@ -79,8 +81,15 @@ export default defineNuxtPlugin((nuxtApp) => {
     else applyTheme(value)
   }
 
+  // Fin de la console de démarrage : la page apparaît et se décode
+  function endIntro() {
+    html.classList.remove('os-boot')
+    decode(document.querySelector('.layout'))
+    scheduleGlitch()
+  }
+
   // Thème posé par le script de tête ; l'état n'est synchronisé qu'une fois toute la page
-  // hydratée (le HTML pré-rendu porte toujours le bouton du thème clair)
+  // hydratée (le HTML pré-rendu porte toujours le bouton du thème sombre)
   nuxtApp.hook('app:suspense:resolve', () => {
     theme.value = html.dataset.theme === 'dark' ? 'dark' : 'light'
     scheduleGlitch()
@@ -90,10 +99,11 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.hook('page:finish', () => {
     // Une frame plus tard : le routeur a remis la page en haut, on sait ce qui est visible
     requestAnimationFrame(() => {
-      decode(document.querySelector(firstPage ? '.layout' : '.content'))
+      // Première page derrière la console de démarrage : décodée par endIntro
+      if (!intro()) decode(document.querySelector(firstPage ? '.layout' : '.content'))
       firstPage = false
     })
   })
 
-  return { provide: { setTheme, applyTheme } }
+  return { provide: { setTheme, applyTheme, endIntro } }
 })

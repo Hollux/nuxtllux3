@@ -14,4 +14,5 @@ useSeoMeta({ ogUrl: url })
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <OsBoot />
 </template>

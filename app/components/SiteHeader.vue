@@ -7,7 +7,7 @@ const links = [
   { to: '/ensavoirplus', label: 'En savoir plus' },
 ]
 
-const theme = useState<'light' | 'dark'>('theme', () => 'light')
+const theme = useState<'light' | 'dark'>('theme', () => 'dark')
 const { $setTheme } = useNuxtApp()
 const booting = useState('themeBoot', () => false)
 const dark = computed(() => theme.value === 'dark')
@@ -38,22 +38,23 @@ const dark = computed(() => theme.value === 'dark')
   text-align: center;
 }
 
-/* Bascule de thème, discrète, en haut à droite */
+/* Bascule de thème, en haut à droite */
 .theme-toggle {
   position: absolute;
   top: 14px;
   right: var(--gutter);
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 3px 8px;
-  color: var(--c-subtle);
+  gap: 8px;
+  padding: 6px 12px;
+  color: var(--c-ink);
   background: none;
-  border: 1px solid transparent;
+  border: 1px solid currentColor;
   font-family: var(--f-body);
-  font-size: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
 .theme-toggle:disabled {
@@ -61,13 +62,13 @@ const dark = computed(() => theme.value === 'dark')
 }
 
 .theme-toggle:hover {
-  color: var(--c-ink);
-  border-color: var(--c-line);
+  color: var(--c-ink-hover);
+  border-color: currentColor;
 }
 
 .theme-toggle span {
-  width: 9px;
-  height: 9px;
+  width: 12px;
+  height: 12px;
   border: 1px solid currentColor;
   background: linear-gradient(90deg, currentColor 50%, transparent 50%);
 }

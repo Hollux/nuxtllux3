@@ -26,12 +26,13 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'apple-touch-icon', href: '/icon.png' },
       ],
-      // Thème sombre posé avant le premier rendu (pas de flash du thème clair) ;
-      // cp-boot masque la page jusqu'au lancement de l'effet de décodage
+      // Thème sombre par défaut, posé avant le premier rendu (pas de flash du thème clair) ;
+      // cp-boot masque la page jusqu'au lancement de l'effet de décodage, os-boot jusqu'à la
+      // fin de la console de démarrage (OsBoot.vue), sauf si l'animation est réduite
       script: [
         {
           innerHTML:
-            "try{if(localStorage.getItem('theme')==='dark'){var d=document.documentElement;d.dataset.theme='dark';d.classList.add('cp-boot')}}catch(e){}",
+            "(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t==='light')return;var d=document.documentElement;d.dataset.theme='dark';d.classList.add('cp-boot');if(!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('os-boot')})()",
         },
       ],
     },

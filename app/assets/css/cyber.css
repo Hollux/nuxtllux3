@@ -104,8 +104,13 @@
   }
 
   html[data-theme='dark'] .theme-toggle {
-    color: var(--c-ink);
-    border-color: var(--c-line-soft);
+    text-shadow: 0 0 6px rgb(0 229 255 / 0.6);
+    box-shadow: 0 0 10px rgb(0 229 255 / 0.3);
+  }
+
+  html[data-theme='dark'] .theme-toggle:hover {
+    text-shadow: 0 0 6px rgb(51 255 102 / 0.6);
+    box-shadow: 0 0 14px rgb(51 255 102 / 0.4);
   }
 
   html[data-theme='dark'] .footer-nav {
@@ -173,6 +178,11 @@
   html.cp-boot .layout {
     visibility: hidden;
     animation: cp-boot 0s 2.5s forwards;
+  }
+
+  /* Console de démarrage (OsBoot.vue) : page masquée tant qu'elle tourne (filet : 9 s) */
+  html.os-boot.cp-boot .layout {
+    animation: cp-boot 0s 9s forwards;
   }
 
   html[data-theme='dark'] .cp-glitch {
