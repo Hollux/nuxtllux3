@@ -19,7 +19,10 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Hollux' },
         { property: 'og:locale', content: 'fr_FR' },
-        { property: 'og:image', content: `${siteUrl}/icon.png` },
+        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image:width', content: '512' },
+        { property: 'og:image:height', content: '512' },
+        { property: 'og:image:alt', content: 'Logo Hollux' },
         { name: 'twitter:card', content: 'summary' },
       ],
       link: [
@@ -40,6 +43,13 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: { siteUrl },
+  },
+  // En dev, les URL absolues (canonical, og:url, og:image) pointent vers le serveur de dev,
+  // pour que les aperçus de partage reflètent la version en cours
+  $development: {
+    runtimeConfig: {
+      public: { siteUrl: 'https://holluxdev.hollux.fr' },
+    },
   },
 
   fonts: {

@@ -7,7 +7,7 @@ useHead({
   titleTemplate: (title?: string) => (title ? `${title} · Hollux` : 'Hollux, développeur web fullstack en Alsace'),
   link: [{ rel: 'canonical', href: url }],
 })
-useSeoMeta({ ogUrl: url })
+useSeoMeta({ ogUrl: url, ogImage: `${siteUrl}/icon.png`, twitterImage: `${siteUrl}/icon.png` })
 </script>
 
 <template>
