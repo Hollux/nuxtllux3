@@ -129,6 +129,12 @@
     clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
   }
 
+  /* Le survol néon des liens ne doit pas teinter le texte sur fond plein */
+  html[data-theme='dark'] .button-trait a:hover {
+    color: var(--c-on-ink);
+    text-shadow: none;
+  }
+
   html[data-theme='dark'] .button-trait::before,
   html[data-theme='dark'] .button-trait::after {
     border-color: var(--c-line-soft);

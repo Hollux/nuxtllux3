@@ -19,7 +19,7 @@ const dark = computed(() => theme.value === 'dark')
       <span aria-hidden="true" />{{ dark ? 'light mode' : 'dark mode' }}
     </button>
     <NuxtLink to="/" class="logo" aria-label="Hollux, retour à l'accueil">
-      <NuxtImg format="webp" src="/img/base/logo.png" alt="Logo Hollux" width="85" height="85" />
+      <NuxtImg format="webp" src="/img/base/logo.png" alt="Logo Hollux" width="85" height="80" />
     </NuxtLink>
     <nav aria-label="Navigation principale">
       <ul>
